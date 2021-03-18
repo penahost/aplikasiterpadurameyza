@@ -11,7 +11,7 @@
  Target Server Version : 100416
  File Encoding         : 65001
 
- Date: 19/03/2021 01:58:50
+ Date: 19/03/2021 02:00:03
 */
 
 SET NAMES utf8mb4;
@@ -68,9 +68,9 @@ INSERT INTO `paket` VALUES (1, '1', 'Paket Umrah 12 Hari', '12', '2021-03-19 00:
 DROP TABLE IF EXISTS `pembayaran`;
 CREATE TABLE `pembayaran`  (
   `pembayaran_id` int(11) NOT NULL,
+  `jamaah_id` int(11) NULL DEFAULT NULL,
   `pembayaran_jumlah` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   `pembayaran_tanggal` datetime(0) NULL DEFAULT NULL,
-  `jamaah_id` int(11) NULL DEFAULT NULL,
   `pembayaran_keterangan` enum('dp','angsuran','lunas') CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   PRIMARY KEY (`pembayaran_id`) USING BTREE
 ) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
