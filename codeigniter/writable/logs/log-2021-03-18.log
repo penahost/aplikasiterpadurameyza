@@ -22,3 +22,36 @@ CRITICAL - 2021-03-18 11:32:03 --> Invalid file: layout.php
 #6 E:\xampp\htdocs\aplikasirameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #7 E:\xampp\htdocs\aplikasirameyza\index.php(44): CodeIgniter\CodeIgniter->run()
 #8 {main}
+CRITICAL - 2021-03-18 12:58:58 --> Undefined property: stdClass::$paket_tanggal_biaya
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Views\pendaftaran\paket.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\xampp\\htdocs...', 49, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran/pak...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Paket.php(17): view('pendaftaran/pak...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\paket->index()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\paket))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-18 12:59:14 --> Undefined property: stdClass::$id
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Views\pendaftaran\paket.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\xampp\\htdocs...', 54, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran/pak...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Paket.php(17): view('pendaftaran/pak...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\paket->index()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\paket))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-18 12:59:16 --> Undefined property: stdClass::$id
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Views\pendaftaran\paket.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\xampp\\htdocs...', 54, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran/pak...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Paket.php(17): view('pendaftaran/pak...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\paket->index()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\paket))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

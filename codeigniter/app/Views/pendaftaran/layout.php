@@ -62,7 +62,7 @@
                 <ul class="side-menu metismenu">
                     <li class="heading">FEATURES</li>
                     <li>
-                        <a class="active" href="<?=base_url('/Dashboard');?>"><i class="sidebar-item-icon fa fa-th-large"></i>
+                        <a class="active" href="<?=base_url('/pendaftaran/paket');?>"><i class="sidebar-item-icon fa fa-th-large"></i>
                             <span class="nav-label">PAKET</span>
                         </a>
                     </li>
