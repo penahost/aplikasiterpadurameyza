@@ -11,7 +11,7 @@
  Target Server Version : 100416
  File Encoding         : 65001
 
- Date: 19/03/2021 01:56:39
+ Date: 19/03/2021 01:58:50
 */
 
 SET NAMES utf8mb4;
@@ -53,13 +53,14 @@ CREATE TABLE `paket`  (
   `paket_hotel_makan` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   `paket_hotel_madinah` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   `paket_pesawat` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
+  `paket_jenis` enum('umrah','haji khusus') CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   PRIMARY KEY (`paket_id`) USING BTREE
 ) ENGINE = InnoDB AUTO_INCREMENT = 3 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of paket
 -- ----------------------------
-INSERT INTO `paket` VALUES (1, '1', 'Paket Umrah 12 Hari', '12', '2021-03-19 00:58:16', '2021-03-31 00:58:19', '10000000', 'ya', 'Hotel Berkah', 'LION AIR');
+INSERT INTO `paket` VALUES (1, '1', 'Paket Umrah 12 Hari', '12', '2021-03-19 00:58:16', '2021-03-31 00:58:19', '10000000', 'ya', 'Hotel Berkah', 'LION AIR', 'umrah');
 
 -- ----------------------------
 -- Table structure for pembayaran
