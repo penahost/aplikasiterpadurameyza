@@ -115,6 +115,24 @@
     <script src="<?=base_url('theme/cpanel/assets/js/app.min.js');?>" type="text/javascript"></script>
     <!-- PAGE LEVEL SCRIPTS-->
     <script src="<?=base_url('theme/cpanel/assets/js/scripts/dashboard_1_demo.js');?>" type="text/javascript"></script>
+    <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+    <script>
+        $('.mydatepicker1').datetimepicker({
+            uiLibrary: 'bootstrap4',
+            modal: true,
+            footer: true,
+            format: 'yyyy-mm-dd hh:mm:ss',
+        });
+    </script>
+    <script>
+        $('.mydatepicker2').datetimepicker({
+            uiLibrary: 'bootstrap4',
+            modal: true,
+            footer: true,
+            format: 'yyyy-mm-dd hh:mm:ss',
+        });
+    </script>
 </body>
 
 </html>

@@ -46,6 +46,29 @@ class paket extends Controller
 
     }
 
+    public function edit($paket_id){
+        $db = \Config\Database::connect();
+        $data['session'] = session();
+        // echo "Welcome back, ".$session->get('username');
+        $query1 = "SELECT * FROM paket WHERE id='$paket_id'";
+
+        $data['paket']=$db->query($query1)->getResult();
+
+        echo view('adminresto/edit_user_karyawan', $data);
+    }
+
+    public function update(){
+        $paket_id=$this->request->getPost('paket_id');
+        $db = \Config\Database::connect();
+        $data = [
+            'paket_nomer' => $this->request->getPost('paket_nomer'),
+        ];
+        $builder = $db->table('paket');
+        $builder->where('paket_id', $paket_id);
+        $builder->update($data);
+        return redirect()->to(site_url('/adminresto/User_Karyawan'));
+    }
+
     public function hapus($paket_id){
         $db = \Config\Database::connect();
         $builder = $db->table('paket');
