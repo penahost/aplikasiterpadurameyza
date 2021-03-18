@@ -11,7 +11,7 @@
  Target Server Version : 100416
  File Encoding         : 65001
 
- Date: 19/03/2021 01:05:29
+ Date: 19/03/2021 01:11:21
 */
 
 SET NAMES utf8mb4;
@@ -25,6 +25,7 @@ CREATE TABLE `paket`  (
   `paket_id` int(11) NOT NULL AUTO_INCREMENT,
   `paket_nomer` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   `paket_nama` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
+  `paket_jumlah_hari` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   `paket_tanggal_berangkat` datetime(0) NULL DEFAULT NULL,
   `paket_tanggal_pulang` datetime(0) NULL DEFAULT NULL,
   `paket_biaya` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
@@ -32,12 +33,12 @@ CREATE TABLE `paket`  (
   `paket_hotel_madinah` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   `paket_pesawat` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   PRIMARY KEY (`paket_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 2 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 3 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of paket
 -- ----------------------------
-INSERT INTO `paket` VALUES (1, '1', 'Paket Umrah 12 Hari', '2021-03-19 00:58:16', '2021-03-31 00:58:19', '10000000', 'ya', 'Hotel Berkah', 'LION AIR');
+INSERT INTO `paket` VALUES (1, '1', 'Paket Umrah 12 Hari', '12', '2021-03-19 00:58:16', '2021-03-31 00:58:19', '10000000', 'ya', 'Hotel Berkah', 'LION AIR');
 
 -- ----------------------------
 -- Table structure for users

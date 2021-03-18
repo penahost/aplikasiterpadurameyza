@@ -55,3 +55,49 @@ CRITICAL - 2021-03-18 12:59:16 --> Undefined property: stdClass::$id
 #7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
 #9 {main}
+ERROR - 2021-03-18 13:09:53 --> mysqli_sql_exception: Unknown column 'paket_tanggal_biaya' in 'field list' in E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `pa...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Paket.php(44): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\paket->tambahdata_aksi()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\paket))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-18 13:09:53 --> Unknown column 'paket_tanggal_biaya' in 'field list'
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `pa...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Paket.php(44): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\paket->tambahdata_aksi()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\paket))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-03-18 13:10:45 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('DELETE FROM `pa...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pa...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pa...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseBuilder.php(2868): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pa...', Array, false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Paket.php(52): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\paket->hapus('2')
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\paket))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-18 13:10:45 --> Unknown column 'id' in 'where clause'
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('DELETE FROM `pa...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `pa...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `pa...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseBuilder.php(2868): CodeIgniter\Database\BaseConnection->query('DELETE FROM `pa...', Array, false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Paket.php(52): CodeIgniter\Database\BaseBuilder->delete(Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\paket->hapus('2')
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\paket))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

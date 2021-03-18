@@ -26,6 +26,7 @@
                                           <th>#</th>
                                           <th>No Paket</th>
                                           <th>Nama paket</th>
+                                          <th>Jumlah Hari</th>
                                           <th>Tgl. Berangkat</th>
                                           <th>Tgl. Pulang</th>
                                           <th>Biaya</th>
@@ -44,6 +45,7 @@
                                           <td><?=$no;?></td>
                                           <td><?=$row->paket_nomer;?></td>
                                           <td><?=$row->paket_nama;?></td>
+                                          <td><?=$row->paket_jumlah_hari;?></td>
                                           <td><?=$row->paket_tanggal_berangkat;?></td>
                                           <td><?=$row->paket_tanggal_pulang;?></td>
                                           <td><?=$row->paket_biaya;?></td>
@@ -51,7 +53,7 @@
                                           <td><?=$row->paket_hotel_madinah;?></td>
                                           <td><?=$row->paket_pesawat;?></td>
                                           <td>
-                                            <a href="<?php echo base_url();?>/paket/hapus/<?=$row->paket_id;?>">Hapus</a>
+                                            <a href="<?php echo base_url();?>/pendaftaran/paket/hapus/<?=$row->paket_id;?>">Hapus</a>
                                           </td>
                                       </tr>
                                       <?php

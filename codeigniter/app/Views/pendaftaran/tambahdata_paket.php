@@ -25,9 +25,15 @@
                                         </div>
                                     </div>
                                     <div class="form-group row">
+                                        <label class="col-sm-2 col-form-label">Jumlah hari</label>
+                                        <div class="col-sm-10">
+                                            <input class="form-control" name="paket_jumlah_hari" type="text" placeholder="Jumlah hari">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
                                         <label class="col-sm-2 col-form-label">Tamggal berangkat</label>
                                         <div class="col-sm-10">
-                                            <input class="form-control" name="paket_tanggal_berangkat" type="text" placeholder="Tamggal berangkat">
+                                            <input class="form-control" name="paket_tanggal_berangkat" type="text" placeholder="Tanggal berangkat">
                                         </div>
                                     </div>
                                     <div class="form-group row">
@@ -39,7 +45,7 @@
                                     <div class="form-group row">
                                         <label class="col-sm-2 col-form-label">Biaya</label>
                                         <div class="col-sm-10">
-                                            <input class="form-control" name="paket_tanggal_biaya" type="text" placeholder="Biaya">
+                                            <input class="form-control" name="paket_biaya" type="text" placeholder="Biaya">
                                         </div>
                                     </div>
                                     <div class="form-group row">

@@ -33,9 +33,10 @@ class paket extends Controller
       $data = array(
           'paket_nomer'  => $this->request->getPost('paket_nomer'),
           'paket_nama'  => $this->request->getPost('paket_nama'),
+          'paket_jumlah_hari'  => $this->request->getPost('paket_jumlah_hari'),
           'paket_tanggal_berangkat'  => $this->request->getPost('paket_tanggal_berangkat'),
           'paket_tanggal_pulang'  => $this->request->getPost('paket_tanggal_pulang'),
-          'paket_tanggal_biaya'  => $this->request->getPost('paket_tanggal_biaya'),
+          'paket_biaya'  => $this->request->getPost('paket_biaya'),
           'paket_hotel_makan'  => $this->request->getPost('paket_hotel_makan'),
           'paket_hotel_madinah'  => $this->request->getPost('paket_hotel_madinah'),
           'paket_pesawat'  => $this->request->getPost('paket_pesawat'),
@@ -45,10 +46,10 @@ class paket extends Controller
 
     }
 
-    public function hapus($id){
+    public function hapus($paket_id){
         $db = \Config\Database::connect();
         $builder = $db->table('paket');
-        $builder->delete(['id' => $id]);
+        $builder->delete(['paket_id' => $paket_id]);
 
         return redirect()->to(site_url('pendaftaran/paket'));
     }
