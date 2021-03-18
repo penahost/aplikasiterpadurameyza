@@ -43,9 +43,9 @@
                                         </div>
                                     </div>
                                     <div class="form-group row">
-                                        <label class="col-sm-2 col-form-label">Biaya</label>
+                                        <label class="col-sm-2 col-form-label">harga</label>
                                         <div class="col-sm-10">
-                                            <input class="form-control" name="paket_biaya" type="text" placeholder="Biaya">
+                                            <input class="form-control" name="paket_harga" type="text" placeholder="harga">
                                         </div>
                                     </div>
                                     <div class="form-group row">

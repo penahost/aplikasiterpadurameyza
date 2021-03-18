@@ -29,7 +29,7 @@
                                           <th>Jumlah Hari</th>
                                           <th>Tgl. Berangkat</th>
                                           <th>Tgl. Pulang</th>
-                                          <th>Biaya</th>
+                                          <th>harga</th>
                                           <th>Hotel makan</th>
                                           <th>Hotel madinah</th>
                                           <th>Pesawat</th>
@@ -48,7 +48,7 @@
                                           <td><?=$row->paket_jumlah_hari;?></td>
                                           <td><?=$row->paket_tanggal_berangkat;?></td>
                                           <td><?=$row->paket_tanggal_pulang;?></td>
-                                          <td><?=$row->paket_biaya;?></td>
+                                          <td><?=$row->paket_harga;?></td>
                                           <td><?=$row->paket_hotel_makan;?></td>
                                           <td><?=$row->paket_hotel_madinah;?></td>
                                           <td><?=$row->paket_pesawat;?></td>

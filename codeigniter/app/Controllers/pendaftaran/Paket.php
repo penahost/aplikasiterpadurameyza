@@ -36,7 +36,7 @@ class paket extends Controller
           'paket_jumlah_hari'  => $this->request->getPost('paket_jumlah_hari'),
           'paket_tanggal_berangkat'  => $this->request->getPost('paket_tanggal_berangkat'),
           'paket_tanggal_pulang'  => $this->request->getPost('paket_tanggal_pulang'),
-          'paket_biaya'  => $this->request->getPost('paket_biaya'),
+          'paket_harga'  => $this->request->getPost('paket_harga'),
           'paket_hotel_makan'  => $this->request->getPost('paket_hotel_makan'),
           'paket_hotel_madinah'  => $this->request->getPost('paket_hotel_madinah'),
           'paket_pesawat'  => $this->request->getPost('paket_pesawat'),
