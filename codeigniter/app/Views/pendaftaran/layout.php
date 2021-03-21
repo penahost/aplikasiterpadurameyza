@@ -15,6 +15,8 @@
     <!-- THEME STYLES-->
     <link href="<?=base_url('theme/cpanel/assets/css/main.min.css');?>" rel="stylesheet" />
     <!-- PAGE LEVEL STYLES-->
+    <!-- PLUGINS STYLES-->
+    <link href="<?=base_url('theme/cpanel/assets/vendors/DataTables/datatables.min.css');?>" rel="stylesheet" />
 </head>
 
 <body class="fixed-navbar">
@@ -68,7 +70,7 @@
                     </li>
 
                     <li>
-                        <a class="active" href="<?=base_url('/Cctv');?>"><i class="sidebar-item-icon fa fa-th-large"></i>
+                        <a class="active" href="<?=base_url('/pendaftaran/jamaah');?>"><i class="sidebar-item-icon fa fa-th-large"></i>
                             <span class="nav-label">DATA JAMAAH</span>
                         </a>
                     </li>
@@ -115,6 +117,10 @@
     <script src="<?=base_url('theme/cpanel/assets/js/app.min.js');?>" type="text/javascript"></script>
     <!-- PAGE LEVEL SCRIPTS-->
     <script src="<?=base_url('theme/cpanel/assets/js/scripts/dashboard_1_demo.js');?>" type="text/javascript"></script>
+
+    <!-- PAGE LEVEL PLUGINS-->
+    <script src="<?=base_url('theme/cpanel/assets/vendors/DataTables/datatables.min.js');?>" type="text/javascript"></script>
+
     <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
     <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
     <script>
@@ -132,6 +138,45 @@
             footer: true,
             format: 'yyyy-mm-dd hh:mm:ss',
         });
+    </script>
+    <script type="text/javascript">
+        $(function() {
+            $('#example-table').DataTable({
+                pageLength: 10,
+                //"ajax": './assets/demo/data/table_data.json',
+                /*"columns": [
+                    { "data": "name" },
+                    { "data": "office" },
+                    { "data": "extn" },
+                    { "data": "start_date" },
+                    { "data": "salary" }
+                ]*/
+            });
+        })
+        $(function() {
+            $('#example-table2').DataTable({
+                pageLength: 10,
+                //"ajax": './assets/demo/data/table_data.json',
+                /*"columns": [
+                    { "data": "name" },
+                    { "data": "office" },
+                    { "data": "extn" },
+                    { "data": "start_date" },
+                    { "data": "salary" }
+                ]*/
+            });
+        })
+    </script>
+    <script type="text/javascript">
+    $( document ).ready(function() {
+      $(".popup_detail_jamaah").click(function () {
+          var my_id_value = $(this).data('id');
+          alert(my_id_value);
+          //alert(my_id_value);
+          // $("#preview_image").attr("src", my_id_value);
+
+      })
+    });
     </script>
 </body>
 

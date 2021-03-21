@@ -1,0 +1,66 @@
+CRITICAL - 2021-03-21 05:28:01 --> Undefined property: stdClass::$paket_hotel_makan
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Views\pendaftaran\paket.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\xampp\\htdocs...', 52, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran/pak...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Paket.php(17): view('pendaftaran/pak...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\paket->index()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\paket))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-03-21 05:28:12 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * FROM p...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Paket.php(56): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\paket->edit('1')
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\paket))
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-21 05:28:12 --> Unknown column 'id' in 'where clause'
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * FROM p...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Paket.php(56): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\paket->edit('1')
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\paket))
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-21 05:31:06 --> Undefined property: stdClass::$paket_hotel_makan
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Views\pendaftaran\edit_paket.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\xampp\\htdocs...', 57, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran/edi...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Paket.php(58): view('pendaftaran/edi...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\paket->edit('1')
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\paket))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-03-21 05:33:21 --> mysqli_sql_exception: Unknown column 'paket_hotel_makan' in 'field list' in E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `paket` ...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `paket` ...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `paket` ...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseBuilder.php(2472): CodeIgniter\Database\BaseConnection->query('UPDATE `paket` ...', Array, false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Paket.php(78): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\paket->updatedata_aksi()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\paket))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-21 05:33:21 --> Unknown column 'paket_hotel_makan' in 'field list'
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `paket` ...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `paket` ...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `paket` ...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseBuilder.php(2472): CodeIgniter\Database\BaseConnection->query('UPDATE `paket` ...', Array, false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Paket.php(78): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\paket->updatedata_aksi()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\paket))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

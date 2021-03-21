@@ -20,7 +20,7 @@
                               <div class="ibox-title">DAFTAR paket</div>
                           </div>
                           <div class="ibox-body">
-                              <table class="table table-bordered">
+                              <table class="table table-striped table-bordered table-hover" id="example-table" cellspacing="0" width="100%">
                                   <thead>
                                       <tr>
                                           <th>#</th>
@@ -49,10 +49,12 @@
                                           <td><?=$row->paket_tanggal_berangkat;?></td>
                                           <td><?=$row->paket_tanggal_pulang;?></td>
                                           <td><?=$row->paket_harga;?></td>
-                                          <td><?=$row->paket_hotel_makan;?></td>
+                                          <td><?=$row->paket_hotel_makah;?></td>
                                           <td><?=$row->paket_hotel_madinah;?></td>
                                           <td><?=$row->paket_pesawat;?></td>
                                           <td>
+                                            <a href="<?php echo base_url();?>/pendaftaran/paket/edit/<?=$row->paket_id;?>">Edit</a>
+                                            ||
                                             <a href="<?php echo base_url();?>/pendaftaran/paket/hapus/<?=$row->paket_id;?>">Hapus</a>
                                           </td>
                                       </tr>

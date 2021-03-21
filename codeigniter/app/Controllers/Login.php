@@ -36,7 +36,7 @@ class Login extends Controller
                 return redirect()->to(site_url('/login'));
             }
         }else{
-            $session->setFlashdata('msg', 'Email not Found');
+            $session->setFlashdata('msg', 'Username not Found');
             return redirect()->to(site_url('/login'));
         }
     }
