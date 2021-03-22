@@ -171,9 +171,62 @@
     $( document ).ready(function() {
       $(".popup_detail_jamaah").click(function () {
           var my_id_value = $(this).data('id');
-          alert(my_id_value);
+          //alert(my_id_value);
           //alert(my_id_value);
           // $("#preview_image").attr("src", my_id_value);
+          //Ajax Load data from ajax
+          $.ajax({
+            url : "<?php echo base_url('/pendaftaran/jamaah/preview_data_jamaah/')?>/" + my_id_value,
+            type: "GET",
+            dataType: "JSON",
+            success: function(data)
+            {
+                console.log(data);
+                $.each(data, function(index) {
+                    $('[name="jamaah_nama"]').val(data[index].jamaah_nama);
+                    $('[name="jamaah_no_passport"]').val(data[index].jamaah_no_passport);
+                    $('[name="jamaah_ttl"]').val(data[index].jamaah_ttl);
+                    $('[name="jamaah_usia"]').val(data[index].jamaah_usia);
+                    $('[name="jamaah_alamat"]').val(data[index].jamaah_alamat);
+                    $('[name="jamaah_no_hp"]').val(data[index].jamaah_no_hp);
+                    $('[name="jamaah_ket_pembayaran"]').val(data[index].jamaah_ket_pembayaran);
+                    $('[name="jamaah_tgl_berangkat"]').val(data[index].jamaah_tgl_berangkat);
+                    $("#jamaah_foto").attr("src", "<?= base_url();?>/uploads/jamaah/"+data[index].jamaah_foto);
+                    $("#jamaah_foto_ktp").attr("src", "<?= base_url();?>/uploads/jamaah/"+data[index].jamaah_foto_ktp);
+                    $("#jamaah_foto_kk").attr("src", "<?= base_url();?>/uploads/jamaah/"+data[index].jamaah_foto_kk);
+
+                });
+                //alert(data.jamaah_nama);
+
+
+
+            },
+            error: function (jqXHR, textStatus, errorThrown)
+            {
+                console.log(jqXHR);
+                alert('Error get data from ajax');
+            }
+        });
+
+        $.ajax({
+          url : "<?php echo base_url('/pendaftaran/jamaah/preview_data_perlengkapan/')?>/" + my_id_value,
+          type: "GET",
+          dataType: "JSON",
+          success: function(data)
+          {
+              console.log(data);
+              $.each(data, function(index) {
+                  $('#perlengkapan').append("&#10004; "+data[index].perlengkapan_nama);
+              });
+              //alert(data.jamaah_nama);
+          },
+          error: function (jqXHR, textStatus, errorThrown)
+          {
+              console.log(jqXHR);
+              alert('Error get data from ajax');
+          }
+      });
+
 
       })
     });
