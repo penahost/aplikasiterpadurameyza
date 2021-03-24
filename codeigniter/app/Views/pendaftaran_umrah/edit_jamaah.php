@@ -21,13 +21,7 @@
                                   </div>
                               <?php } ?>
 
-                              <?php
-                                  $errors = $validation->getErrors();
-                                  if(!empty($errors))
-                                  {
-                                      echo $validation->listErrors('my_list');
-                                  }
-                              ?>
+                            
 
                                 <?php
                                 foreach($jamaah as $row):

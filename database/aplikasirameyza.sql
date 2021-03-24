@@ -11,7 +11,7 @@
  Target Server Version : 100416
  File Encoding         : 65001
 
- Date: 24/03/2021 20:41:33
+ Date: 24/03/2021 22:37:54
 */
 
 SET NAMES utf8mb4;
@@ -56,13 +56,15 @@ CREATE TABLE `jurnal`  (
   `kredit` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   `debit` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   PRIMARY KEY (`id_jurnal`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 10 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 12 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of jurnal
 -- ----------------------------
 INSERT INTO `jurnal` VALUES (8, '367196937', 'pembayaran angsuran Fauzin', '2021-03-21 00:00:00', NULL, '50000');
-INSERT INTO `jurnal` VALUES (9, '58744182', 'Bensin', '2021-03-21 00:00:00', '100', NULL);
+INSERT INTO `jurnal` VALUES (9, '58744182', 'Bensin', '2021-03-21 00:00:00', '10000', NULL);
+INSERT INTO `jurnal` VALUES (10, '718317823', 'pembayaran dp Fauzin', '2021-03-21 00:00:00', NULL, '5000000');
+INSERT INTO `jurnal` VALUES (11, '622893630', 'Sewa BUS', '2021-03-21 00:00:00', '100000', NULL);
 
 -- ----------------------------
 -- Table structure for kas
@@ -76,13 +78,15 @@ CREATE TABLE `kas`  (
   `tgl_transaksi` datetime(0) NULL DEFAULT NULL,
   `tipe_kas` enum('masuk','keluar') CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 9 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 11 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of kas
 -- ----------------------------
 INSERT INTO `kas` VALUES (7, '367196937', 'pembayaran angsuran Fauzin', '50000', '2021-03-21 00:00:00', 'masuk');
-INSERT INTO `kas` VALUES (8, '58744182', 'Bensin', '100', '2021-03-21 00:00:00', 'keluar');
+INSERT INTO `kas` VALUES (8, '58744182', 'Bensin', '10000', '2021-03-21 00:00:00', 'keluar');
+INSERT INTO `kas` VALUES (9, '718317823', 'pembayaran dp Fauzin', '5000000', '2021-03-21 00:00:00', 'masuk');
+INSERT INTO `kas` VALUES (10, '622893630', 'Sewa BUS', '100000', '2021-03-21 00:00:00', 'keluar');
 
 -- ----------------------------
 -- Table structure for paket
@@ -121,12 +125,13 @@ CREATE TABLE `pembayaran`  (
   `pembayaran_tanggal` datetime(0) NULL DEFAULT NULL,
   `pembayaran_keterangan` enum('dp','angsuran','pelunasan') CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   PRIMARY KEY (`pembayaran_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 24 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 25 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of pembayaran
 -- ----------------------------
 INSERT INTO `pembayaran` VALUES (23, '367196937', 1, '50000', '2021-03-21 00:00:00', 'angsuran');
+INSERT INTO `pembayaran` VALUES (24, '718317823', 13, '5000000', '2021-03-21 00:00:00', 'dp');
 
 -- ----------------------------
 -- Table structure for pengeluaran
@@ -139,12 +144,13 @@ CREATE TABLE `pengeluaran`  (
   `pengeluaran_tanggal` datetime(0) NULL DEFAULT NULL,
   `pengeluaran_nominal` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   PRIMARY KEY (`pengeluaran_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 2 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 3 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of pengeluaran
 -- ----------------------------
-INSERT INTO `pengeluaran` VALUES (1, '58744182', 'Bensin', '2021-03-21 00:00:00', '100');
+INSERT INTO `pengeluaran` VALUES (1, '58744182', 'Bensin', '2021-03-21 00:00:00', '10000');
+INSERT INTO `pengeluaran` VALUES (2, '622893630', 'Sewa BUS', '2021-03-21 00:00:00', '100000');
 
 -- ----------------------------
 -- Table structure for perlengkapan
@@ -154,18 +160,24 @@ CREATE TABLE `perlengkapan`  (
   `perlengkapan_id` int(11) NOT NULL AUTO_INCREMENT,
   `perlengkapan_nama` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   `perlengkapan_stok` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
-  `keterangan` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
+  `perlengkapan_keterangan` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   PRIMARY KEY (`perlengkapan_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 6 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 12 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of perlengkapan
 -- ----------------------------
-INSERT INTO `perlengkapan` VALUES (1, 'KOPER', '50', NULL);
-INSERT INTO `perlengkapan` VALUES (2, 'TAS CANGKLONG', '50', NULL);
-INSERT INTO `perlengkapan` VALUES (3, 'TAS KABIN', '50', NULL);
-INSERT INTO `perlengkapan` VALUES (4, 'BANTAL LEHER', '50', NULL);
-INSERT INTO `perlengkapan` VALUES (5, 'KAIN BATIK', '50', NULL);
+INSERT INTO `perlengkapan` VALUES (1, 'KOPER', '48', 'KOPER');
+INSERT INTO `perlengkapan` VALUES (2, 'TAS CANGKLONG', '50', 'TAS CANGKLONG');
+INSERT INTO `perlengkapan` VALUES (3, 'TAS KABIN', '50', 'TAS KABIN');
+INSERT INTO `perlengkapan` VALUES (4, 'BANTAL LEHER', '50', 'BANTAL LEHER');
+INSERT INTO `perlengkapan` VALUES (5, 'KAIN BATIK', '50', 'KAIN BATIK');
+INSERT INTO `perlengkapan` VALUES (6, 'SYAL', '50', 'SYAL');
+INSERT INTO `perlengkapan` VALUES (7, 'GAMIS PUTIH', '50', 'GAMIS PUTIH');
+INSERT INTO `perlengkapan` VALUES (8, 'JILBAB 2 BUAH', '50', 'JILBAB 2 BUAH');
+INSERT INTO `perlengkapan` VALUES (9, 'MUKENA', '50', 'MUKENA');
+INSERT INTO `perlengkapan` VALUES (10, 'BUKU DOA', '50', 'BUKU DOA');
+INSERT INTO `perlengkapan` VALUES (11, 'KAOS', '50', 'KAOS');
 
 -- ----------------------------
 -- Table structure for perlengkapan_jamaah
@@ -181,7 +193,7 @@ CREATE TABLE `perlengkapan_jamaah`  (
   `perlengkapan_jamaah_tgl_kembali` datetime(0) NULL DEFAULT NULL,
   `perlengkapan_jamaah_status` enum('cek','uncek') CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   PRIMARY KEY (`perlengkapan_jamaah_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 95 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 107 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of perlengkapan_jamaah
@@ -191,11 +203,23 @@ INSERT INTO `perlengkapan_jamaah` VALUES (86, 12, 2, NULL, NULL, NULL, NULL, 'ce
 INSERT INTO `perlengkapan_jamaah` VALUES (87, 12, 3, NULL, NULL, NULL, NULL, 'cek');
 INSERT INTO `perlengkapan_jamaah` VALUES (88, 12, 4, NULL, NULL, NULL, NULL, 'cek');
 INSERT INTO `perlengkapan_jamaah` VALUES (89, 12, 5, NULL, NULL, NULL, NULL, 'cek');
-INSERT INTO `perlengkapan_jamaah` VALUES (90, 13, 1, 1, NULL, 1, '0000-00-00 00:00:00', 'cek');
-INSERT INTO `perlengkapan_jamaah` VALUES (91, 13, 2, NULL, NULL, NULL, NULL, 'cek');
+INSERT INTO `perlengkapan_jamaah` VALUES (90, 13, 1, 3, '0000-00-00 00:00:00', 1, '0000-00-00 00:00:00', 'cek');
+INSERT INTO `perlengkapan_jamaah` VALUES (91, 13, 2, 1, '0000-00-00 00:00:00', 1, '0000-00-00 00:00:00', 'cek');
 INSERT INTO `perlengkapan_jamaah` VALUES (92, 13, 3, NULL, NULL, NULL, NULL, 'cek');
 INSERT INTO `perlengkapan_jamaah` VALUES (93, 13, 4, NULL, NULL, NULL, NULL, 'cek');
 INSERT INTO `perlengkapan_jamaah` VALUES (94, 13, 5, NULL, NULL, NULL, NULL, 'cek');
+INSERT INTO `perlengkapan_jamaah` VALUES (95, 13, 6, NULL, NULL, NULL, NULL, 'uncek');
+INSERT INTO `perlengkapan_jamaah` VALUES (96, 13, 7, NULL, NULL, NULL, NULL, 'uncek');
+INSERT INTO `perlengkapan_jamaah` VALUES (97, 13, 8, NULL, NULL, NULL, NULL, 'uncek');
+INSERT INTO `perlengkapan_jamaah` VALUES (98, 13, 9, NULL, NULL, NULL, NULL, 'uncek');
+INSERT INTO `perlengkapan_jamaah` VALUES (99, 13, 10, NULL, NULL, NULL, NULL, 'uncek');
+INSERT INTO `perlengkapan_jamaah` VALUES (100, 13, 11, NULL, NULL, NULL, NULL, 'uncek');
+INSERT INTO `perlengkapan_jamaah` VALUES (101, 12, 6, NULL, NULL, NULL, NULL, 'uncek');
+INSERT INTO `perlengkapan_jamaah` VALUES (102, 12, 7, NULL, NULL, NULL, NULL, 'uncek');
+INSERT INTO `perlengkapan_jamaah` VALUES (103, 12, 8, NULL, NULL, NULL, NULL, 'uncek');
+INSERT INTO `perlengkapan_jamaah` VALUES (104, 12, 9, NULL, NULL, NULL, NULL, 'uncek');
+INSERT INTO `perlengkapan_jamaah` VALUES (105, 12, 10, NULL, NULL, NULL, NULL, 'uncek');
+INSERT INTO `perlengkapan_jamaah` VALUES (106, 12, 11, NULL, NULL, NULL, NULL, 'uncek');
 
 -- ----------------------------
 -- Table structure for users

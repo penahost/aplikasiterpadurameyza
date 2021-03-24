@@ -172,8 +172,7 @@ class jamaah extends Controller
 
 
     public function edit($jamaah_id){
-        if (!$this->validate([]))
-        {
+
           $db = \Config\Database::connect();
           $data['session'] = session();
           // echo "Welcome back, ".$session->get('username');
@@ -185,13 +184,33 @@ class jamaah extends Controller
 
 
 
-          $data['validation'] = $this->validator;
+
+
+          $query2 = "SELECT * FROM perlengkapan";
+          $perlengkapan=$db->query($query2)->getResult();
+          foreach($perlengkapan as $row1){
+              $perlengkapan_id=$row1->perlengkapan_id;
+
+              $query2 = "SELECT COUNT(perlengkapan_id) as banyak_data FROM perlengkapan_jamaah WHERE perlengkapan_id='$perlengkapan_id' AND jamaah_id='$jamaah_id'";
+              $cek_data=$db->query($query2)->getRow();
+              $hasil_cek_data=$cek_data->banyak_data;
+
+              if($hasil_cek_data==0){
+                $builder = $db->table('perlengkapan_jamaah');
+                $data = array(
+                    'jamaah_id'  => $jamaah_id,
+                    'perlengkapan_id'  => $row1->perlengkapan_id,
+                    'perlengkapan_jamaah_status'  => 'uncek',
+                );
+                $builder->insert($data);
+              }
+          }
+
           $data['jamaah']=$db->query($query1)->getResult();
           $data['perlengkapan']=$db->query($query2)->getResult();
           $data['perlengkapan_jamaah']=$db->query($query3)->getResult();
-
           echo view('pendaftaran_haji_khusus/edit_jamaah', $data);
-        }
+
     }
 
     public function updatedata_aksi(){

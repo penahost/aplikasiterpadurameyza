@@ -1,4 +1,4 @@
-<?= $this->extend('keuangan/layout') ?>
+<?= $this->extend('perlengkapan/layout') ?>
 <?= $this->section('content') ?>
               <div class="row">
                 <div class="col-md-6">
@@ -11,28 +11,27 @@
                                 </div>
                             </div>
                             <div class="ibox-body">
-                                <form class="form-horizontal" action="<?=base_url('/keuangan/pengeluaran/updatedata_aksi/');?>" method="post">
-                                    <?php
-                                    foreach($pengeluaran as $row):
-                                    ?>
-                                    <input class="form-control" name="pengeluaran_id" value="<?=$row->pengeluaran_id;?>" type="hidden">
-                                    <input class="form-control" name="id_transaksi" value="<?=$row->id_transaksi;?>" type="hidden">
+                                <form class="form-horizontal" action="<?=base_url('/perlengkapan/perlengkapan/updatedata_aksi/');?>" method="post">
+                                  <?php
+                                  foreach($perlengkapan as $row):
+                                  ?>
+                                  <input class="form-control" value="<?=$row->perlengkapan_id;?>" name="perlengkapan_id" type="hidden">
                                     <div class="form-group row">
-                                        <label class="col-sm-2 col-form-label">Ket. Pengeluaran</label>
-                                        <div class="col-sm-10">
-                                            <input class="form-control" value="<?=$row->pengeluaran_keterangan;?>" name="pengeluaran_keterangan" type="text">
+                                        <label class="col-sm-4 col-form-label">Nama perlengkapan</label>
+                                        <div class="col-sm-8">
+                                            <input class="form-control" value="<?=$row->perlengkapan_nama;?>" name="perlengkapan_nama" type="text">
                                         </div>
                                     </div>
                                     <div class="form-group row">
-                                        <label class="col-sm-2 col-form-label">Jumlah Pengeluaran</label>
-                                        <div class="col-sm-10">
-                                            <input class="form-control" value="<?=$row->pengeluaran_nominal;?>" name="pengeluaran_nominal" type="text">
+                                        <label class="col-sm-4 col-form-label">Stok</label>
+                                        <div class="col-sm-8">
+                                            <input class="form-control" value="<?=$row->perlengkapan_stok;?>" name="perlengkapan_stok" type="text" >
                                         </div>
                                     </div>
                                     <div class="form-group row">
-                                        <label class="col-sm-2 col-form-label">Tanggal</label>
-                                        <div class="col-sm-10">
-                                            <input class="form-control" value="<?=$row->pengeluaran_tanggal;?>" name="pengeluaran_tanggal" type="text" >
+                                        <label class="col-sm-4 col-form-label">Keterangan perlengkapan</label>
+                                        <div class="col-sm-8">
+                                            <input class="form-control" value="<?=$row->perlengkapan_keterangan;?>" name="perlengkapan_keterangan" type="text">
                                         </div>
                                     </div>
                                     <?php

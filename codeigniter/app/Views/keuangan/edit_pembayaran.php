@@ -4,7 +4,7 @@
                 <div class="col-md-6">
                         <div class="ibox">
                             <div class="ibox-head">
-                                <div class="ibox-title">Tambah data Form</div>
+                                <div class="ibox-title">Edit data Form</div>
                                 <div class="ibox-tools">
                                     <a class="ibox-collapse"><i class="fa fa-minus"></i></a>
                                     <a class="fullscreen-link"><i class="fa fa-expand"></i></a>
