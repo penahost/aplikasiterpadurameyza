@@ -1,0 +1,726 @@
+CRITICAL - 2021-03-24 00:00:17 --> syntax error, unexpected '$query1' (T_VARIABLE)
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('keuangan/pembay...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('keuangan/pembay...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-24 00:00:52 --> Too few arguments to function App\Controllers\keuangan\Pembayaran::index(), 0 passed in E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php on line 935 and exactly 1 expected
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->index()
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-24 00:02:20 --> Invalid file: keuangan/tambahdata_pembayaran.php
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('keuangan/tambah...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('keuangan/tambah...', Array, true)
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pembayaran.php(28): view('keuangan/tambah...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->tambahdata()
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-24 00:02:59 --> Invalid file: keuangan/tambahdata_pembayaran.php
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('keuangan/tambah...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('keuangan/tambah...', Array, true)
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pembayaran.php(28): view('keuangan/tambah...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->tambahdata()
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-24 00:06:36 --> Undefined variable: jamaah_id
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Views\keuangan\pembayaran.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 56, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('keuangan/pembay...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pembayaran.php(21): view('keuangan/pembay...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->index('1')
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-24 00:07:09 --> Undefined variable: jamaah_id
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Views\keuangan\pembayaran.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 56, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('keuangan/pembay...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pembayaran.php(21): view('keuangan/pembay...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->index('1')
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-24 00:07:09 --> Undefined variable: jamaah_id
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Views\keuangan\pembayaran.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 56, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('keuangan/pembay...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pembayaran.php(21): view('keuangan/pembay...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->index('4')
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-24 00:07:13 --> Undefined variable: jamaah_id
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Views\keuangan\pembayaran.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 56, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('keuangan/pembay...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pembayaran.php(21): view('keuangan/pembay...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->index('1')
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-24 01:02:11 --> Invalid file: keuangan/edit_pembayaran.php
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('keuangan/edit_p...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('keuangan/edit_p...', Array, true)
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pembayaran.php(72): view('keuangan/edit_p...', Array)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->edit('1')
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-03-24 01:08:42 --> mysqli_sql_exception: Table 'aplikasirameyza.jurnal_detail' doesn't exist in E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ka...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pembayaran.php(60): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->tambahdata_aksi()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-24 01:08:42 --> Table 'aplikasirameyza.jurnal_detail' doesn't exist
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ka...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pembayaran.php(60): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->tambahdata_aksi()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-03-24 01:09:44 --> mysqli_sql_exception: Table 'aplikasirameyza.jurnal_detail' doesn't exist in E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ka...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pembayaran.php(60): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->tambahdata_aksi()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-24 01:09:44 --> Table 'aplikasirameyza.jurnal_detail' doesn't exist
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ka...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pembayaran.php(60): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->tambahdata_aksi()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-03-24 01:10:53 --> mysqli_sql_exception: Table 'aplikasirameyza.jurnal' doesn't exist in E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ka...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pembayaran.php(60): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->tambahdata_aksi()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-24 01:10:53 --> Table 'aplikasirameyza.jurnal' doesn't exist
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ka...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pembayaran.php(60): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->tambahdata_aksi()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-03-24 01:11:11 --> mysqli_sql_exception: Table 'aplikasirameyza.jurnal' doesn't exist in E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ka...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pembayaran.php(60): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->tambahdata_aksi()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-24 01:11:11 --> Table 'aplikasirameyza.jurnal' doesn't exist
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ka...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pembayaran.php(60): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->tambahdata_aksi()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-03-24 01:11:36 --> mysqli_sql_exception: Table 'aplikasirameyza.jurnal' doesn't exist in E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ka...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pembayaran.php(60): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->tambahdata_aksi()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-24 01:11:36 --> Table 'aplikasirameyza.jurnal' doesn't exist
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ka...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pembayaran.php(60): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->tambahdata_aksi()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-03-24 01:12:48 --> mysqli_sql_exception: Table 'aplikasirameyza.jurnal' doesn't exist in E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ka...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pembayaran.php(58): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->tambahdata_aksi()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-24 01:12:48 --> Table 'aplikasirameyza.jurnal' doesn't exist
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ka...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pembayaran.php(58): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->tambahdata_aksi()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-24 01:15:02 --> Trying to get property 'jamaah_nama' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pembayaran.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 53, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->tambahdata_aksi()
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-24 01:17:11 --> Trying to get property 'jamaah_nama' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pembayaran.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 49, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->tambahdata_aksi()
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-24 01:18:43 --> Trying to get property 'jamaah_nama' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pembayaran.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 49, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->tambahdata_aksi()
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-24 01:19:41 --> Undefined variable: jamaah_nama
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pembayaran.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 54, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->tambahdata_aksi()
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-03-24 01:20:14 --> mysqli_sql_exception: Table 'aplikasirameyza.jurnal_detail' doesn't exist in E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ka...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pembayaran.php(59): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->tambahdata_aksi()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-24 01:20:14 --> Table 'aplikasirameyza.jurnal_detail' doesn't exist
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ka...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pembayaran.php(59): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->tambahdata_aksi()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-03-24 01:21:54 --> mysqli_sql_exception: Unknown column 'id_jurnal' in 'field list' in E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ka...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pembayaran.php(59): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->tambahdata_aksi()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-24 01:21:54 --> Unknown column 'id_jurnal' in 'field list'
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ka...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pembayaran.php(59): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->tambahdata_aksi()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-03-24 01:22:49 --> mysqli_sql_exception: Unknown column 'id' in 'field list' in E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ka...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pembayaran.php(59): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->tambahdata_aksi()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-24 01:22:49 --> Unknown column 'id' in 'field list'
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ka...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pembayaran.php(59): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->tambahdata_aksi()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-03-24 01:23:37 --> mysqli_sql_exception: Unknown column 'id' in 'field list' in E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ka...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pembayaran.php(59): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->tambahdata_aksi()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-24 01:23:37 --> Unknown column 'id' in 'field list'
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ka...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pembayaran.php(59): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->tambahdata_aksi()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-03-24 01:24:06 --> mysqli_sql_exception: Unknown column 'id' in 'field list' in E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ka...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pembayaran.php(59): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->tambahdata_aksi()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-24 01:24:06 --> Unknown column 'id' in 'field list'
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ka...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pembayaran.php(59): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->tambahdata_aksi()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-03-24 01:26:26 --> mysqli_sql_exception: Unknown column 'nominal' in 'field list' in E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ju...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ju...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ju...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ju...', Array, false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pembayaran.php(69): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->tambahdata_aksi()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-24 01:26:26 --> Unknown column 'nominal' in 'field list'
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ju...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ju...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ju...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ju...', Array, false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pembayaran.php(69): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->tambahdata_aksi()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-03-24 01:27:14 --> mysqli_sql_exception: Unknown column 'debet' in 'field list' in E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ju...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ju...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ju...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ju...', Array, false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pembayaran.php(68): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->tambahdata_aksi()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-24 01:27:14 --> Unknown column 'debet' in 'field list'
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ju...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ju...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ju...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ju...', Array, false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pembayaran.php(68): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->tambahdata_aksi()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-24 01:30:41 --> Undefined variable: unik
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pembayaran.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 37, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pembayaran.php(46): App\Controllers\keuangan\Pembayaran->RandUnik(10)
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->tambahdata_aksi()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-24 01:47:41 --> Undefined variable: id_transaksi
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pembayaran.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 105, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->updatedata_aksi()
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-24 02:17:13 --> Undefined variable: pembayaran
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Views\keuangan\edit_pengeluaran.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 16, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('keuangan/edit_p...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pengeluaran.php(84): view('keuangan/edit_p...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pengeluaran->edit('1')
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pengeluaran))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-24 02:17:29 --> Undefined variable: pembayaran
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Views\keuangan\edit_pengeluaran.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 16, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('keuangan/edit_p...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pengeluaran.php(84): view('keuangan/edit_p...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pengeluaran->edit('1')
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pengeluaran))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-24 02:17:34 --> Undefined variable: pembayaran
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Views\keuangan\edit_pengeluaran.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 16, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('keuangan/edit_p...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pengeluaran.php(84): view('keuangan/edit_p...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pengeluaran->edit('1')
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pengeluaran))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-24 02:18:00 --> Undefined variable: jamaah_id
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pengeluaran.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 104, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pengeluaran->updatedata_aksi()
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pengeluaran))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-24 02:18:26 --> Undefined variable: jamaah_id
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pengeluaran.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 124, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pengeluaran->updatedata_aksi()
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pengeluaran))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-24 02:39:44 --> Undefined index: perlengkapan
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(280): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 280, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->updatedata_aksi()
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-24 02:41:39 --> Undefined index: perlengkapan
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(296): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 296, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->updatedata_aksi()
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-24 02:56:49 --> Undefined index: perlengkapan
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(296): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 296, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->updatedata_aksi()
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-24 02:58:04 --> Undefined index: perlengkapan
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(296): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 296, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->updatedata_aksi()
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-24 03:00:53 --> Undefined variable: perlengkapan_id
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(317): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 317, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->updatedata_aksi()
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-24 03:01:43 --> syntax error, unexpected ')', expecting ']'
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('pendaftaran_haj...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('pendaftaran_haj...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-24 03:33:06 --> syntax error, unexpected 'else' (T_ELSE)
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran_haj...', Array, true)
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(197): view('pendaftaran_haj...', Array)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->edit('6')
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-24 03:46:05 --> Undefined property: stdClass::$perlengkapan_nama
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Views\pendaftaran_haji_khusus\edit_jamaah.php(157): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\xampp\\htdocs...', 157, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran_haj...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(197): view('pendaftaran_haj...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->edit('6')
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-24 03:46:53 --> Undefined property: stdClass::$perlengkapan_nama
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Views\pendaftaran_haji_khusus\edit_jamaah.php(157): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\xampp\\htdocs...', 157, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran_haj...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(197): view('pendaftaran_haj...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->edit('6')
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-24 03:49:20 --> syntax error, unexpected end of file
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran_haj...', Array, true)
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(197): view('pendaftaran_haj...', Array)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->edit('6')
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-24 03:49:21 --> syntax error, unexpected end of file
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran_haj...', Array, true)
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(197): view('pendaftaran_haj...', Array)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->edit('6')
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-24 04:14:05 --> Trying to get property 'perlengkapan_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 146, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->tambahdata_aksii()
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-24 04:14:46 --> Undefined index: perlengkapan
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(151): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 151, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->tambahdata_aksii()
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-24 04:21:51 --> Undefined index: perlengkapan
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(298): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 298, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->updatedata_aksi()
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-24 04:28:11 --> Undefined variable: paket_id
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(324): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 324, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->hapus('10')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-24 05:00:18 --> Invalid file: pendaftaran/layout.php
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pendaftaran/lay...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(236): CodeIgniter\View\View->render('pendaftaran/lay...', Array, true)
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran_umr...', Array, true)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran_umrah\Dashboard.php(11): view('pendaftaran_umr...')
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\Dashboard->index()
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\Dashboard))
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-24 05:03:27 --> Too few arguments to function App\Controllers\pendaftaran_umrah\jamaah::hapus(), 1 passed in E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php on line 935 and exactly 2 expected
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->hapus('5')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-03-24 05:14:17 --> mysqli_sql_exception: Unknown column 'perlengkapan_jamaah_jenis' in 'where clause' in E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * FROM p...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\perlengkapan\Perlengkapan_jamaah.php(16): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\perlengkapan\Perlengkapan_jamaah->index()
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\perlengkapan\Perlengkapan_jamaah))
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-24 05:14:17 --> Unknown column 'perlengkapan_jamaah_jenis' in 'where clause'
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT * FROM p...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\perlengkapan\Perlengkapan_jamaah.php(16): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\perlengkapan\Perlengkapan_jamaah->index()
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\perlengkapan\Perlengkapan_jamaah))
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-24 05:15:08 --> Invalid file: perlengkapan/perlengkapan_jamaah.php
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('perlengkapan/pe...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('perlengkapan/pe...', Array, true)
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\perlengkapan\Perlengkapan_jamaah.php(17): view('perlengkapan/pe...', Array)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\perlengkapan\Perlengkapan_jamaah->index()
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\perlengkapan\Perlengkapan_jamaah))
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-24 05:33:30 --> Invalid file: perlengkapan/perlengkapan_jamaah.php
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('perlengkapan/pe...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('perlengkapan/pe...', Array, true)
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\perlengkapan\Perlengkapan_jamaah.php(17): view('perlengkapan/pe...', Array)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\perlengkapan\Perlengkapan_jamaah->index()
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\perlengkapan\Perlengkapan_jamaah))
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-24 05:38:34 --> Invalid file: perlengkapan/perlengkapan_jamaah.php
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('perlengkapan/pe...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('perlengkapan/pe...', Array, true)
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\perlengkapan\Perlengkapan_jamaah.php(20): view('perlengkapan/pe...', Array)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\perlengkapan\Perlengkapan_jamaah->index()
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\perlengkapan\Perlengkapan_jamaah))
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-24 05:39:01 --> Undefined variable: paket_id
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Views\perlengkapan\perlengkapan_jamaah.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 16, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('perlengkapan/pe...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\perlengkapan\Perlengkapan_jamaah.php(20): view('perlengkapan/pe...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\perlengkapan\Perlengkapan_jamaah->index()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\perlengkapan\Perlengkapan_jamaah))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-24 05:39:19 --> Undefined variable: jamaah
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Views\perlengkapan\perlengkapan_jamaah.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 41, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('perlengkapan/pe...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\perlengkapan\Perlengkapan_jamaah.php(20): view('perlengkapan/pe...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\perlengkapan\Perlengkapan_jamaah->index()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\perlengkapan\Perlengkapan_jamaah))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-24 05:39:50 --> Too few arguments to function App\Controllers\pendaftaran_umrah\jamaah::hapus(), 1 passed in E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php on line 935 and exactly 2 expected
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->hapus('12')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-24 07:47:56 --> syntax error, unexpected '$db' (T_VARIABLE)
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('perlengkapan/pe...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('perlengkapan/pe...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(384): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-03-24 08:18:03 --> mysqli_sql_exception: Unknown column 'stok' in 'field list' in E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT stok FRO...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT stok FRO...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT stok FRO...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\perlengkapan\Perlengkapan_jamaah.php(65): CodeIgniter\Database\BaseConnection->query('SELECT stok FRO...')
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\perlengkapan\Perlengkapan_jamaah->updatedata_ambil_aksi()
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\perlengkapan\Perlengkapan_jamaah))
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-24 08:18:03 --> Unknown column 'stok' in 'field list'
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT stok FRO...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('SELECT stok FRO...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT stok FRO...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\perlengkapan\Perlengkapan_jamaah.php(65): CodeIgniter\Database\BaseConnection->query('SELECT stok FRO...')
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\perlengkapan\Perlengkapan_jamaah->updatedata_ambil_aksi()
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\perlengkapan\Perlengkapan_jamaah))
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-24 08:18:46 --> Undefined variable: jumlah_stok_akhir
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\perlengkapan\Perlengkapan_jamaah.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 70, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\perlengkapan\Perlengkapan_jamaah->updatedata_ambil_aksi()
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\perlengkapan\Perlengkapan_jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-24 08:38:33 --> Undefined variable: cek_diambil
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\perlengkapan\Perlengkapan_jamaah.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 97, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\perlengkapan\Perlengkapan_jamaah->updatedata_kembali_aksi()
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\perlengkapan\Perlengkapan_jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

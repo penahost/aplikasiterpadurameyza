@@ -12,7 +12,7 @@
                         </div>
         </div>
         <div class="col-lg-3 col-md-6">
-          <a href="<?=base_url('pendaftaran/dashboard');?>">
+          <a href="<?=base_url('pendaftaran_umrah/dashboard');?>">
             <div class="ibox bg-success color-white widget-stat">
                 <div class="ibox-body">
                     <h2 class="m-b-5 font-strong">PENDAFTARAN</h2>
@@ -23,28 +23,35 @@
           </a>
         </div>
         <div class="col-lg-3 col-md-6">
+            <a href="<?=base_url('pendaftaran_haji_khusus/dashboard');?>">
               <div class="ibox bg-info color-white widget-stat">
                   <div class="ibox-body">
                       <h2 class="m-b-5 font-strong">PENDAFTARAN</h2>
                           <div class="m-b-5">Pendaftaran HAJI KHUSUS</div><i class="ti-bar-chart widget-stat-icon"></i>
                   </div>
               </div>
+            </a>
         </div>
         <div class="col-lg-3 col-md-6">
+          <a href="<?=base_url('perlengkapan/dashboard');?>">
               <div class="ibox bg-warning color-white widget-stat">
                   <div class="ibox-body">
                       <h2 class="m-b-5 font-strong">PERLENGKAPAN</h2>
                           <div class="m-b-5">Perlengkapan JAMAAH</div><i class="ti-user widget-stat-icon"></i>
                   </div>
               </div>
+          </a>
         </div>
+
         <div class="col-lg-3 col-md-6">
+          <a href="<?=base_url('keuangan/dashboard');?>">
               <div class="ibox bg-danger color-white widget-stat">
                   <div class="ibox-body">
                       <h2 class="m-b-5 font-strong">KEUANGAN</h2>
                           <div class="m-b-5">Keluar masuk Kas Keuangan</div><i class="fa fa-money widget-stat-icon"></i>
                   </div>
               </div>
+          </a>
         </div>
 
     </div>

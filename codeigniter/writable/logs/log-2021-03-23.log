@@ -1,0 +1,398 @@
+CRITICAL - 2021-03-23 21:40:13 --> Undefined property: stdClass::$perlengkapan_id
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Views\pendaftaran\edit_jamaah.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\xampp\\htdocs...', 136, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran/edi...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Jamaah.php(195): view('pendaftaran/edi...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->edit('5')
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-23 21:43:25 --> syntax error, unexpected 'else' (T_ELSE)
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran/edi...', Array, true)
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Jamaah.php(195): view('pendaftaran/edi...', Array)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->edit('5')
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-23 21:45:27 --> Undefined property: stdClass::$perlengkapan_nama
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Views\pendaftaran\edit_jamaah.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\xampp\\htdocs...', 143, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran/edi...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Jamaah.php(195): view('pendaftaran/edi...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->edit('5')
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-23 22:38:30 --> Undefined index: perlengkapan
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Jamaah.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 261, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->updatedata_aksi()
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-23 22:40:04 --> Undefined index: perlengkapan
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Jamaah.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 261, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->updatedata_aksi()
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-23 22:41:35 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'E:\\xampp\\htdocs...', 261, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Jamaah.php(261): count(NULL)
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->updatedata_aksi()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-23 22:42:50 --> Undefined index: perlengkapan
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Jamaah.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 261, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->updatedata_aksi()
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-23 22:43:42 --> Undefined index: perlengkapan
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Jamaah.php(261): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 261, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->updatedata_aksi()
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-23 22:44:18 --> Undefined variable: query1
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Jamaah.php(267): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 267, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->updatedata_aksi()
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-23 22:44:51 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAll()
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->updatedata_aksi()
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 22:49:13 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'E:\\xampp\\htdocs...', 267, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Jamaah.php(267): count(Object(CodeIgniter\Database\MySQLi\Result))
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->updatedata_aksi()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-23 22:49:37 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::count()
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->updatedata_aksi()
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 22:51:59 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResults()
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->updatedata_aksi()
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-23 22:52:22 --> Object of class stdClass could not be converted to int
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Jamaah.php(268): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'E:\\xampp\\htdocs...', 268, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->updatedata_aksi()
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-23 22:53:06 --> Undefined variable: row1
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Views\pendaftaran\edit_jamaah.php(154): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 154, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran/edi...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Jamaah.php(197): view('pendaftaran/edi...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->edit('5')
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-23 22:53:56 --> Undefined variable: row1
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Views\pendaftaran\edit_jamaah.php(154): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 154, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran/edi...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Jamaah.php(197): view('pendaftaran/edi...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->edit('5')
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-23 22:54:00 --> Undefined variable: row1
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Views\pendaftaran\edit_jamaah.php(154): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 154, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran/edi...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Jamaah.php(197): view('pendaftaran/edi...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->edit('5')
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-23 22:54:02 --> Undefined variable: row1
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Views\pendaftaran\edit_jamaah.php(154): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 154, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran/edi...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Jamaah.php(197): view('pendaftaran/edi...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->edit('5')
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-23 22:54:07 --> Undefined variable: row1
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Views\pendaftaran\edit_jamaah.php(154): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 154, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran/edi...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Jamaah.php(197): view('pendaftaran/edi...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->edit('5')
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-23 22:55:19 --> syntax error, unexpected end of file
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran/edi...', Array, true)
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Jamaah.php(197): view('pendaftaran/edi...', Array)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->edit('5')
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-23 22:57:24 --> syntax error, unexpected 'else' (T_ELSE)
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran/edi...', Array, true)
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Jamaah.php(197): view('pendaftaran/edi...', Array)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->edit('5')
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-23 22:57:40 --> syntax error, unexpected '}'
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran/edi...', Array, true)
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Jamaah.php(197): view('pendaftaran/edi...', Array)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->edit('5')
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-23 22:57:46 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran/edi...', Array, true)
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Jamaah.php(197): view('pendaftaran/edi...', Array)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->edit('5')
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-23 22:58:33 --> syntax error, unexpected '}'
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran/edi...', Array, true)
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Jamaah.php(197): view('pendaftaran/edi...', Array)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->edit('5')
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-23 22:58:34 --> syntax error, unexpected '}'
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran/edi...', Array, true)
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Jamaah.php(197): view('pendaftaran/edi...', Array)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->edit('5')
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-23 22:58:45 --> syntax error, unexpected '}'
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran/edi...', Array, true)
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Jamaah.php(197): view('pendaftaran/edi...', Array)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->edit('5')
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-23 22:58:46 --> syntax error, unexpected '}'
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran/edi...', Array, true)
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Jamaah.php(197): view('pendaftaran/edi...', Array)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->edit('5')
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-23 22:58:46 --> syntax error, unexpected '}'
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran/edi...', Array, true)
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Jamaah.php(197): view('pendaftaran/edi...', Array)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->edit('5')
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-23 22:58:47 --> syntax error, unexpected '}'
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran/edi...', Array, true)
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Jamaah.php(197): view('pendaftaran/edi...', Array)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->edit('5')
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-23 22:59:16 --> syntax error, unexpected '}'
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran/edi...', Array, true)
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Jamaah.php(197): view('pendaftaran/edi...', Array)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->edit('5')
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-23 22:59:17 --> syntax error, unexpected '}'
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran/edi...', Array, true)
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Jamaah.php(197): view('pendaftaran/edi...', Array)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->edit('5')
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-23 22:59:25 --> syntax error, unexpected '}'
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran/edi...', Array, true)
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Jamaah.php(197): view('pendaftaran/edi...', Array)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->edit('5')
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-23 22:59:26 --> syntax error, unexpected '}'
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran/edi...', Array, true)
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Jamaah.php(197): view('pendaftaran/edi...', Array)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->edit('5')
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-23 22:59:40 --> syntax error, unexpected 'else' (T_ELSE)
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran/edi...', Array, true)
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Jamaah.php(197): view('pendaftaran/edi...', Array)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->edit('5')
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-23 22:59:41 --> syntax error, unexpected 'else' (T_ELSE)
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran/edi...', Array, true)
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Jamaah.php(197): view('pendaftaran/edi...', Array)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->edit('5')
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-23 23:05:49 --> Undefined variable: row1
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Views\pendaftaran\edit_jamaah.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 148, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran/edi...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Jamaah.php(197): view('pendaftaran/edi...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->edit('5')
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-23 23:05:56 --> Undefined variable: row1
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Views\pendaftaran\edit_jamaah.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 148, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran/edi...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Jamaah.php(197): view('pendaftaran/edi...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->edit('5')
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-23 23:06:31 --> Undefined index: perlengkapan
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Jamaah.php(259): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 259, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->updatedata_aksi()
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-23 23:09:12 --> syntax error, unexpected '}'
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran/edi...', Array, true)
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Jamaah.php(197): view('pendaftaran/edi...', Array)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->edit('5')
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-23 23:13:16 --> Undefined index: perlengkapan
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Jamaah.php(280): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 280, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->updatedata_aksi()
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-23 23:18:04 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran/edi...', Array, true)
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Jamaah.php(197): view('pendaftaran/edi...', Array)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->edit('5')
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-23 23:21:56 --> syntax error, unexpected end of file
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran/edi...', Array, true)
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Jamaah.php(197): view('pendaftaran/edi...', Array)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->edit('5')
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-23 23:22:09 --> syntax error, unexpected end of file
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran/edi...', Array, true)
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Jamaah.php(197): view('pendaftaran/edi...', Array)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->edit('5')
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-23 23:22:10 --> syntax error, unexpected end of file
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran/edi...', Array, true)
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\pendaftaran\Jamaah.php(197): view('pendaftaran/edi...', Array)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\pendaftaran\jamaah->edit('5')
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran\jamaah))
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-23 23:35:40 --> Undefined property: stdClass::$jamaah_nama
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Views\keuangan\pembayaran.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\xampp\\htdocs...', 43, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\Common.php(1217): CodeIgniter\View\View->render('keuangan/pembay...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\app\Controllers\keuangan\Pembayaran.php(17): view('keuangan/pembay...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->index()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\codeigniter\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
