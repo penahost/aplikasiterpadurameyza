@@ -74,6 +74,11 @@
                             <span class="nav-label">DATA JAMAAH</span>
                         </a>
                     </li>
+                    <li>
+                        <a class="active" href="<?=base_url('/pendaftaran_haji_khusus/laporan/jamaah');?>"><i class="sidebar-item-icon fa fa-th-large"></i>
+                            <span class="nav-label">LAPORAN JAMAAH</span>
+                        </a>
+                    </li>
 
 
                 </ul>
@@ -182,6 +187,7 @@
             success: function(data)
             {
                 console.log(data);
+                var event_data = '';
                 $.each(data, function(index) {
                     $('[name="jamaah_nama"]').val(data[index].jamaah_nama);
                     $('[name="jamaah_no_passport"]').val(data[index].jamaah_no_passport);
@@ -194,12 +200,20 @@
                     $("#jamaah_foto").attr("src", "<?= base_url();?>/uploads/jamaah/"+data[index].jamaah_foto);
                     $("#jamaah_foto_ktp").attr("src", "<?= base_url();?>/uploads/jamaah/"+data[index].jamaah_foto_ktp);
                     $("#jamaah_foto_kk").attr("src", "<?= base_url();?>/uploads/jamaah/"+data[index].jamaah_foto_kk);
+                    event_data += '<a href="<?php echo base_url();?>/pendaftaran_haji_khusus/jamaah/preview_surat_pernyataan/'+data[index].jamaah_id+'"><i class="fa fa-eye"></i> Surat Depag</a> || ';
+                    event_data += '<a href="<?php echo base_url();?>/pendaftaran_haji_khusus/jamaah/download_surat_pernyataan/'+data[index].jamaah_id+'"><i class="fa fa-download"></i> Surat Depag</a> ';
+                    event_data += '<a href="<?php echo base_url();?>/pendaftaran_haji_khusus/jamaah/preview_surat_pernyataan2/'+data[index].jamaah_id+'"><i class="fa fa-eye"></i> Surat Depag Kota</a> || ';
+                    event_data += '<a href="<?php echo base_url();?>/pendaftaran_haji_khusus/jamaah/download_surat_pernyataan2/'+data[index].jamaah_id+'"><i class="fa fa-download"></i> Surat Depag Kota</a> ';
+                    event_data += '<a href="<?php echo base_url();?>/pendaftaran_haji_khusus/jamaah/preview_surat_jaminan/'+data[index].jamaah_id+'"><i class="fa fa-eye"></i> Surat Jaminan</a> || ';
+                    event_data += '<a href="<?php echo base_url();?>/pendaftaran_haji_khusus/jamaah/download_surat_jaminan/'+data[index].jamaah_id+'"><i class="fa fa-download"></i> Surat Jaminan</a> ';
+                    event_data += '<a href="<?php echo base_url();?>/pendaftaran_haji_khusus/jamaah/preview_surat_rekom_kemenag/'+data[index].jamaah_id+'"><i class="fa fa-eye"></i> Surat Rekom Kemenag</a> || ';
+                    event_data += '<a href="<?php echo base_url();?>/pendaftaran_haji_khusus/jamaah/download_surat_rekom_kemenag/'+data[index].jamaah_id+'"><i class="fa fa-download"></i> Surat Rekom Kemenag</a> ';
+                    event_data += '<a href="<?php echo base_url();?>/pendaftaran_haji_khusus/jamaah/preview_surat_rekom_rameyza/'+data[index].jamaah_id+'"><i class="fa fa-eye"></i> Surat Rekom Rameyza</a> || ';
+                    event_data += '<a href="<?php echo base_url();?>/pendaftaran_haji_khusus/jamaah/download_surat_rekom_rameyza/'+data[index].jamaah_id+'"><i class="fa fa-download"></i> Surat Rekom Rameyza</a> ';
 
                 });
                 //alert(data.jamaah_nama);
-
-
-
+                $("#dokumen").html(event_data);
             },
             error: function (jqXHR, textStatus, errorThrown)
             {

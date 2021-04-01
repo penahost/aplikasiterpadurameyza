@@ -43,6 +43,18 @@
                                       </div>
                                   </div>
                                   <div class="form-group row">
+                                      <label class="col-sm-3 col-form-label">Date Of Issue</label>
+                                      <div class="col-sm-9">
+                                          <input class="form-control" value="<?=$row->jamaah_dateofissue;?>" name="jamaah_dateofissue" type="text" >
+                                      </div>
+                                  </div>
+                                  <div class="form-group row">
+                                      <label class="col-sm-3 col-form-label">Date Of Epire</label>
+                                      <div class="col-sm-9">
+                                          <input class="form-control" value="<?=$row->jamaah_dateofexpire;?>" name="jamaah_dateofexpire" type="text" >
+                                      </div>
+                                  </div>
+                                  <div class="form-group row">
                                       <label class="col-sm-3 col-form-label">TTL</label>
                                       <div class="col-sm-9">
                                           <input class="form-control" value="<?=$row->jamaah_ttl;?>" name="jamaah_ttl" type="text" >

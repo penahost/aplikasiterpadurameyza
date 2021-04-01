@@ -23,3 +23,37 @@ CRITICAL - 2021-04-01 12:57:34 --> syntax error, unexpected 'isset' (T_ISSET), e
 #5 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #6 C:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
 #7 {main}
+CRITICAL - 2021-04-01 16:19:17 --> Invalid file: pendaftaran_haji_khusus/preview_surat_pernyataan.php
+#0 C:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pendaftaran_haj...')
+#1 C:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran_haj...', Array, true)
+#2 C:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(339): view('pendaftaran_haj...', Array)
+#3 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_surat_pernyataan('20')
+#4 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#5 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-01 16:19:54 --> Trying to get property 'jamaah_id' of non-object
+#0 C:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(332): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 332, Array)
+#1 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_surat_pernyataan('SURAT PERNYATAA...', 'image001.png')
+#2 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-01 16:20:03 --> Trying to get property 'jamaah_id' of non-object
+#0 C:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(332): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 332, Array)
+#1 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_surat_pernyataan('SURAT PERNYATAA...', 'image001.png')
+#2 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-01 16:46:13 --> Undefined property: stdClass::$jamaah_dateofxpire
+#0 C:\xampp\htdocs\aplikasiterpadurameyza\app\Views\pendaftaran_haji_khusus\edit_jamaah.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran_haj...', Array, true)
+#4 C:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(214): view('pendaftaran_haj...', Array)
+#5 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->edit('17')
+#6 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#7 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

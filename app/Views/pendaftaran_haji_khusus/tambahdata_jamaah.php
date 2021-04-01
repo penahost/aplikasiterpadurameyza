@@ -1,13 +1,16 @@
 <?= $this->extend('pendaftaran_haji_khusus/layout') ?>
 <?= $this->section('content') ?>
+<div class="ibox-head">
+    <p class="page-title"><a href="<?=base_url('/pendaftaran_haji_khusus/jamaah');?>">Data Jamaah</a> / Tambah Jamaah</p>
+</div>
               <div class="row">
                 <div class="col-md-12">
                 <form  action="<?=base_url('/pendaftaran_haji_khusus/jamaah/tambahdata_aksii/');?>" method="post" enctype="multipart/form-data">
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-12">
                         <div class="ibox">
                             <div class="ibox-head">
-                                <div class="ibox-title">Tambah data Form</div>
+                                <div class="ibox-title">Tambah Data</div>
                                 <div class="ibox-tools">
                                     <a class="ibox-collapse"><i class="fa fa-minus"></i></a>
                                     <a class="fullscreen-link"><i class="fa fa-expand"></i></a>
@@ -43,15 +46,40 @@
                                       </div>
                                   </div>
                                   <div class="form-group row">
+                                      <label class="col-sm-3 col-form-label">Date Of Issue</label>
+                                      <div class="col-sm-9">
+                                          <input class="form-control" value="" name="jamaah_dateofissue" type="text" >
+                                      </div>
+                                  </div>
+                                  <div class="form-group row">
+                                      <label class="col-sm-3 col-form-label">Date Of Epire</label>
+                                      <div class="col-sm-9">
+                                          <input class="form-control" value="" name="jamaah_dateofexpire" type="text" >
+                                      </div>
+                                  </div>
+                                  <div class="form-group row">
                                       <label class="col-sm-3 col-form-label">TTL</label>
                                       <div class="col-sm-9">
-                                          <input class="form-control" value="" name="jamaah_ttl" type="text" >
+                                          <input class="form-control" value="" name="jamaah_ttl" type="text" placeholder="format harus KEDIRI, 17 Februari 1995">
                                       </div>
                                   </div>
                                   <div class="form-group row">
                                       <label class="col-sm-3 col-form-label">Usia</label>
                                       <div class="col-sm-9">
                                           <input class="form-control" value="" name="jamaah_usia" type="text">
+                                      </div>
+                                  </div>
+                                  <div class="form-group row">
+                                      <label class="col-sm-3 col-form-label">Jenis Kelamin</label>
+                                      <div class="col-sm-9">
+                                        <div>
+                                          <label class="ui-radio ui-radio-inline">
+                                              <input type="radio" name="jamaah_jk" value="Laki-laki">
+                                              <span class="input-span"></span>Laki-laki</label>
+                                          <label class="ui-radio ui-radio-inline">
+                                              <input type="radio" name="jamaah_jk" value="Perempuan">
+                                              <span class="input-span"></span>Perempuan</label>
+                                      </div>
                                       </div>
                                   </div>
                                   <div class="form-group row">
@@ -110,7 +138,7 @@
                         </div>
                   </div>
 
-                  <div class="col-md-6">
+                  <!-- <div class="col-md-6">
                           <div class="ibox">
                               <div class="ibox-head">
                                   <div class="ibox-title">Tambah data perlengkapan</div>
@@ -141,7 +169,7 @@
 
                               </div>
                           </div>
-                    </div>
+                    </div> -->
                     <div class="col-md-12">
                     </form>
                     </div>

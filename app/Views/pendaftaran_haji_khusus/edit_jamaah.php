@@ -1,5 +1,8 @@
 <?= $this->extend('pendaftaran_haji_khusus/layout') ?>
 <?= $this->section('content') ?>
+<div class="ibox-head">
+    <p class="page-title"><a href="<?=base_url('/pendaftaran_haji_khusus/jamaah');?>">Data Jamaah</a> / Edit Jamaah</p>
+</div>
               <div class="row">
                 <div class="col-md-12">
                 <form class="form-horizontal" action="<?=base_url('/pendaftaran_haji_khusus/jamaah/updatedata_aksi/');?>" method="post" enctype="multipart/form-data">
@@ -7,7 +10,7 @@
                 <div class="col-md-12">
                         <div class="ibox">
                             <div class="ibox-head">
-                                <div class="ibox-title">Edit data Form</div>
+                                <div class="ibox-title">Edit Data</div>
                                 <div class="ibox-tools">
                                     <a class="ibox-collapse"><i class="fa fa-minus"></i></a>
                                     <a class="fullscreen-link"><i class="fa fa-expand"></i></a>
@@ -26,75 +29,116 @@
                                 foreach($jamaah as $row):
                                 ?>
                                 <input class="form-control" name="jamaah_id" type="hidden" value="<?=$row->jamaah_id;?>">
-                                  <div class="form-group row">
-                                      <label class="col-sm-3 col-form-label">Nama</label>
-                                      <div class="col-sm-9">
-                                          <input class="form-control" value="<?=$row->jamaah_nama;?>" name="jamaah_nama" type="text" >
-                                      </div>
-                                  </div>
-                                  <div class="form-group row">
-                                      <label class="col-sm-3 col-form-label">NO Passport</label>
-                                      <div class="col-sm-9">
-                                          <input class="form-control" value="<?=$row->jamaah_no_passport;?>" name="jamaah_no_passport" type="text" >
-                                      </div>
-                                  </div>
-                                  <div class="form-group row">
-                                      <label class="col-sm-3 col-form-label">TTL</label>
-                                      <div class="col-sm-9">
-                                          <input class="form-control" value="<?=$row->jamaah_ttl;?>" name="jamaah_ttl" type="text" >
-                                      </div>
-                                  </div>
-                                  <div class="form-group row">
-                                      <label class="col-sm-3 col-form-label">Usia</label>
-                                      <div class="col-sm-9">
-                                          <input class="form-control" value="<?=$row->jamaah_usia;?>" name="jamaah_usia" type="text">
-                                      </div>
-                                  </div>
-                                  <div class="form-group row">
-                                      <label class="col-sm-3 col-form-label">Alamat</label>
-                                      <div class="col-sm-9">
-                                          <input class="form-control" value="<?=$row->jamaah_alamat;?>" name="jamaah_alamat" type="text">
-                                      </div>
-                                  </div>
-                                  <div class="form-group row">
-                                      <label class="col-sm-3 col-form-label">No HP</label>
-                                      <div class="col-sm-9">
-                                          <input class="form-control" value="<?=$row->jamaah_no_hp;?>" name="jamaah_no_hp" type="text">
-                                      </div>
-                                  </div>
-                                  <div class="form-group row">
-                                      <label class="col-sm-3 col-form-label">Ket. Pembayaran</label>
-                                      <div class="col-sm-9">
-                                          <input class="form-control" value="<?=$row->jamaah_ket_pembayaran;?>" name="jamaah_ket_pembayaran" type="text">
-                                      </div>
-                                  </div>
-                                  <div class="form-group row">
-                                      <label class="col-sm-3 col-form-label">Tgl berangkat</label>
-                                      <div class="col-sm-9">
-                                          <input class="form-control" value="<?=$row->jamaah_tgl_berangkat;?>" name="jamaah_tgl_berangkat" type="text">
-                                      </div>
-                                  </div>
-                                  <div class="form-group row">
-                                      <label class="col-sm-3 col-form-label">Foto</label>
-                                      <div class="col-sm-9">
-                                          <input type="file" name="file_foto" id="">
-                                          <img src="<?=base_url();?>/uploads/jamaah/<?=$row->jamaah_foto;?>" class="img-responsive" width="100" style="max-width: 100%;" id="jamaah_foto" src="" >
-                                      </div>
-                                  </div>
-                                  <div class="form-group row">
-                                      <label class="col-sm-3 col-form-label">KTP</label>
-                                      <div class="col-sm-9">
-                                          <input type="file" name="file_ktp" id="">
-                                          <img src="<?=base_url();?>/uploads/jamaah/<?=$row->jamaah_foto_ktp;?>" class="img-responsive" width="100" style="max-width: 100%;" id="jamaah_foto_ktp" src="" >
-                                      </div>
-                                  </div>
-                                  <div class="form-group row">
-                                      <label class="col-sm-3 col-form-label">KK</label>
-                                      <div class="col-sm-9">
-                                          <input type="file" name="file_kk" id="">
-                                          <img src="<?=base_url();?>/uploads/jamaah/<?=$row->jamaah_foto_kk;?>" class="img-responsive" width="100" style="max-width: 100%;" id="jamaah_foto_kk" src="" >
-                                      </div>
-                                  </div>
+                                <div class="form-group row">
+                                    <label class="col-sm-3 col-form-label">Nama</label>
+                                    <div class="col-sm-9">
+                                        <input class="form-control" value="<?=$row->jamaah_nama;?>" name="jamaah_nama" type="text" >
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-sm-3 col-form-label">NO Passport</label>
+                                    <div class="col-sm-9">
+                                        <input class="form-control" value="<?=$row->jamaah_no_passport;?>" name="jamaah_no_passport" type="text" >
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-sm-3 col-form-label">Date Of Issue</label>
+                                    <div class="col-sm-9">
+                                        <input class="form-control" value="<?=$row->jamaah_dateofissue;?>" name="jamaah_dateofissue" type="text" >
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-sm-3 col-form-label">Date Of Epire</label>
+                                    <div class="col-sm-9">
+                                        <input class="form-control" value="<?=$row->jamaah_dateofexpire;?>" name="jamaah_dateofexpire" type="text" >
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-sm-3 col-form-label">TTL</label>
+                                    <div class="col-sm-9">
+                                        <input class="form-control" value="<?=$row->jamaah_ttl;?>" name="jamaah_ttl" type="text" >
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-sm-3 col-form-label">Usia</label>
+                                    <div class="col-sm-9">
+                                        <input class="form-control" value="<?=$row->jamaah_usia;?>" name="jamaah_usia" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-sm-3 col-form-label">Jenis Kelamin</label>
+                                    <div class="col-sm-9">
+                                      <div>
+                                        <?php
+                                        if($row->jamaah_jk=="Laki-laki"){
+                                         ?>
+                                        <label class="ui-radio ui-radio-inline">
+                                            <input type="radio" name="jamaah_jk" value="Laki-laki" checked>
+                                            <span class="input-span"></span>Laki-laki</label>
+                                        <label class="ui-radio ui-radio-inline">
+                                            <input type="radio" name="jamaah_jk" value="Perempuan">
+                                            <span class="input-span"></span>Perempuan</label>
+                                            <?php
+                                          } ?>
+                                          <?php
+                                          if($row->jamaah_jk=="Perempuan"){
+                                           ?>
+                                          <label class="ui-radio ui-radio-inline">
+                                              <input type="radio" name="jamaah_jk" value="Laki-laki">
+                                              <span class="input-span"></span>Laki-laki</label>
+                                          <label class="ui-radio ui-radio-inline">
+                                              <input type="radio" name="jamaah_jk" value="Perempuan" checked>
+                                              <span class="input-span"></span>Perempuan</label>
+                                              <?php
+                                            } ?>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-sm-3 col-form-label">Alamat</label>
+                                    <div class="col-sm-9">
+                                        <input class="form-control" value="<?=$row->jamaah_alamat;?>" name="jamaah_alamat" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-sm-3 col-form-label">No HP</label>
+                                    <div class="col-sm-9">
+                                        <input class="form-control" value="<?=$row->jamaah_no_hp;?>" name="jamaah_no_hp" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-sm-3 col-form-label">Ket. Pembayaran</label>
+                                    <div class="col-sm-9">
+                                        <input class="form-control" value="<?=$row->jamaah_ket_pembayaran;?>" name="jamaah_ket_pembayaran" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-sm-3 col-form-label">Tgl berangkat</label>
+                                    <div class="col-sm-9">
+                                        <input class="form-control" value="<?=$row->jamaah_tgl_berangkat;?>" name="jamaah_tgl_berangkat" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-sm-3 col-form-label">Foto</label>
+                                    <div class="col-sm-9">
+                                        <input type="file" name="file_foto" id="">
+                                        <img src="<?=base_url();?>/uploads/jamaah/<?=$row->jamaah_foto;?>" class="img-responsive" width="100" style="max-width: 100%;" id="jamaah_foto" src="" >
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-sm-3 col-form-label">KTP</label>
+                                    <div class="col-sm-9">
+                                        <input type="file" name="file_ktp" id="">
+                                        <img src="<?=base_url();?>/uploads/jamaah/<?=$row->jamaah_foto_ktp;?>" class="img-responsive" width="100" style="max-width: 100%;" id="jamaah_foto_ktp" src="" >
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-sm-3 col-form-label">KK</label>
+                                    <div class="col-sm-9">
+                                        <input type="file" name="file_kk" id="">
+                                        <img src="<?=base_url();?>/uploads/jamaah/<?=$row->jamaah_foto_kk;?>" class="img-responsive" width="100" style="max-width: 100%;" id="jamaah_foto_kk" src="" >
+                                    </div>
+                                </div>
                                   <?php
                                   endforeach;
                                   ?>

@@ -71,6 +71,7 @@
                           <div class="ibox-head">
                               <div class="ibox-title">
                                 <a href="<?=base_url('/pendaftaran_haji_khusus/jamaah/tambahdata');?>/<?=$paket_id;?>" class="btn btn-primary"><i class="fa ti-plus"></i> Tambah</a>
+                                <a href="<?php echo base_url();?>/pendaftaran_haji_khusus/jamaah/download_report_manifest/<?=$paket_id;?>" class="btn btn-success"><i class="fa ti-import"></i> Report Manifest</a>
                               </div>
                           </div>
                           <div class="ibox-body">
@@ -126,6 +127,13 @@
                       </div>
                       <div class="modal-body">
                         <div class="row">
+                          <div class="col-md-12">
+                                  <div class="ibox">
+                                      <div class="ibox-body">
+                                        <div id="dokumen"></div>
+                                      </div>
+                                  </div>
+                          </div>
                         <div class="col-md-6">
                                 <div class="ibox">
                                     <div class="ibox-body">
