@@ -1,10 +1,13 @@
 <?= $this->extend('pendaftaran_umrah/layout') ?>
 <?= $this->section('content') ?>
+<div class="ibox-head">
+    <p class="page-title">Data Paket</p>
+</div>
               <div class="row">
-                <div class="col-md-6">
+                <!-- <div class="col-md-6">
                         <div class="ibox">
                             <div class="ibox-head">
-                                <div class="ibox-title">Toolbar</div>
+                                <div class="ibox-title">eeeee</div>
                                 <div class="ibox-tools">
                                     <a class="ibox-collapse"><i class="fa fa-minus"></i></a>
                                 </div>
@@ -13,11 +16,13 @@
                                 <a href="<?=base_url('/pendaftaran_umrah/paket/tambahdata');?>" class="btn btn-success">Tambah</a>
                             </div>
                         </div>
-                  </div>
+                  </div> -->
                   <div class="col-xl-12">
                       <div class="ibox">
                           <div class="ibox-head">
-                              <div class="ibox-title">DAFTAR paket</div>
+                              <div class="ibox-title">
+                              <a href="<?=base_url('/pendaftaran_umrah/paket/tambahdata');?>" class="btn btn-primary"><i class="fa ti-plus"></i> Tambah</a>
+                              </div>
                           </div>
                           <div class="ibox-body">
                               <table class="table table-striped table-bordered table-hover" id="example-table" cellspacing="0" width="100%">
@@ -53,9 +58,8 @@
                                           <td><?=$row->paket_hotel_madinah;?></td>
                                           <td><?=$row->paket_pesawat;?></td>
                                           <td>
-                                            <a href="<?php echo base_url();?>/pendaftaran_umrah/paket/edit/<?=$row->paket_id;?>">Edit</a>
-                                            ||
-                                            <a href="<?php echo base_url();?>/pendaftaran_umrah/paket/hapus/<?=$row->paket_id;?>">Hapus</a>
+                                            <a style="width:15px;" class="btn btn-warning" href="<?php echo base_url();?>/pendaftaran_umrah/paket/edit/<?=$row->paket_id;?>"><i class="fa ti-pencil"></i></a>
+                                            <a style="width:15px;" class="btn btn-danger" href="<?php echo base_url();?>/pendaftaran_umrah/paket/hapus/<?=$row->paket_id;?>"><i class="fa fa-times"></i></a>
                                           </td>
                                       </tr>
                                       <?php

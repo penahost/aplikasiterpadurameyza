@@ -1,10 +1,13 @@
 <?= $this->extend('perlengkapan/layout') ?>
 <?= $this->section('content') ?>
+<div class="ibox-head">
+    <p class="page-title"><a href="<?=base_url('/perlengkapan/perlengkapan');?>">Data Perlengkapan</a> / Tambah Paket</p>
+</div>
               <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-12">
                         <div class="ibox">
                             <div class="ibox-head">
-                                <div class="ibox-title">Tambah data Form</div>
+                                <div class="ibox-title">Tambah Data</div>
                                 <div class="ibox-tools">
                                     <a class="ibox-collapse"><i class="fa fa-minus"></i></a>
                                     <a class="fullscreen-link"><i class="fa fa-expand"></i></a>
@@ -32,7 +35,7 @@
                                     </div>
 
                                     <div class="form-group row">
-                                        <div class="col-sm-10 ml-sm-auto">
+                                        <div class="ml-sm-auto">
                                             <button class="btn btn-info" type="submit">Submit</button>
                                         </div>
                                     </div>

@@ -1,11 +1,13 @@
 <?= $this->extend('pendaftaran_haji_khusus/layout') ?>
 <?= $this->section('content') ?>
+<div class="ibox-head">
+    <p class="page-title">Data Jamaah</p>
+</div>
               <div class="row">
-
                   <div class="col-xl-12">
                       <div class="ibox">
                           <div class="ibox-head">
-                              <div class="ibox-title">DAFTAR paket</div>
+                              <div class="ibox-title">List Tabel</div>
                           </div>
                           <div class="ibox-body">
                               <table class="table table-striped table-bordered table-hover" id="example-table" cellspacing="0" width="100%">
@@ -35,7 +37,7 @@
                                           <td><?=$row->paket_tanggal_pulang;?></td>
                                           <td><?=$row->paket_pesawat;?></td>
                                           <td>
-                                            <a href="<?php echo base_url();?>/pendaftaran_haji_khusus/jamaah/index/<?=$row->paket_id;?>">Lihat Jamaah</a>
+                                            <a style="width:15px;" class="btn btn-info" href="<?php echo base_url();?>/pendaftaran_haji_khusus/jamaah/index/<?=$row->paket_id;?>"><i class="fa ti-eye"></i></a>
                                           </td>
                                       </tr>
                                       <?php
@@ -51,7 +53,7 @@
                   <?php
                   if(isset($paket_id)){
                    ?>
-                  <div class="col-md-6">
+                  <!-- <div class="col-md-6">
                           <div class="ibox">
                               <div class="ibox-head">
                                   <div class="ibox-title">Toolbar</div>
@@ -63,14 +65,13 @@
                                   <a href="<?=base_url('/pendaftaran_haji_khusus/jamaah/tambahdata');?>/<?=$paket_id;?>" class="btn btn-success">Tambah</a>
                               </div>
                           </div>
-                    </div>
-                    <?php
-                    }
-                   ?>
+                    </div> -->
                   <div class="col-xl-12">
                       <div class="ibox">
                           <div class="ibox-head">
-                              <div class="ibox-title">DAFTAR Jamaah</div>
+                              <div class="ibox-title">
+                                <a href="<?=base_url('/pendaftaran_haji_khusus/jamaah/tambahdata');?>/<?=$paket_id;?>" class="btn btn-primary"><i class="fa ti-plus"></i> Tambah</a>
+                              </div>
                           </div>
                           <div class="ibox-body">
                               <table class="table table-striped table-bordered table-hover" id="example-table2" cellspacing="0" width="100%">
@@ -96,11 +97,9 @@
                                           <td><?=$row->jamaah_ttl;?></td>
                                           <td><?=$row->jamaah_usia;?></td>
                                           <td>
-                                            <a href="<?php echo base_url();?>/pendaftaran_haji_khusus/jamaah/edit/<?=$row->jamaah_id;?>">Edit</a>
-                                            ||
-                                            <a href="<?php echo base_url();?>/pendaftaran_haji_khusus/jamaah/hapus/<?=$row->jamaah_id;?>/<?=$paket_id;?>">Hapus</a>
-                                            ||
-                                              <a href="" data-toggle="modal" data-target="#exampleModal4"  class="popup_detail_jamaah" data-id="<?=$row->jamaah_id;?>">Detail</a>
+                                              <a style="width:15px;" class="btn btn-warning" href="<?php echo base_url();?>/pendaftaran_haji_khusus/jamaah/edit/<?=$row->jamaah_id;?>"><i class="fa ti-pencil"></i></a>
+                                              <a style="width:15px;" class="btn btn-danger" href="<?php echo base_url();?>/pendaftaran_haji_khusus/jamaah/hapus/<?=$row->jamaah_id;?>/<?=$paket_id;?>"><i class="fa fa-times"></i></a>
+                                              <a style="width:15px;" class="btn btn-info popup_detail_jamaah" data-toggle="modal" data-target="#exampleModal4" data-id="<?=$row->jamaah_id;?>"><i class="fa ti-layers-alt"></i></a>
                                           </td>
                                       </tr>
                                       <?php
@@ -113,7 +112,9 @@
                           </div>
                       </div>
                   </div>
-
+                  <?php
+                  }
+                  ?>
                   <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel4" aria-hidden="true">
                   <div class="modal-dialog modal-dialog-centered modal-dialog-zoom modal-lg" role="document">
                     <div class="modal-content">

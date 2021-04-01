@@ -1,5 +1,8 @@
 <?= $this->extend('pendaftaran_umrah/layout') ?>
 <?= $this->section('content') ?>
+<div class="ibox-head">
+    <p class="page-title"><a href="<?=base_url('/pendaftaran_umrah/jamaah');?>">Data Jamaah</a> / Edit Jamaah</p>
+</div>
               <div class="row">
                 <div class="col-md-12">
                 <form class="form-horizontal" action="<?=base_url('/pendaftaran_umrah/jamaah/updatedata_aksi/');?>" method="post" enctype="multipart/form-data">
@@ -7,7 +10,7 @@
                 <div class="col-md-6">
                         <div class="ibox">
                             <div class="ibox-head">
-                                <div class="ibox-title">Edit data Form</div>
+                                <div class="ibox-title">Edit Data Jamaah</div>
                                 <div class="ibox-tools">
                                     <a class="ibox-collapse"><i class="fa fa-minus"></i></a>
                                     <a class="fullscreen-link"><i class="fa fa-expand"></i></a>
@@ -21,7 +24,7 @@
                                   </div>
                               <?php } ?>
 
-                            
+
 
                                 <?php
                                 foreach($jamaah as $row):
@@ -49,6 +52,35 @@
                                       <label class="col-sm-3 col-form-label">Usia</label>
                                       <div class="col-sm-9">
                                           <input class="form-control" value="<?=$row->jamaah_usia;?>" name="jamaah_usia" type="text">
+                                      </div>
+                                  </div>
+                                  <div class="form-group row">
+                                      <label class="col-sm-3 col-form-label">Jenis Kelamin</label>
+                                      <div class="col-sm-9">
+                                        <div>
+                                          <?php
+                                          if($row->jamaah_jk=="Laki-laki"){
+                                           ?>
+                                          <label class="ui-radio ui-radio-inline">
+                                              <input type="radio" name="jamaah_jk" value="Laki-laki" checked>
+                                              <span class="input-span"></span>Laki-laki</label>
+                                          <label class="ui-radio ui-radio-inline">
+                                              <input type="radio" name="jamaah_jk" value="Perempuan">
+                                              <span class="input-span"></span>Perempuan</label>
+                                              <?php
+                                            } ?>
+                                            <?php
+                                            if($row->jamaah_jk=="Perempuan"){
+                                             ?>
+                                            <label class="ui-radio ui-radio-inline">
+                                                <input type="radio" name="jamaah_jk" value="Laki-laki">
+                                                <span class="input-span"></span>Laki-laki</label>
+                                            <label class="ui-radio ui-radio-inline">
+                                                <input type="radio" name="jamaah_jk" value="Perempuan" checked>
+                                                <span class="input-span"></span>Perempuan</label>
+                                                <?php
+                                              } ?>
+                                      </div>
                                       </div>
                                   </div>
                                   <div class="form-group row">

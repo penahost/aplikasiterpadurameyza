@@ -1,11 +1,11 @@
 <?= $this->extend('pendaftaran_umrah/layout') ?>
 <?= $this->section('content') ?>
     <div class="row">
-        <div class="col-lg-3 col-md-6">
+        <div class="col-md-12">
             <div class="ibox bg-success color-white widget-stat">
                 <div class="ibox-body">
-                    <h2 class="m-b-5 font-strong">Welcome</h2>
-                    <div class="m-b-5">Pendaftaran umrah UMRAH</div><i class="ti-user widget-stat-icon"></i>
+                    <h2 class="m-b-5 font-strong">Selamat Datang</h2>
+                    <div class="m-b-5">Pendaftaran UMRAH</div><i class="ti-angle-double-left widget-stat-icon"></i>
 
                 </div>
             </div>

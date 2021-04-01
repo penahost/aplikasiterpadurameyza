@@ -1,0 +1,16 @@
+CRITICAL - 2021-03-30 09:00:17 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\aplikasiterpadurameyza\system\bootstrap.php(158): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\aplikasiterpadurameyza\index.php(35): require('C:\\xampp\\htdocs...')
+#2 {main}
+ERROR - 2021-03-30 02:06:06 --> Error connecting to the database: Unknown database 'aplikasirameyza'
+CRITICAL - 2021-03-30 02:06:06 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\aplikasiterpadurameyza\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\aplikasiterpadurameyza\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\aplikasiterpadurameyza\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\aplikasiterpadurameyza\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\Login.php(20): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\Login->auth()
+#6 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -88,7 +88,7 @@ class jamaah extends Controller
 
               $foto1 = $this->request->getFile('file_foto');
               if ($foto1->isValid() && ! $foto1->hasMoved()){
-                $foto1->move(ROOTPATH . '../uploads/jamaah/');
+                $foto1->move(ROOTPATH . '/uploads/jamaah/');
                 $data = [
                     'jamaah_foto' => $foto1->getName()
                 ];
@@ -98,7 +98,7 @@ class jamaah extends Controller
 
               $foto2 = $this->request->getFile('file_ktp');
               if ($foto2->isValid() && ! $foto2->hasMoved()){
-              $foto2->move(ROOTPATH . '../uploads/jamaah/');
+              $foto2->move(ROOTPATH . '/uploads/jamaah/');
               $data = [
                   'jamaah_foto_ktp' => $foto2->getName()
               ];
@@ -108,7 +108,7 @@ class jamaah extends Controller
 
               $foto3 = $this->request->getFile('file_kk');
               if ($foto3->isValid() && ! $foto3->hasMoved()){
-              $foto3->move(ROOTPATH . '../uploads/jamaah/');
+              $foto3->move(ROOTPATH . '/uploads/jamaah/');
               $data = [
                   'jamaah_foto_kk' => $foto3->getName()
               ];
@@ -121,6 +121,7 @@ class jamaah extends Controller
           'jamaah_no_passport'  => $this->request->getPost('jamaah_no_passport'),
           'jamaah_ttl'  => $this->request->getPost('jamaah_ttl'),
           'jamaah_usia'  => $this->request->getPost('jamaah_usia'),
+          'jamaah_jk' => $this->request->getPost('jamaah_jk'),
           'jamaah_alamat'  => $this->request->getPost('jamaah_alamat'),
           'jamaah_no_hp'  => $this->request->getPost('jamaah_no_hp'),
           'jamaah_ket_pembayaran'  => $this->request->getPost('jamaah_ket_pembayaran'),
@@ -230,13 +231,14 @@ class jamaah extends Controller
 
                 $foto1 = $this->request->getFile('file_foto');
                 if ($foto1->isValid() && ! $foto1->hasMoved()){
-                  $foto1->move(ROOTPATH . '../uploads/jamaah/');
+                  $foto1->move(ROOTPATH . '/uploads/jamaah/');
 
                   $data = array(
                       'jamaah_nama'  => $this->request->getPost('jamaah_nama'),
                       'jamaah_no_passport'  => $this->request->getPost('jamaah_no_passport'),
                       'jamaah_ttl'  => $this->request->getPost('jamaah_ttl'),
                       'jamaah_usia'  => $this->request->getPost('jamaah_usia'),
+                      'jamaah_jk' => $this->request->getPost('jamaah_jk'),
                       'jamaah_alamat'  => $this->request->getPost('jamaah_alamat'),
                       'jamaah_no_hp'  => $this->request->getPost('jamaah_no_hp'),
                       'jamaah_ket_pembayaran'  => $this->request->getPost('jamaah_ket_pembayaran'),
@@ -252,12 +254,13 @@ class jamaah extends Controller
 
                 $foto2 = $this->request->getFile('file_ktp');
                 if ($foto2->isValid() && ! $foto2->hasMoved()){
-                $foto2->move(ROOTPATH . '../uploads/jamaah/');
+                $foto2->move(ROOTPATH . '/uploads/jamaah/');
                   $data = array(
                       'jamaah_nama'  => $this->request->getPost('jamaah_nama'),
                       'jamaah_no_passport'  => $this->request->getPost('jamaah_no_passport'),
                       'jamaah_ttl'  => $this->request->getPost('jamaah_ttl'),
                       'jamaah_usia'  => $this->request->getPost('jamaah_usia'),
+                      'jamaah_jk' => $this->request->getPost('jamaah_jk'),
                       'jamaah_alamat'  => $this->request->getPost('jamaah_alamat'),
                       'jamaah_no_hp'  => $this->request->getPost('jamaah_no_hp'),
                       'jamaah_ket_pembayaran'  => $this->request->getPost('jamaah_ket_pembayaran'),
@@ -271,12 +274,13 @@ class jamaah extends Controller
 
                 $foto3 = $this->request->getFile('file_kk');
                 if ($foto3->isValid() && ! $foto3->hasMoved()){
-                $foto3->move(ROOTPATH . '../uploads/jamaah/');
+                $foto3->move(ROOTPATH . '/uploads/jamaah/');
                   $data = array(
                       'jamaah_nama'  => $this->request->getPost('jamaah_nama'),
                       'jamaah_no_passport'  => $this->request->getPost('jamaah_no_passport'),
                       'jamaah_ttl'  => $this->request->getPost('jamaah_ttl'),
                       'jamaah_usia'  => $this->request->getPost('jamaah_usia'),
+                      'jamaah_jk' => $this->request->getPost('jamaah_jk'),
                       'jamaah_alamat'  => $this->request->getPost('jamaah_alamat'),
                       'jamaah_no_hp'  => $this->request->getPost('jamaah_no_hp'),
                       'jamaah_ket_pembayaran'  => $this->request->getPost('jamaah_ket_pembayaran'),
@@ -294,6 +298,7 @@ class jamaah extends Controller
                       'jamaah_no_passport'  => $this->request->getPost('jamaah_no_passport'),
                       'jamaah_ttl'  => $this->request->getPost('jamaah_ttl'),
                       'jamaah_usia'  => $this->request->getPost('jamaah_usia'),
+                      'jamaah_jk' => $this->request->getPost('jamaah_jk'),
                       'jamaah_alamat'  => $this->request->getPost('jamaah_alamat'),
                       'jamaah_no_hp'  => $this->request->getPost('jamaah_no_hp'),
                       'jamaah_ket_pembayaran'  => $this->request->getPost('jamaah_ket_pembayaran'),
@@ -342,4 +347,269 @@ class jamaah extends Controller
 
         return redirect()->to(site_url('pendaftaran_umrah/jamaah/index/'.$paket_id));
     }
+
+    public function preview_surat_pernyataan($jamaah_id)
+    {
+        $session = session();
+        $db = \Config\Database::connect();
+        $query1 = "SELECT * FROM jamaah WHERE jamaah_id='$jamaah_id'";
+        $data_jamaah=$db->query($query1)->getRow();
+
+        $data['row']=array(
+            'jamaah_id'  => $data_jamaah->jamaah_id,
+            'jamaah_nama'  => $data_jamaah->jamaah_nama,
+            'jamaah_ttl'  => $data_jamaah->jamaah_ttl,
+            'jamaah_alamat'  => $data_jamaah->jamaah_alamat,
+            'jamaah_tgl_ttd'  => $this->tgl_indo(date('Y-m-d')),
+            );
+
+        return view('pendaftaran_umrah/preview_surat_pernyataan',$data);
+    }
+
+    public function download_surat_pernyataan($jamaah_id)
+    {
+      $db = \Config\Database::connect();
+      $query1 = "SELECT * FROM jamaah WHERE jamaah_id='$jamaah_id'";
+      $data_jamaah=$db->query($query1)->getRow();
+
+      $data['row']=array(
+          'jamaah_id'  => $data_jamaah->jamaah_id,
+          'jamaah_nama'  => $data_jamaah->jamaah_nama,
+          'jamaah_ttl'  => $data_jamaah->jamaah_ttl,
+          'jamaah_alamat'  => $data_jamaah->jamaah_alamat,
+          'jamaah_tgl_ttd'  => $this->tgl_indo(date('Y-m-d')),
+          );
+
+      header('Content-type: application/vnd.ms-word');
+      header("Content-disposition: attachment; filename=example.doc");
+      return view('pendaftaran_umrah/preview_surat_pernyataan',$data);
+    }
+
+    public function tgl_indo($tanggal){
+    	$bulan = array (
+    		1 =>   'Januari',
+    		'Februari',
+    		'Maret',
+    		'April',
+    		'Mei',
+    		'Juni',
+    		'Juli',
+    		'Agustus',
+    		'September',
+    		'Oktober',
+    		'November',
+    		'Desember'
+    	);
+    	$pecahkan = explode('-', $tanggal);
+    	return $pecahkan[2] . ' ' . $bulan[ (int)$pecahkan[1] ] . ' ' . $pecahkan[0];
+    }
+
+    public function tgl_berangkat($tanggal){
+    	$bulan = array (
+    		1 =>   'Januari',
+    		'Februari',
+    		'Maret',
+    		'April',
+    		'Mei',
+    		'Juni',
+    		'Juli',
+    		'Agustus',
+    		'September',
+    		'Oktober',
+    		'November',
+    		'Desember'
+    	);
+    	$pecahkan = explode('-', $tanggal);
+    	return $bulan[ (int)$pecahkan[1] ] . ' ' . $pecahkan[0];
+    }
+
+    public function preview_surat_pernyataan2($jamaah_id)
+    {
+        $session = session();
+        $db = \Config\Database::connect();
+        $query1 = "SELECT * FROM jamaah WHERE jamaah_id='$jamaah_id'";
+        $data_jamaah=$db->query($query1)->getRow();
+
+        $data['row']=array(
+            'jamaah_id'  => $data_jamaah->jamaah_id,
+            'jamaah_nama'  => $data_jamaah->jamaah_nama,
+            'jamaah_ttl'  => $data_jamaah->jamaah_ttl,
+            'jamaah_alamat'  => $data_jamaah->jamaah_alamat,
+            'jamaah_pekerjaan'  => $data_jamaah->jamaah_pekerjaan,
+            'jamaah_no_hp'  => $data_jamaah->jamaah_no_hp,
+            'jamaah_tgl_ttd'  => $this->tgl_indo(date('Y-m-d')),
+            );
+
+        return view('pendaftaran_umrah/preview_surat_pernyataan2',$data);
+    }
+
+    public function download_surat_pernyataan2($jamaah_id)
+    {
+      $db = \Config\Database::connect();
+      $query1 = "SELECT * FROM jamaah WHERE jamaah_id='$jamaah_id'";
+      $data_jamaah=$db->query($query1)->getRow();
+
+      $data['row']=array(
+          'jamaah_id'  => $data_jamaah->jamaah_id,
+          'jamaah_nama'  => $data_jamaah->jamaah_nama,
+          'jamaah_ttl'  => $data_jamaah->jamaah_ttl,
+          'jamaah_alamat'  => $data_jamaah->jamaah_alamat,
+          'jamaah_pekerjaan'  => $data_jamaah->jamaah_pekerjaan,
+          'jamaah_no_hp'  => $data_jamaah->jamaah_no_hp,
+          'jamaah_tgl_ttd'  => $this->tgl_indo(date('Y-m-d')),
+          );
+
+      header('Content-type: application/vnd.ms-word');
+      header("Content-disposition: attachment; filename=example.doc");
+      return view('pendaftaran_umrah/preview_surat_pernyataan2',$data);
+    }
+
+    public function preview_surat_jaminan($jamaah_id)
+    {
+        $session = session();
+        $db = \Config\Database::connect();
+        $query1 = "SELECT * FROM jamaah WHERE jamaah_id='$jamaah_id'";
+        $data_jamaah=$db->query($query1)->getRow();
+
+        $data['row']=array(
+            'jamaah_id'  => $data_jamaah->jamaah_id,
+            'jamaah_nama'  => $data_jamaah->jamaah_nama,
+            'jamaah_ttl'  => $data_jamaah->jamaah_ttl,
+            'jamaah_alamat'  => $data_jamaah->jamaah_alamat,
+            'jamaah_pekerjaan'  => $data_jamaah->jamaah_pekerjaan,
+            'jamaah_no_hp'  => $data_jamaah->jamaah_no_hp,
+            'jamaah_tgl_ttd'  => $this->tgl_indo(date('Y-m-d')),
+            );
+
+        return view('pendaftaran_umrah/preview_surat_jaminan',$data);
+    }
+
+    public function download_surat_jaminan($jamaah_id)
+    {
+      $db = \Config\Database::connect();
+      $query1 = "SELECT * FROM jamaah WHERE jamaah_id='$jamaah_id'";
+      $data_jamaah=$db->query($query1)->getRow();
+
+      $data['row']=array(
+          'jamaah_id'  => $data_jamaah->jamaah_id,
+          'jamaah_nama'  => $data_jamaah->jamaah_nama,
+          'jamaah_ttl'  => $data_jamaah->jamaah_ttl,
+          'jamaah_alamat'  => $data_jamaah->jamaah_alamat,
+          'jamaah_pekerjaan'  => $data_jamaah->jamaah_pekerjaan,
+          'jamaah_no_hp'  => $data_jamaah->jamaah_no_hp,
+          'jamaah_tgl_ttd'  => $this->tgl_indo(date('Y-m-d')),
+          );
+
+      header('Content-type: application/vnd.ms-word');
+      header("Content-disposition: attachment; filename=example.doc");
+      return view('pendaftaran_umrah/preview_surat_jaminan',$data);
+    }
+
+    public function preview_surat_rekom_kemenag($jamaah_id)
+    {
+        $session = session();
+        $db = \Config\Database::connect();
+        $query1 = "SELECT * FROM jamaah WHERE jamaah_id='$jamaah_id'";
+        $data_jamaah=$db->query($query1)->getRow();
+
+        $data['row']=array(
+            'jamaah_id'  => $data_jamaah->jamaah_id,
+            'jamaah_nama'  => $data_jamaah->jamaah_nama,
+            'jamaah_ttl'  => $data_jamaah->jamaah_ttl,
+            'jamaah_alamat'  => $data_jamaah->jamaah_alamat,
+            'jamaah_pekerjaan'  => $data_jamaah->jamaah_pekerjaan,
+            'jamaah_no_hp'  => $data_jamaah->jamaah_no_hp,
+            'jamaah_tgl_ttd'  => $this->tgl_indo(date('Y-m-d')),
+            );
+
+        return view('pendaftaran_umrah/preview_surat_rekom_kemenag',$data);
+    }
+
+    public function download_surat_rekom_kemenag($jamaah_id)
+    {
+      $db = \Config\Database::connect();
+      $query1 = "SELECT * FROM jamaah WHERE jamaah_id='$jamaah_id'";
+      $data_jamaah=$db->query($query1)->getRow();
+
+      $data['row']=array(
+          'jamaah_id'  => $data_jamaah->jamaah_id,
+          'jamaah_nama'  => $data_jamaah->jamaah_nama,
+          'jamaah_ttl'  => $data_jamaah->jamaah_ttl,
+          'jamaah_alamat'  => $data_jamaah->jamaah_alamat,
+          'jamaah_pekerjaan'  => $data_jamaah->jamaah_pekerjaan,
+          'jamaah_no_hp'  => $data_jamaah->jamaah_no_hp,
+          'jamaah_tgl_ttd'  => $this->tgl_indo(date('Y-m-d')),
+          );
+
+      header('Content-type: application/vnd.ms-word');
+      header("Content-disposition: attachment; filename=example.doc");
+      return view('pendaftaran_umrah/preview_surat_rekom_kemenag',$data);
+    }
+
+    public function preview_surat_rekom_rameyza($jamaah_id)
+    {
+        $session = session();
+        $db = \Config\Database::connect();
+        $query1 = "SELECT * FROM jamaah WHERE jamaah_id='$jamaah_id'";
+        $data_jamaah=$db->query($query1)->getRow();
+
+        $data['row']=array(
+            'jamaah_id'  => $data_jamaah->jamaah_id,
+            'jamaah_nama'  => $data_jamaah->jamaah_nama,
+            'jamaah_ttl'  => $data_jamaah->jamaah_ttl,
+            'jamaah_alamat'  => $data_jamaah->jamaah_alamat,
+            'jamaah_pekerjaan'  => $data_jamaah->jamaah_pekerjaan,
+            'jamaah_no_hp'  => $data_jamaah->jamaah_no_hp,
+            'jamaah_tgl_ttd'  => $this->tgl_indo(date('Y-m-d')),
+            'jamaah_berangkat'  => $this->tgl_berangkat(date('Y-m-d')),
+            );
+
+        return view('pendaftaran_umrah/preview_surat_rekom_rameyza',$data);
+    }
+
+    public function download_surat_rekom_rameyza($jamaah_id)
+    {
+      $db = \Config\Database::connect();
+      $query1 = "SELECT * FROM jamaah WHERE jamaah_id='$jamaah_id'";
+      $data_jamaah=$db->query($query1)->getRow();
+
+      $data['row']=array(
+          'jamaah_id'  => $data_jamaah->jamaah_id,
+          'jamaah_nama'  => $data_jamaah->jamaah_nama,
+          'jamaah_ttl'  => $data_jamaah->jamaah_ttl,
+          'jamaah_alamat'  => $data_jamaah->jamaah_alamat,
+          'jamaah_pekerjaan'  => $data_jamaah->jamaah_pekerjaan,
+          'jamaah_no_hp'  => $data_jamaah->jamaah_no_hp,
+          'jamaah_tgl_ttd'  => $this->tgl_indo(date('Y-m-d')),
+          'jamaah_berangkat'  => $this->tgl_berangkat(date('Y-m-d')),
+          );
+
+      header('Content-type: application/vnd.ms-word');
+      header("Content-disposition: attachment; filename=example.doc");
+      return view('pendaftaran_umrah/preview_surat_rekom_rameyza',$data);
+    }
+
+    public function download_report_manifest($paket_id)
+    {
+      $db = \Config\Database::connect();
+      $query1 = "SELECT * FROM jamaah WHERE paket_id='$paket_id'";
+      $data['jamaah']=$db->query($query1)->getResult();
+
+      // $data['row']=array(
+      //     'jamaah_id'  => $data_jamaah->jamaah_id,
+      //     'jamaah_nama'  => $data_jamaah->jamaah_nama,
+      //     'jamaah_ttl'  => $data_jamaah->jamaah_ttl,
+      //     'jamaah_alamat'  => $data_jamaah->jamaah_alamat,
+      //     'jamaah_pekerjaan'  => $data_jamaah->jamaah_pekerjaan,
+      //     'jamaah_no_hp'  => $data_jamaah->jamaah_no_hp,
+      //     'jamaah_tgl_ttd'  => $this->tgl_indo(date('Y-m-d')),
+      //     'jamaah_berangkat'  => $this->tgl_berangkat(date('Y-m-d')),
+      //     );
+
+      header("Content-type: application/vnd-ms-excel");
+      header("Content-Disposition: attachment; filename=hasil.xls");
+      return view('pendaftaran_umrah/preview_report_manifest',$data);
+    }
+
+
 }

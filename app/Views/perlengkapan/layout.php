@@ -62,15 +62,15 @@
             <div id="sidebar-collapse">
 
                 <ul class="side-menu metismenu">
-                    <li class="heading">FEATURES</li>
+                    <li class="heading">PERLENGKAPAN</li>
                     <li>
                         <a class="active" href="<?=base_url('/perlengkapan/perlengkapan');?>"><i class="sidebar-item-icon fa fa-th-large"></i>
-                            <span class="nav-label">Perlengkapan</span>
+                            <span class="nav-label">PERLENGKAPAN</span>
                         </a>
                     </li>
                     <li>
                         <a class="active" href="<?=base_url('/perlengkapan/perlengkapan_jamaah');?>"><i class="sidebar-item-icon fa fa-th-large"></i>
-                            <span class="nav-label">Pinjam Perlengkapan</span>
+                            <span class="nav-label">PINJAM PERLENGKAPAN</span>
                         </a>
                     </li>
 

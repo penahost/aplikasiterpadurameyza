@@ -45,13 +45,26 @@
                                   <div class="form-group row">
                                       <label class="col-sm-3 col-form-label">TTL</label>
                                       <div class="col-sm-9">
-                                          <input class="form-control" value="" name="jamaah_ttl" type="text" >
+                                          <input class="form-control" value="" name="jamaah_ttl" type="text" placeholder="format harus KEDIRI, 17 Februari 1995">
                                       </div>
                                   </div>
                                   <div class="form-group row">
                                       <label class="col-sm-3 col-form-label">Usia</label>
                                       <div class="col-sm-9">
                                           <input class="form-control" value="" name="jamaah_usia" type="text">
+                                      </div>
+                                  </div>
+                                  <div class="form-group row">
+                                      <label class="col-sm-3 col-form-label">Jenis Kelamin</label>
+                                      <div class="col-sm-9">
+                                        <div>
+                                          <label class="ui-radio ui-radio-inline">
+                                              <input type="radio" name="jamaah_jk" value="Laki-laki">
+                                              <span class="input-span"></span>Laki-laki</label>
+                                          <label class="ui-radio ui-radio-inline">
+                                              <input type="radio" name="jamaah_jk" value="Perempuan">
+                                              <span class="input-span"></span>Perempuan</label>
+                                      </div>
                                       </div>
                                   </div>
                                   <div class="form-group row">

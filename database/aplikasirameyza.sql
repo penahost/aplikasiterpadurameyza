@@ -11,7 +11,7 @@
  Target Server Version : 100416
  File Encoding         : 65001
 
- Date: 24/03/2021 22:37:54
+ Date: 29/03/2021 20:23:03
 */
 
 SET NAMES utf8mb4;
@@ -25,9 +25,13 @@ CREATE TABLE `jamaah`  (
   `jamaah_id` int(11) NOT NULL AUTO_INCREMENT,
   `jamaah_nama` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   `jamaah_no_passport` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
+  `jamaah_tgl_pembuatan_passport` date NULL DEFAULT NULL,
+  `jamaah_tgl_berakhir_passport` date NULL DEFAULT NULL,
   `jamaah_ttl` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   `jamaah_usia` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
+  `jamaah_jk` enum('Laki-laki','Perempuan') CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   `jamaah_alamat` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
+  `jamaah_pekerjaan` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   `jamaah_no_hp` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   `jamaah_ket_pembayaran` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   `jamaah_tgl_berangkat` datetime(0) NULL DEFAULT NULL,
@@ -36,13 +40,14 @@ CREATE TABLE `jamaah`  (
   `jamaah_foto_kk` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   `paket_id` int(11) NULL DEFAULT NULL,
   PRIMARY KEY (`jamaah_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 14 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 16 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of jamaah
 -- ----------------------------
-INSERT INTO `jamaah` VALUES (12, '1', '1', '1', '1', '1', '1', '1', '0000-00-00 00:00:00', 'image-3042333_1280-1_21.png', 'image-3042333_1280-1_22.png', 'image-3042333_1280-1_23.png', 4);
-INSERT INTO `jamaah` VALUES (13, 'Fauzin', '12345678', '1995-02-17', '26', 'Desa sambirejo', '12345678', 'Lunas', '1995-02-17 00:00:00', 'privacy_policy2_18.png', 'privacy_policy2_19.png', 'privacy_policy2_20.png', 1);
+INSERT INTO `jamaah` VALUES (13, 'Fauzin', '12345678', NULL, NULL, 'KEDIRI, 17 Februari 1995', '26', 'Laki-laki', 'Desa sambirejo', NULL, '12345678', 'Lunas', '1995-02-17 00:00:00', 'privacy_policy2_18.png', 'privacy_policy2_19.png', 'privacy_policy2_20.png', 1);
+INSERT INTO `jamaah` VALUES (14, 'Fauzin2', '12345678', NULL, NULL, 'KEDIRI, 17 Februari 1995', '26', 'Laki-laki', 'Desa sambirejo', NULL, '12345678', 'Lunas', '1995-02-17 00:00:00', 'privacy_policy2_18.png', 'privacy_policy2_19.png', 'privacy_policy2_20.png', NULL);
+INSERT INTO `jamaah` VALUES (15, 'irhas', '123456', NULL, NULL, 'KEDIRI, 17-02-1997', '21', 'Laki-laki', 'Desa sambirejo', NULL, '12345678', 'Lunas', '1995-02-17 00:00:00', 'images.png', 'images_1.png', 'images_2.png', 1);
 
 -- ----------------------------
 -- Table structure for jurnal
@@ -83,9 +88,9 @@ CREATE TABLE `kas`  (
 -- ----------------------------
 -- Records of kas
 -- ----------------------------
-INSERT INTO `kas` VALUES (7, '367196937', 'pembayaran angsuran Fauzin', '50000', '2021-03-21 00:00:00', 'masuk');
-INSERT INTO `kas` VALUES (8, '58744182', 'Bensin', '10000', '2021-03-21 00:00:00', 'keluar');
-INSERT INTO `kas` VALUES (9, '718317823', 'pembayaran dp Fauzin', '5000000', '2021-03-21 00:00:00', 'masuk');
+INSERT INTO `kas` VALUES (7, '367196937', 'pembayaran angsuran Fauzin', '50000', '2021-03-01 00:00:00', 'masuk');
+INSERT INTO `kas` VALUES (8, '58744182', 'Bensin', '10000', '2021-03-08 00:00:00', 'keluar');
+INSERT INTO `kas` VALUES (9, '718317823', 'pembayaran dp Fauzin', '5000000', '2021-03-16 00:00:00', 'masuk');
 INSERT INTO `kas` VALUES (10, '622893630', 'Sewa BUS', '100000', '2021-03-21 00:00:00', 'keluar');
 
 -- ----------------------------
@@ -193,16 +198,11 @@ CREATE TABLE `perlengkapan_jamaah`  (
   `perlengkapan_jamaah_tgl_kembali` datetime(0) NULL DEFAULT NULL,
   `perlengkapan_jamaah_status` enum('cek','uncek') CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   PRIMARY KEY (`perlengkapan_jamaah_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 107 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 118 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of perlengkapan_jamaah
 -- ----------------------------
-INSERT INTO `perlengkapan_jamaah` VALUES (85, 12, 1, NULL, NULL, NULL, NULL, 'cek');
-INSERT INTO `perlengkapan_jamaah` VALUES (86, 12, 2, NULL, NULL, NULL, NULL, 'cek');
-INSERT INTO `perlengkapan_jamaah` VALUES (87, 12, 3, NULL, NULL, NULL, NULL, 'cek');
-INSERT INTO `perlengkapan_jamaah` VALUES (88, 12, 4, NULL, NULL, NULL, NULL, 'cek');
-INSERT INTO `perlengkapan_jamaah` VALUES (89, 12, 5, NULL, NULL, NULL, NULL, 'cek');
 INSERT INTO `perlengkapan_jamaah` VALUES (90, 13, 1, 3, '0000-00-00 00:00:00', 1, '0000-00-00 00:00:00', 'cek');
 INSERT INTO `perlengkapan_jamaah` VALUES (91, 13, 2, 1, '0000-00-00 00:00:00', 1, '0000-00-00 00:00:00', 'cek');
 INSERT INTO `perlengkapan_jamaah` VALUES (92, 13, 3, NULL, NULL, NULL, NULL, 'cek');
@@ -214,12 +214,17 @@ INSERT INTO `perlengkapan_jamaah` VALUES (97, 13, 8, NULL, NULL, NULL, NULL, 'un
 INSERT INTO `perlengkapan_jamaah` VALUES (98, 13, 9, NULL, NULL, NULL, NULL, 'uncek');
 INSERT INTO `perlengkapan_jamaah` VALUES (99, 13, 10, NULL, NULL, NULL, NULL, 'uncek');
 INSERT INTO `perlengkapan_jamaah` VALUES (100, 13, 11, NULL, NULL, NULL, NULL, 'uncek');
-INSERT INTO `perlengkapan_jamaah` VALUES (101, 12, 6, NULL, NULL, NULL, NULL, 'uncek');
-INSERT INTO `perlengkapan_jamaah` VALUES (102, 12, 7, NULL, NULL, NULL, NULL, 'uncek');
-INSERT INTO `perlengkapan_jamaah` VALUES (103, 12, 8, NULL, NULL, NULL, NULL, 'uncek');
-INSERT INTO `perlengkapan_jamaah` VALUES (104, 12, 9, NULL, NULL, NULL, NULL, 'uncek');
-INSERT INTO `perlengkapan_jamaah` VALUES (105, 12, 10, NULL, NULL, NULL, NULL, 'uncek');
-INSERT INTO `perlengkapan_jamaah` VALUES (106, 12, 11, NULL, NULL, NULL, NULL, 'uncek');
+INSERT INTO `perlengkapan_jamaah` VALUES (107, 15, 1, NULL, NULL, NULL, NULL, 'cek');
+INSERT INTO `perlengkapan_jamaah` VALUES (108, 15, 2, NULL, NULL, NULL, NULL, 'cek');
+INSERT INTO `perlengkapan_jamaah` VALUES (109, 15, 3, NULL, NULL, NULL, NULL, 'cek');
+INSERT INTO `perlengkapan_jamaah` VALUES (110, 15, 4, NULL, NULL, NULL, NULL, 'cek');
+INSERT INTO `perlengkapan_jamaah` VALUES (111, 15, 5, NULL, NULL, NULL, NULL, 'cek');
+INSERT INTO `perlengkapan_jamaah` VALUES (112, 15, 6, NULL, NULL, NULL, NULL, 'cek');
+INSERT INTO `perlengkapan_jamaah` VALUES (113, 15, 7, NULL, NULL, NULL, NULL, 'cek');
+INSERT INTO `perlengkapan_jamaah` VALUES (114, 15, 8, NULL, NULL, NULL, NULL, 'cek');
+INSERT INTO `perlengkapan_jamaah` VALUES (115, 15, 9, NULL, NULL, NULL, NULL, 'cek');
+INSERT INTO `perlengkapan_jamaah` VALUES (116, 15, 10, NULL, NULL, NULL, NULL, 'cek');
+INSERT INTO `perlengkapan_jamaah` VALUES (117, 15, 11, NULL, NULL, NULL, NULL, 'cek');
 
 -- ----------------------------
 -- Table structure for users

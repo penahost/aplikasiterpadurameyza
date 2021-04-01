@@ -1,0 +1,80 @@
+CRITICAL - 2021-03-28 07:25:07 --> Undefined variable: laporan_kas
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Views\keuangan\laporan_kas.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 25, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('keuangan/lapora...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\keuangan\Laporan_kas.php(17): view('keuangan/lapora...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\keuangan\Laporan_kas->index()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Laporan_kas))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-28 07:25:16 --> Undefined property: stdClass::$kredit
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Views\keuangan\laporan_kas.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\xampp\\htdocs...', 32, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('keuangan/lapora...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\keuangan\Laporan_kas.php(17): view('keuangan/lapora...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\keuangan\Laporan_kas->index()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Laporan_kas))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-28 07:33:17 --> syntax error, unexpected '?'
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('keuangan/lapora...', Array, true)
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\keuangan\Laporan_kas.php(17): view('keuangan/lapora...', Array)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\keuangan\Laporan_kas->index()
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Laporan_kas))
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-28 07:53:52 --> Call to a member function format() on bool
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(220): include()
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('keuangan/lapora...', Array, true)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\keuangan\Laporan_kas.php(30): view('keuangan/lapora...', Array)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\keuangan\Laporan_kas->minggu()
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Laporan_kas))
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-28 07:54:12 --> Call to a member function format() on bool
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(220): include()
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('keuangan/lapora...', Array, true)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\keuangan\Laporan_kas.php(30): view('keuangan/lapora...', Array)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\keuangan\Laporan_kas->minggu()
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Laporan_kas))
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-28 07:59:39 --> syntax error, unexpected '7' (T_LNUMBER)
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('keuangan/lapora...', Array, true)
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\keuangan\Laporan_kas.php(30): view('keuangan/lapora...', Array)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\keuangan\Laporan_kas->minggu()
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Laporan_kas))
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-28 08:22:48 --> Undefined variable: filter
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Views\keuangan\laporan_kas.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 57, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('keuangan/lapora...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\keuangan\Laporan_kas.php(30): view('keuangan/lapora...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\keuangan\Laporan_kas->minggu()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Laporan_kas))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-28 09:02:14 --> syntax error, unexpected '}'
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('keuangan/lapora...', Array, true)
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\keuangan\Laporan_kas.php(30): view('keuangan/lapora...', Array)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\keuangan\Laporan_kas->minggu()
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Laporan_kas))
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

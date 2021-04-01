@@ -62,20 +62,25 @@
             <div id="sidebar-collapse">
 
                 <ul class="side-menu metismenu">
-                    <li class="heading">FEATURES</li>
+                    <li class="heading">KEUANGAN</li>
                     <li>
                         <a class="active" href="<?=base_url('/keuangan/pembayaran');?>"><i class="sidebar-item-icon fa fa-th-large"></i>
-                            <span class="nav-label">Pembayaran jamaah</span>
+                            <span class="nav-label">PEMBAYARAAN JAMAAH</span>
                         </a>
                     </li>
                     <li>
                         <a class="active" href="<?=base_url('/keuangan/pengeluaran');?>"><i class="sidebar-item-icon fa fa-th-large"></i>
-                            <span class="nav-label">Pengeluaran</span>
+                            <span class="nav-label">PENGELUARAN</span>
                         </a>
                     </li>
                     <li>
                         <a class="active" href="<?=base_url('/keuangan/jurnal');?>"><i class="sidebar-item-icon fa fa-th-large"></i>
                             <span class="nav-label">KAS</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="active" href="<?=base_url('/keuangan/laporan_kas');?>"><i class="sidebar-item-icon fa fa-th-large"></i>
+                            <span class="nav-label">LAPORAN KAS</span>
                         </a>
                     </li>
 

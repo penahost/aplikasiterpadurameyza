@@ -62,7 +62,7 @@
             <div id="sidebar-collapse">
 
                 <ul class="side-menu metismenu">
-                    <li class="heading">FEATURES</li>
+                    <li class="heading">PENDAFTARAN HAJI KHUSUS</li>
                     <li>
                         <a class="active" href="<?=base_url('/pendaftaran_haji_khusus/paket');?>"><i class="sidebar-item-icon fa fa-th-large"></i>
                             <span class="nav-label">PAKET</span>

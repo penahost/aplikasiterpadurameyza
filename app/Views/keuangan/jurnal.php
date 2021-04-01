@@ -1,11 +1,14 @@
 <?= $this->extend('keuangan/layout') ?>
 <?= $this->section('content') ?>
+<div class="ibox-head">
+    <p class="page-title">Data Jurnal KAS</p>
+</div>
               <div class="row">
 
                   <div class="col-xl-12">
                       <div class="ibox">
                           <div class="ibox-head">
-                              <div class="ibox-title">Jurnal KAS</div>
+                              <div class="ibox-title">List Tabel</div>
                           </div>
                           <div class="ibox-body">
                               <table class="table table-striped table-bordered table-hover" id="example-table2" cellspacing="0" width="100%">
@@ -31,7 +34,7 @@
                                           <td><?=$row->tgl_transaksi;?></td>
                                           <td><?=$row->kredit;?></td>
                                           <td><?=$row->debit;?></td>
-                                          
+
                                       </tr>
                                       <?php
                                       $no++;

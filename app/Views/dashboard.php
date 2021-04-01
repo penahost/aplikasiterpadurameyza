@@ -5,8 +5,15 @@
                         <div class="ibox">
                             <div class="ibox-body">
                               <center>
-                              <h1>SISTEM APLIKASI TERPADU</h1>
-                              <H1>PT. RAMEYZA WISATA JAYA</h1>
+                                <marquee><strong>Selamat Datang di Aplikasi Sistem Terpadu PT. Rameyza Wisata Jaya</strong></marquee>
+                              </center>
+                            </div>
+                        </div>
+                        <div class="ibox">
+                            <div class="ibox-body">
+                              <center>
+                                <h1>SISTEM APLIKASI TERPADU</h1>
+                                <H1>PT. RAMEYZA WISATA JAYA</h1>
                               </center>
                             </div>
                         </div>
@@ -27,7 +34,7 @@
               <div class="ibox bg-info color-white widget-stat">
                   <div class="ibox-body">
                       <h2 class="m-b-5 font-strong">PENDAFTARAN</h2>
-                          <div class="m-b-5">Pendaftaran HAJI KHUSUS</div><i class="ti-bar-chart widget-stat-icon"></i>
+                          <div class="m-b-5">Pendaftaran HAJI KHUSUS</div><i class="ti-user widget-stat-icon"></i>
                   </div>
               </div>
             </a>
@@ -37,7 +44,7 @@
               <div class="ibox bg-warning color-white widget-stat">
                   <div class="ibox-body">
                       <h2 class="m-b-5 font-strong">PERLENGKAPAN</h2>
-                          <div class="m-b-5">Perlengkapan JAMAAH</div><i class="ti-user widget-stat-icon"></i>
+                          <div class="m-b-5">Perlengkapan JAMAAH</div><i class="ti-widget widget-stat-icon"></i>
                   </div>
               </div>
           </a>

@@ -1,0 +1,61 @@
+CRITICAL - 2021-03-31 07:17:14 --> Undefined variable: totalTime
+#0 C:\xampp\htdocs\aplikasiterpadurameyza\system\Debug\Toolbar\Views\toolbar.tpl.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\aplikasiterpadurameyza\system\Debug\Toolbar.php(456): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\aplikasiterpadurameyza\system\Debug\Toolbar.php(413): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\aplikasiterpadurameyza\app\Config\Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\aplikasiterpadurameyza\system\Events\Events.php(166): call_user_func(Object(Closure))
+#6 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(313): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-31 08:10:47 --> Trying to get property 'jamaah_id' of non-object
+#0 C:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(359): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 359, Array)
+#1 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->preview_surat_pernyataan('SURAT PERNYATAA...', 'image001.png')
+#2 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#3 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-31 12:02:16 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-31 12:02:23 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-03-31 12:07:01 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('perlengkapan/pe...', Array, true)
+#2 C:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\perlengkapan\Perlengkapan_jamaah.php(21): view('perlengkapan/pe...', Array)
+#3 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\perlengkapan\Perlengkapan_jamaah->index('13')
+#4 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\perlengkapan\Perlengkapan_jamaah))
+#5 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-31 12:08:01 --> Undefined variable: jamaah_id
+#0 C:\xampp\htdocs\aplikasiterpadurameyza\app\Views\perlengkapan\perlengkapan_jamaah.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 67, Array)
+#1 C:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('perlengkapan/pe...', Array, true)
+#4 C:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\perlengkapan\Perlengkapan_jamaah.php(21): view('perlengkapan/pe...', Array)
+#5 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\perlengkapan\Perlengkapan_jamaah->index('13')
+#6 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\perlengkapan\Perlengkapan_jamaah))
+#7 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-31 12:11:05 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('perlengkapan/pe...', Array, true)
+#2 C:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\perlengkapan\Perlengkapan_jamaah.php(21): view('perlengkapan/pe...', Array)
+#3 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\perlengkapan\Perlengkapan_jamaah->index('13')
+#4 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\perlengkapan\Perlengkapan_jamaah))
+#5 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-31 12:11:17 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('perlengkapan/pe...', Array, true)
+#2 C:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\perlengkapan\Perlengkapan_jamaah.php(21): view('perlengkapan/pe...', Array)
+#3 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\perlengkapan\Perlengkapan_jamaah->index('13')
+#4 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\perlengkapan\Perlengkapan_jamaah))
+#5 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

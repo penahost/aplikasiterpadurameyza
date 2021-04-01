@@ -1,5 +1,8 @@
 <?= $this->extend('perlengkapan/layout') ?>
 <?= $this->section('content') ?>
+<div class="ibox-head">
+    <p class="page-title">Data Pinjam Perlengkapan</p>
+</div>
               <div class="row">
 
 
@@ -21,7 +24,7 @@
                   <div class="col-xl-12">
                       <div class="ibox">
                           <div class="ibox-head">
-                              <div class="ibox-title">DAFTAR Jamaah</div>
+                              <div class="ibox-title">List Tabel</div>
                           </div>
                           <div class="ibox-body">
                               <table class="table table-striped table-bordered table-hover" id="example-table2" cellspacing="0" width="100%">
@@ -47,7 +50,7 @@
                                           <td><?=$row->jamaah_ttl;?></td>
                                           <td><?=$row->jamaah_usia;?></td>
                                           <td>
-                                            <a href="<?php echo base_url();?>/perlengkapan/perlengkapan_jamaah/index/<?=$row->jamaah_id;?>">Detail perlengkapan</a>
+                                            <a style="width:15px;" class="btn btn-info" href="<?php echo base_url();?>/perlengkapan/perlengkapan_jamaah/index/<?=$row->jamaah_id;?>"><i class="fa ti-eye"></i></a>
                                           </td>
                                       </tr>
                                       <?php
@@ -60,11 +63,16 @@
                           </div>
                       </div>
                   </div>
-
+                  <?php
+                  if(isset($jamaah_id))
+                  {
+                    echo "Tampil Nek kenek Bosss";
+                  }
+                   ?>
                   <div class="col-xl-12">
                       <div class="ibox">
                           <div class="ibox-head">
-                              <div class="ibox-title">DAFTAR Perlengkapan</div>
+                              <div class="ibox-title">List Tabel</div>
                           </div>
                           <div class="ibox-body">
                               <table class="table table-striped table-bordered table-hover" id="example-table2" cellspacing="0" width="100%">
@@ -72,9 +80,9 @@
                                       <tr>
                                           <th>#</th>
                                           <th>Nama perlengkapan</th>
-                                          <th>Jumlah diambil</th>
+                                          <th>Jml diambil</th>
                                           <th>Tgl. diambil</th>
-                                          <th>Jumlah kembali</th>
+                                          <th>Jml kembali</th>
                                           <th>Tgl. kembali</th>
                                           <th>Option</th>
                                       </tr>
@@ -92,9 +100,8 @@
                                           <td><?=$row->perlengkapan_jamaah_jumlah_kembali;?></td>
                                           <td><?=$row->perlengkapan_jamaah_tgl_kembali;?></td>
                                           <td>
-                                            <a href="" data-toggle="modal" data-target="#exampleModal4"  class="popup_ambil_perlengkapan" data-id="<?=$row->perlengkapan_id;?>">Ambil</a>
-                                            ||
-                                            <a href="" data-toggle="modal" data-target="#exampleModal5"  class="popup_kembalikan_perlengkapan" data-id="<?=$row->perlengkapan_id;?>">Kembalikan</a>
+                                            <a style="width:15px;" class="btn btn-info popup_ambil_perlengkapan" href="" data-toggle="modal" data-target="#exampleModal4" data-id="<?=$row->perlengkapan_id;?>"><i class="fa ti-hand-open"></i></a>
+                                            <a style="width:15px;" class="btn btn-info popup_kembalikan_perlengkapan" href="" data-toggle="modal" data-target="#exampleModal5" data-id="<?=$row->perlengkapan_id;?>"><i class="fa ti-back-left"></i></a>
                                           </td>
                                       </tr>
                                       <?php
@@ -107,7 +114,6 @@
                           </div>
                       </div>
                   </div>
-
                   <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel4" aria-hidden="true">
                   <div class="modal-dialog modal-dialog-centered modal-dialog-zoom modal-lg" role="document">
                     <div class="modal-content">

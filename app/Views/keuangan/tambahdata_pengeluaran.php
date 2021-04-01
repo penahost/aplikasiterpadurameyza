@@ -1,7 +1,10 @@
 <?= $this->extend('keuangan/layout') ?>
 <?= $this->section('content') ?>
+<div class="ibox-head">
+    <p class="page-title"><a href="<?=base_url('keuangan/pengeluaran/');?>">Data Pengeluaran</a> / Tambah Data</p>
+</div>
               <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-12">
                         <div class="ibox">
                             <div class="ibox-head">
                                 <div class="ibox-title">Tambah data Form</div>

@@ -1,11 +1,14 @@
 <?= $this->extend('keuangan/layout') ?>
 <?= $this->section('content') ?>
+<div class="ibox-head">
+    <p class="page-title">Data Pemayaran</p>
+</div>
               <div class="row">
 
                   <div class="col-xl-12">
                       <div class="ibox">
                           <div class="ibox-head">
-                              <div class="ibox-title">DAFTAR Jamaah</div>
+                              <div class="ibox-title">List Tabel</div>
                           </div>
                           <div class="ibox-body">
                               <table class="table table-striped table-bordered table-hover" id="example-table2" cellspacing="0" width="100%">
@@ -35,7 +38,7 @@
                                           <td><?=$row->paket_nama;?></td>
                                           <td><?=$row->paket_harga;?></td>
                                           <td>
-                                            <a href="<?php echo base_url();?>/keuangan/pembayaran/index/<?=$row->jamaah_id;?>">Lihat Pembayaran</a>
+                                            <a style="width:15px;" class="btn btn-info" href="<?php echo base_url();?>/keuangan/pembayaran/index/<?=$row->jamaah_id;?>"><i class="fa ti-eye"></i></a>
                                           </td>
                                       </tr>
                                       <?php
@@ -48,7 +51,7 @@
                           </div>
                       </div>
                   </div>
-                  <div class="col-md-6">
+                  <!-- <div class="col-md-6">
                           <div class="ibox">
                               <div class="ibox-head">
                                   <div class="ibox-title">Toolbar</div>
@@ -60,11 +63,13 @@
                                   <a href="<?=base_url('/keuangan/pembayaran/tambahdata');?>/<?=$jamaah_id;?>" class="btn btn-success">Tambah</a>
                               </div>
                           </div>
-                    </div>
+                    </div> -->
                   <div class="col-xl-12">
                       <div class="ibox">
                           <div class="ibox-head">
-                              <div class="ibox-title">DAFTAR pembayaran</div>
+                              <div class="ibox-title">
+                                <a href="<?=base_url('/keuangan/pembayaran/tambahdata');?>/<?=$jamaah_id;?>" class="btn btn-primary"><i class="fa ti-plus"></i> Tambah</a>
+                              </div>
                           </div>
                           <div class="ibox-body">
                               <table class="table table-striped table-bordered table-hover" id="example-table" cellspacing="0" width="100%">
@@ -92,9 +97,8 @@
                                           <td><?=$row->pembayaran_tanggal;?></td>
                                           <td><?=$row->pembayaran_keterangan;?></td>
                                           <td>
-                                            <a href="<?php echo base_url();?>/keuangan/pembayaran/edit/<?=$row->pembayaran_id;?>">Edit</a>
-                                            ||
-                                            <a href="<?php echo base_url();?>/keuangan/pembayaran/hapus/<?=$row->pembayaran_id;?>/<?=$row->jamaah_id;?>/<?=$row->id_transaksi;?>">Hapus</a>
+                                            <a style="width:15px;" class="btn btn-warning" href="<?php echo base_url();?>/keuangan/pembayaran/edit/<?=$row->pembayaran_id;?>"><i class="fa ti-pencil"></i></a>
+                                            <a style="width:15px;" class="btn btn-danger" href="<?php echo base_url();?>/keuangan/pembayaran/hapus/<?=$row->pembayaran_id;?>/<?=$row->jamaah_id;?>/<?=$row->id_transaksi;?>"><i class="fa fa-times"></i></a>
                                           </td>
                                       </tr>
                                       <?php
