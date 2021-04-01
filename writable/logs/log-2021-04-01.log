@@ -5,3 +5,21 @@ CRITICAL - 2021-04-01 12:19:17 --> Trying to get property 'jamaah_nama' of non-o
 #3 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #4 C:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
 #5 {main}
+CRITICAL - 2021-04-01 12:57:16 --> syntax error, unexpected 'isset' (T_ISSET), expecting '('
+#0 C:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('keuangan/pembay...', Array, true)
+#2 C:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\keuangan\Pembayaran.php(21): view('keuangan/pembay...', Array)
+#3 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->index()
+#4 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#5 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-01 12:57:34 --> syntax error, unexpected 'isset' (T_ISSET), expecting '('
+#0 C:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('keuangan/pembay...', Array, true)
+#2 C:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\keuangan\Pembayaran.php(21): view('keuangan/pembay...', Array)
+#3 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\keuangan\Pembayaran->index()
+#4 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Pembayaran))
+#5 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

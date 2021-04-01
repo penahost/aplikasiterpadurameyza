@@ -64,6 +64,9 @@
                               </div>
                           </div>
                     </div> -->
+                    <?php
+                    if (isset($jamaah_id)) {
+                     ?>
                   <div class="col-xl-12">
                       <div class="ibox">
                           <div class="ibox-head">
@@ -111,5 +114,8 @@
                           </div>
                       </div>
                   </div>
+                  <?php
+                }
+                   ?>
               </div>
 <?= $this->endSection() ?>

@@ -64,10 +64,7 @@
                       </div>
                   </div>
                   <?php
-                  if(isset($jamaah_id))
-                  {
-                    echo "Tampil Nek kenek Bosss";
-                  }
+                  if (isset($row->jamaah_id)){
                    ?>
                   <div class="col-xl-12">
                       <div class="ibox">
@@ -114,6 +111,9 @@
                           </div>
                       </div>
                   </div>
+                  <?php
+                }
+                   ?>
                   <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel4" aria-hidden="true">
                   <div class="modal-dialog modal-dialog-centered modal-dialog-zoom modal-lg" role="document">
                     <div class="modal-content">
