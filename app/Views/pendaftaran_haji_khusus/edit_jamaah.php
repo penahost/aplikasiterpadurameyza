@@ -4,7 +4,7 @@
                 <div class="col-md-12">
                 <form class="form-horizontal" action="<?=base_url('/pendaftaran_haji_khusus/jamaah/updatedata_aksi/');?>" method="post" enctype="multipart/form-data">
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-12">
                         <div class="ibox">
                             <div class="ibox-head">
                                 <div class="ibox-title">Edit data Form</div>
@@ -109,7 +109,7 @@
                   </div>
 
 
-                  <div class="col-md-6">
+                  <!-- <div class="col-md-6">
                           <div class="ibox">
                               <div class="ibox-head">
                                   <div class="ibox-title">Tambah data perlengkapan</div>
@@ -155,7 +155,7 @@
 
                               </div>
                           </div>
-                    </div>
+                    </div> -->
                     <div class="col-md-12">
                     </form>
                     </div>
