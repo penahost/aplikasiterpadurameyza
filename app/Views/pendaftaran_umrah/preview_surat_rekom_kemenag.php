@@ -126,7 +126,28 @@ Wr. Wb.</SPAN></FONT></FONT></FONT></P>
 Hormat,</FONT></FONT></P>
 <P STYLE="margin-left: 0.44in; text-indent: 0.44in; margin-bottom: 0in">
 <FONT FACE="Times New Roman, serif"><FONT SIZE=3>Sehubungan dengan
-keberangkatan jamaah umroh kami pada bulan April 2021 dengan ini kami
+keberangkatan jamaah umroh kami pada bulan
+<?php
+function tgl_indo($tanggal){
+  $bulan = array (
+    1 =>   'Januari',
+    'Februari',
+    'Maret',
+    'April',
+    'Mei',
+    'Juni',
+    'Juli',
+    'Agustus',
+    'September',
+    'Oktober',
+    'November',
+    'Desember'
+  );
+  $pecahkan = explode('-', $tanggal);
+  return $bulan[ (int)$pecahkan[1] ] . ' ' . $pecahkan[0];
+}
+?>
+<?=tgl_indo(date("Y-m"));?> dengan ini kami
 beritahukan bahwa :</FONT></FONT></P>
 <TABLE WIDTH=600 CELLPADDING=7 CELLSPACING=0>
 	<COL WIDTH=27>
