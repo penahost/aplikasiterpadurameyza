@@ -1,318 +1,217 @@
-<html>
-
-<head>
-<meta http-equiv=Content-Type content="text/html; charset=utf-8">
-<meta name=Generator content="Microsoft Word 15 (filtered)">
-<style>
-    body {
-        height: 842px;
-        width: 595px;
-        /* to centre page on screen*/
-        margin-left: auto;
-        margin-right: auto;
-    }
-</style>
-<style>
-<!--
- /* Font Definitions */
- @font-face
-	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;}
-@font-face
-	{font-family:Calibri;
-	panose-1:2 15 5 2 2 2 4 3 2 4;}
- /* Style Definitions */
- p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{margin:0in;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
-.MsoChpDefault
-	{font-family:"Calibri",sans-serif;}
-.MsoPapDefault
-	{margin-bottom:8.0pt;
-	line-height:107%;}
-@page WordSection1
-	{size:595.45pt 841.7pt;
-	margin:1.0in 1.0in 1.0in 56.9pt;}
-div.WordSection1
-	{page:WordSection1;}
--->
-</style>
-
-</head>
-
-<body lang=EN-US style='word-wrap:break-word'>
-
-<div class=WordSection1>
-
-<table class=MsoTableGrid border=0 cellspacing=0 cellpadding=0 width=642
- style='width:481.25pt;border-collapse:collapse;border:none'>
- <tr style='height:89.65pt'>
-  <td width=83 valign=top style='width:62.1pt;padding:0in 5.4pt 0in 5.4pt;
-  height:89.65pt'>
-  <p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
-  "Times New Roman",serif'> <span lang=IN style='color:black'> `          </span></span></p>
-  <p class=MsoNormal><span lang=IN style='font-size:12.0pt;line-height:115%;
-  font-family:"Times New Roman",serif;color:black'>&nbsp;</span></p>
-  <p class=MsoNormal><span lang=IN style='font-size:12.0pt;line-height:115%;
-  font-family:"Times New Roman",serif;color:black'>&nbsp;</span></p>
-  <p class=MsoNormal><span lang=IN style='font-size:12.0pt;line-height:115%;
-  font-family:"Times New Roman",serif;color:black'>&nbsp;</span></p>
-  </td>
-  <td width=284 valign=top style='width:212.65pt;padding:0in 5.4pt 0in 5.4pt;
-  height:89.65pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span lang=IN
-  style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
-  color:black'>&nbsp;</span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span lang=IN
-  style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
-  color:black'>&nbsp;</span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span lang=IN
-  style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
-  color:black'>&nbsp;</span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span lang=IN
-  style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
-  color:black'>   </span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span lang=IN
-  style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
-  color:black'>&nbsp;</span></p>
-  </td>
-  <td width=275 valign=top style='width:206.5pt;padding:0in 5.4pt 0in 5.4pt;
-  height:89.65pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span lang=IN
-  style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
-  color:black'>&nbsp;</span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span lang=IN
-  style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
-  color:black'>&nbsp;</span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span lang=IN
-  style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
-  color:black'>&nbsp;</span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span lang=IN
-  style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
-  color:black'>&nbsp;</span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span lang=IN
-  style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
-  color:black'>&nbsp;</span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span lang=IN
-  style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
-  color:black'>&nbsp;</span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span lang=IN
-  style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
-  color:black'>Kepada :</span></p>
-  </td>
- </tr>
- <tr style='height:7.55pt'>
-  <td width=83 valign=top style='width:62.1pt;padding:0in 5.4pt 0in 5.4pt;
-  height:7.55pt'>
-  <p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
-  "Times New Roman",serif;color:black'>Nomor</span></p>
-  </td>
-  <td width=284 valign=top style='width:212.65pt;padding:0in 5.4pt 0in 5.4pt;
-  height:7.55pt'>
-  <p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
-  "Times New Roman",serif;color:black'>:</span><span style='font-size:12.0pt;
-  line-height:115%;font-family:"Times New Roman",serif;color:black'> </span></p>
-  </td>
-  <td width=275 valign=top style='width:206.5pt;padding:0in 5.4pt 0in 5.4pt;
-  height:7.55pt'>
-  <p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
-  "Times New Roman",serif;color:black'>Yth. Kepala </span><span lang=IN
-  style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
-  color:black'>Kantor Kementrian Agama </span></p>
-  </td>
- </tr>
- <tr style='height:18.9pt'>
-  <td width=83 valign=top style='width:62.1pt;padding:0in 5.4pt 0in 5.4pt;
-  height:18.9pt'>
-  <p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
-  "Times New Roman",serif;color:black'>Lampiran</span></p>
-  </td>
-  <td width=284 valign=top style='width:212.65pt;padding:0in 5.4pt 0in 5.4pt;
-  height:18.9pt'>
-  <p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
-  "Times New Roman",serif;color:black'>: </span><span lang=IN style='font-size:
-  12.0pt;line-height:115%;font-family:"Times New Roman",serif;color:black'>-</span></p>
-  </td>
-  <td width=275 valign=top style='width:206.5pt;padding:0in 5.4pt 0in 5.4pt;
-  height:18.9pt'>
-  <p class=MsoNormal><span lang=IN style='font-size:12.0pt;line-height:115%;
-  font-family:"Times New Roman",serif;color:black'>      </span><span
-  lang=IN style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
-  color:black'>Kediri</span></p>
-  </td>
- </tr>
- <tr style='height:36.95pt'>
-  <td width=83 valign=top style='width:62.1pt;padding:0in 5.4pt 0in 5.4pt;
-  height:36.95pt'>
-  <p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
-  "Times New Roman",serif;color:black'>Perihal</span></p>
-  </td>
-  <td width=284 valign=top style='width:212.65pt;padding:0in 5.4pt 0in 5.4pt;
-  height:36.95pt'>
-  <p class=MsoNormal style='margin-left:8.8pt;text-indent:-8.8pt'><span
-  style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
-  color:black'>: Pe</span><span lang=IN style='font-size:12.0pt;line-height:
-  115%;font-family:"Times New Roman",serif;color:black'>rmohonan Rekomendasi</span></p>
-  <p class=MsoNormal style='margin-left:8.8pt;text-indent:-8.8pt'><span
-  lang=IN style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
-  color:black'>  Penerbitan Paspor  Jamaah  Umroh</span></p>
-  </td>
-  <td width=275 valign=top style='width:206.5pt;padding:0in 5.4pt 0in 5.4pt;
-  height:36.95pt'>
-  <p class=MsoNormal style='margin-left:8.75pt'><span lang=IN style='font-size:
-  12.0pt;line-height:115%;font-family:"Times New Roman",serif;color:black;
-  background:white'>Di </span></p>
-  <p class=MsoNormal style='margin-left:8.75pt'><span lang=IN style='font-size:
-  12.0pt;line-height:115%;font-family:"Times New Roman",serif;color:black;
-  background:white'>   </span><span lang=IN style='font-size:12.0pt;line-height:
-  115%;font-family:"Times New Roman",serif;color:black'> </span><span
-  lang=IN style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
-  color:black'>Kediri</span></p>
-  </td>
- </tr>
-</table>
-
-<p class=MsoNormal><span lang=IN style='font-size:12.0pt;line-height:115%;
-font-family:"Times New Roman",serif;color:black'>&nbsp;</span></p>
-
-<p class=MsoNormal style='margin-left:31.5pt'><span lang=IN style='font-size:
-12.0pt;line-height:115%;font-family:"Times New Roman",serif;color:black'>Assalamualaikum
-Wr. Wb.</span></p>
-
-<p class=MsoNormal style='margin-left:31.5pt'><span style='font-size:12.0pt;
-line-height:115%;font-family:"Times New Roman",serif'>Dengan Hormat,</span></p>
-
-<p class=MsoNormal style='margin-left:31.5pt;text-indent:31.5pt'><span
-style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>Sehubungan
-dengan keberangkatan jamaah umroh kami pada bulan April 2021 dengan ini kami
-beritahukan bahwa :</span></p>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0 width=600
- style='width:6.25in;margin-left:31.25pt;border-collapse:collapse;border:none'>
- <tr style='height:20.75pt'>
-  <td width=42 style='width:31.5pt;border:solid black 1.0pt;padding:0in 5.4pt 0in 5.4pt;
-  height:20.75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span lang=IN
-  style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
-  color:black'>NO.</span></p>
-  </td>
-  <td width=150 style='width:112.75pt;border:solid black 1.0pt;border-left:
-  none;padding:0in 5.4pt 0in 5.4pt;height:20.75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span lang=IN
-  style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
-  color:black'>NAMA</span></p>
-  </td>
-  <td width=228 style='width:170.65pt;border:solid black 1.0pt;border-left:
-  none;padding:0in 5.4pt 0in 5.4pt;height:20.75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span lang=IN
-  style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
-  color:black'>TTL.</span></p>
-  </td>
-  <td width=180 style='width:135.1pt;border:solid black 1.0pt;border-left:none;
-  padding:0in 5.4pt 0in 5.4pt;height:20.75pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span lang=IN
-  style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
-  color:black'>ALAMAT</span></p>
-  </td>
- </tr>
- <tr style='height:17.0pt'>
-  <td width=42 valign=top style='width:31.5pt;border:solid black 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt;height:17.0pt'>
-  <p class=MsoNormal style='text-align:justify'><b><span lang=IN
-  style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
-  color:black'>1</span></b></p>
-  </td>
-  <td width=150 valign=top style='width:112.75pt;border-top:none;border-left:
-  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt;height:17.0pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
-  color:black'><?=$row['jamaah_nama'];?>
-  </span></b></p>
-  <p class=MsoNormal align=center style='margin-right:14.2pt;text-align:center'><b><span
-  lang=IN style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;</span></b></p>
-  </td>
-  <td width=228 valign=top style='width:170.65pt;border-top:none;border-left:
-  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt;height:17.0pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
-  color:black'><?=$row['jamaah_ttl'];?>
-  </span></p>
-  </td>
-  <td width=180 valign=top style='width:135.1pt;border-top:none;border-left:
-  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt;height:17.0pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
-  color:black'><?=$row['jamaah_alamat'];?>
-  </span></p>
-  </td>
- </tr>
-</table>
-
-<p class=MsoNormal style='margin-left:31.5pt;text-align:justify'><span
-style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
-color:white'>Akan berangkat umroh bersama Travel kami PT. Rameyza Wisata Jaya
-dengan  Izin Umroh No. 456 TH 2016 yang beralamat di Jl. Joyoboyo Gg</span><span
-style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>.
-I No. 82 Tepus Kediri.</span></p>
-
-<p class=MsoNormal style='margin-left:31.5pt;text-align:justify'><span
-style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>Berkaitan
-dengan hal tersebut di atas, bersama ini kami mohon diterbitkan rekomendasi
-untuk pembuatan paspor bagi yang bersangkutan.</span></p>
-
-<p class=MsoNormal style='margin-left:31.5pt;text-align:justify'><span
-style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;</span></p>
-
-<p class=MsoNormal style='margin-left:31.5pt;text-align:justify'><span
-style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>Demikian
-surat ini kami buat agar digunakan sebagaimana mestinya. Atas perhatian dan
-kerjasamanya kami sampaikan terimakasih.</span></p>
-
-<p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
-"Times New Roman",serif'>&nbsp;</span></p>
-
-<p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
-"Times New Roman",serif'>&nbsp;</span></p>
-
-<table class=MsoTableGrid border=0 cellspacing=0 cellpadding=0
- style='margin-left:298.25pt;border-collapse:collapse;border:none'>
- <tr>
-  <td width=224 valign=top style='width:167.7pt;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
-  "Times New Roman",serif'>Kediri, <?=$row['jamaah_tgl_ttd'];?>
-  </span></p>
-  </td>
- </tr>
- <tr>
-  <td width=224 valign=top style='width:167.7pt;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
-  "Times New Roman",serif'>&nbsp;</span></p>
-  <p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
-  "Times New Roman",serif'>&nbsp;</span></p>
-  <p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
-  "Times New Roman",serif'>&nbsp;</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=224 valign=top style='width:167.7pt;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal><b><u><span style='font-size:12.0pt;line-height:115%;
-  font-family:"Times New Roman",serif'>ZAKI ZAMANI, S.STP, MM</span></u></b></p>
-  <p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
-  "Times New Roman",serif'>Direktur Utama</span></p>
-  </td>
- </tr>
-</table>
-
-<p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
-"Times New Roman",serif'>&nbsp;</span></p>
-
-</div>
-
-</body>
-
-</html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="LibreOffice 4.1.6.2 (Linux)">
+	<META NAME="AUTHOR" CONTENT="Mochamad Fauzin">
+	<META NAME="CREATED" CONTENT="20210326;60400000000000">
+	<META NAME="CHANGEDBY" CONTENT="Mochamad Fauzin">
+	<META NAME="CHANGED" CONTENT="20210402;141400000000000">
+	<META NAME="AppVersion" CONTENT="15.0000">
+	<META NAME="DocSecurity" CONTENT="0">
+	<META NAME="HyperlinksChanged" CONTENT="false">
+	<META NAME="LinksUpToDate" CONTENT="false">
+	<META NAME="ScaleCrop" CONTENT="false">
+	<META NAME="ShareDoc" CONTENT="false">
+	<STYLE TYPE="text/css">
+	<!--
+		@page { margin-left: 0.79in; margin-right: 1in; margin-top: 1in; margin-bottom: 1in }
+		P { margin-bottom: 0.08in; direction: ltr; line-height: 115%; widows: 2; orphans: 2 }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="en-US" DIR="LTR">
+<TABLE WIDTH=642 CELLPADDING=7 CELLSPACING=0 STYLE="page-break-before: always">
+	<COL WIDTH=69>
+	<COL WIDTH=269>
+	<COL WIDTH=261>
+	<TR VALIGN=TOP>
+		<TD WIDTH=69 HEIGHT=106 STYLE="border: none; padding: 0in">
+			<P STYLE="margin-bottom: 0in"> <FONT COLOR="#000000"> <FONT FACE="Times New Roman, serif"><FONT SIZE=3><SPAN LANG="id-ID">`
+			         </SPAN></FONT></FONT></FONT>
+			</P>
+			<P LANG="id-ID" STYLE="margin-bottom: 0in"><BR>
+			</P>
+			<P LANG="id-ID" STYLE="margin-bottom: 0in"><BR>
+			</P>
+			<P LANG="id-ID"><BR>
+			</P>
+		</TD>
+		<TD WIDTH=269 STYLE="border: none; padding: 0in">
+			<P LANG="id-ID" ALIGN=CENTER STYLE="margin-bottom: 0in"><BR>
+			</P>
+			<P LANG="id-ID" ALIGN=CENTER STYLE="margin-bottom: 0in"><BR>
+			</P>
+			<P LANG="id-ID" ALIGN=CENTER STYLE="margin-bottom: 0in"><BR>
+			</P>
+			<P ALIGN=CENTER STYLE="margin-bottom: 0in"><FONT COLOR="#000000">
+			 </FONT>
+			</P>
+			<P LANG="id-ID" ALIGN=CENTER><BR>
+			</P>
+		</TD>
+		<TD WIDTH=261 STYLE="border: none; padding: 0in">
+			<P LANG="id-ID" ALIGN=CENTER STYLE="margin-bottom: 0in"><BR>
+			</P>
+			<P LANG="id-ID" ALIGN=CENTER STYLE="margin-bottom: 0in"><BR>
+			</P>
+			<P LANG="id-ID" ALIGN=CENTER STYLE="margin-bottom: 0in"><BR>
+			</P>
+			<P LANG="id-ID" ALIGN=CENTER STYLE="margin-bottom: 0in"><BR>
+			</P>
+			<P LANG="id-ID" ALIGN=CENTER STYLE="margin-bottom: 0in"><BR>
+			</P>
+			<P LANG="id-ID" ALIGN=CENTER STYLE="margin-bottom: 0in"><BR>
+			</P>
+			<P ALIGN=CENTER><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=3><SPAN LANG="id-ID">Kepada
+			:</SPAN></FONT></FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=69 STYLE="border: none; padding: 0in">
+			<P><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=3>Nomor</FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=269 STYLE="border: none; padding: 0in">
+			<P><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=3>:</FONT></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=3><SPAN LANG="id-ID">
+			</SPAN></FONT></FONT></FONT>
+			</P>
+		</TD>
+		<TD WIDTH=261 STYLE="border: none; padding: 0in">
+			<P><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=3>Yth.
+			Kepala </FONT></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=3><SPAN LANG="id-ID">Kantor
+			Kementrian Agama </SPAN></FONT></FONT></FONT>
+			</P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=69 HEIGHT=11 STYLE="border: none; padding: 0in">
+			<P><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=3>Lampiran</FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=269 STYLE="border: none; padding: 0in">
+			<P><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=3>:
+			</FONT></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=3><SPAN LANG="id-ID">-</SPAN></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=261 STYLE="border: none; padding: 0in">
+			<P><FONT COLOR="#000000">      <FONT FACE="Times New Roman, serif"><FONT SIZE=3><SPAN LANG="id-ID">Kediri</SPAN></FONT></FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=69 HEIGHT=35 STYLE="border: none; padding: 0in">
+			<P><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=3>Perihal</FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=269 STYLE="border: none; padding: 0in">
+			<P STYLE="margin-left: 0.12in; text-indent: -0.12in; margin-bottom: 0in">
+			<FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=3>:
+			Pe</FONT></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=3><SPAN LANG="id-ID">rmohonan
+			Rekomendasi</SPAN></FONT></FONT></FONT></P>
+			<P STYLE="margin-left: 0.12in; text-indent: -0.12in"><FONT COLOR="#000000">
+			 <FONT FACE="Times New Roman, serif"><FONT SIZE=3><SPAN LANG="id-ID">Penerbitan
+			Paspor  Jamaah  Umroh</SPAN></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=261 STYLE="border: none; padding: 0in">
+			<P STYLE="margin-left: 0.12in; margin-bottom: 0in"><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=3><SPAN LANG="id-ID"><SPAN STYLE="background: #ffffff">Di
+			</SPAN></SPAN></FONT></FONT></FONT>
+			</P>
+			<P STYLE="margin-left: 0.12in"><FONT COLOR="#000000"><SPAN STYLE="background: #ffffff">
+			  </SPAN></FONT><FONT COLOR="#000000"> <FONT FACE="Times New Roman, serif"><FONT SIZE=3><SPAN LANG="id-ID">Kediri</SPAN></FONT></FONT></FONT></P>
+		</TD>
+	</TR>
+</TABLE>
+<P LANG="id-ID" STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-left: 0.44in; margin-bottom: 0in"><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=3><SPAN LANG="id-ID">Assalamualaikum
+Wr. Wb.</SPAN></FONT></FONT></FONT></P>
+<P STYLE="margin-left: 0.44in; margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=3>Dengan
+Hormat,</FONT></FONT></P>
+<P STYLE="margin-left: 0.44in; text-indent: 0.44in; margin-bottom: 0in">
+<FONT FACE="Times New Roman, serif"><FONT SIZE=3>Sehubungan dengan
+keberangkatan jamaah umroh kami pada bulan April 2021 dengan ini kami
+beritahukan bahwa :</FONT></FONT></P>
+<TABLE WIDTH=600 CELLPADDING=7 CELLSPACING=0>
+	<COL WIDTH=27>
+	<COL WIDTH=136>
+	<COL WIDTH=214>
+	<COL WIDTH=165>
+	<TR>
+		<TD WIDTH=27 HEIGHT=13 STYLE="border: 1px solid #000001; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P ALIGN=CENTER><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=3><SPAN LANG="id-ID">NO.</SPAN></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=136 STYLE="border: 1px solid #000001; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P ALIGN=CENTER><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=3><SPAN LANG="id-ID">NAMA</SPAN></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=214 STYLE="border: 1px solid #000001; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P ALIGN=CENTER><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=3><SPAN LANG="id-ID">TTL.</SPAN></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=165 STYLE="border: 1px solid #000001; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P ALIGN=CENTER><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=3><SPAN LANG="id-ID">ALAMAT</SPAN></FONT></FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=27 HEIGHT=8 STYLE="border: 1px solid #000001; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P ALIGN=JUSTIFY><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=3><SPAN LANG="id-ID"><B>1</B></SPAN></FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=136 STYLE="border: 1px solid #000001; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P ALIGN=CENTER STYLE="margin-bottom: 0in"><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=3><B><?=$row['jamaah_nama'];?>
+      </B></FONT></FONT></FONT></P>
+			<P LANG="id-ID" ALIGN=CENTER STYLE="margin-right: 0.2in"><BR>
+			</P>
+		</TD>
+		<TD WIDTH=214 STYLE="border: 1px solid #000001; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P ALIGN=CENTER><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=3><?=$row['jamaah_ttl'];?>
+      </FONT></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=165 STYLE="border: 1px solid #000001; padding-top: 0in; padding-bottom: 0in; padding-left: 0.08in; padding-right: 0.08in">
+			<P ALIGN=CENTER><FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"><FONT SIZE=3>
+      <?=$row['jamaah_alamat'];?>
+      </FONT></FONT></FONT></P>
+		</TD>
+	</TR>
+</TABLE>
+<P ALIGN=JUSTIFY STYLE="margin-left: 0.44in; margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=3>Akan
+berangkat umroh bersama Travel kami PT. Rameyza Wisata Jaya dengan
+Izin Umroh No. 456 TH 2016 yang beralamat di Jl. Joyoboyo Gg. I No.
+82 Tepus Kediri.</FONT></FONT></P>
+<P ALIGN=JUSTIFY STYLE="margin-left: 0.44in; margin-bottom: 0in"><A NAME="_GoBack"></A>
+<FONT FACE="Times New Roman, serif"><FONT SIZE=3>Berkaitan dengan hal
+tersebut di atas, bersama ini kami mohon diterbitkan rekomendasi
+untuk pembuatan paspor bagi yang bersangkutan.</FONT></FONT></P>
+<P ALIGN=JUSTIFY STYLE="margin-left: 0.44in; margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=JUSTIFY STYLE="margin-left: 0.44in; margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=3>Demikian
+surat ini kami buat agar digunakan sebagaimana mestinya. Atas
+perhatian dan kerjasamanya kami sampaikan terimakasih.</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+<TABLE WIDTH=224 CELLPADDING=7 CELLSPACING=0>
+	<COL WIDTH=210>
+	<TR>
+		<TD WIDTH=210 VALIGN=TOP STYLE="border: none; padding: 0in">
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=3>Kediri, <?=$row['jamaah_tgl_ttd'];?>
+      </FONT></FONT></P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=210 VALIGN=TOP STYLE="border: none; padding: 0in">
+			<P STYLE="margin-bottom: 0in"><BR>
+			</P>
+			<P STYLE="margin-bottom: 0in"><BR>
+			</P>
+			<P><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=210 VALIGN=TOP STYLE="border: none; padding: 0in">
+			<P STYLE="margin-bottom: 0in"><FONT FACE="Times New Roman, serif"><FONT SIZE=3><U><B>ZAKI
+			ZAMANI, S.STP, MM</B></U></FONT></FONT></P>
+			<P><FONT FACE="Times New Roman, serif"><FONT SIZE=3>Direktur Utama</FONT></FONT></P>
+		</TD>
+	</TR>
+</TABLE>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+</BODY>
+</HTML>
