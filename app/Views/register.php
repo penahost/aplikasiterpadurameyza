@@ -64,7 +64,7 @@
                     <span class="input-span"></span>Remember me</label>
             </div>
             <div class="form-group">
-                <button class="btn btn-info btn-block" type="submit">Login</button>
+                <button class="btn btn-info btn-block" type="submit">Daftar</button>
             </div>
             <div class="text-center">Sudah Punya Akun.?
                 <a class="color-blue" href="<?php echo base_url();?>/login">Login</a>
