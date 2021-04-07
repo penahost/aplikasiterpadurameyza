@@ -1,3 +1,6 @@
+# Download Xampp
+https://downloadsapachefriends.global.ssl.fastly.net/7.4.16/xampp-windows-x64-7.4.16-0-VC15-installer.exe?from_af=true
+
 # CodeIgniter 4 Development
 
 [![Build Status](https://github.com/codeigniter4/CodeIgniter4/workflows/PHPUnit/badge.svg)](https://github.com/codeigniter4/CodeIgniter4/actions?query=workflow%3A%22PHPUnit%22)
