@@ -116,23 +116,43 @@ class jamaah extends Controller
 
 
 
-      $data = array(
-          'jamaah_nama'  => $this->request->getPost('jamaah_nama'),
-          'jamaah_no_passport'  => $this->request->getPost('jamaah_no_passport'),
-          'jamaah_dateofissue'  => $this->request->getPost('jamaah_dateofissue'),
-          'jamaah_dateofexpire'  => $this->request->getPost('jamaah_dateofexpire'),
-          'jamaah_ttl'  => $this->request->getPost('jamaah_ttl'),
-          'jamaah_usia'  => $this->request->getPost('jamaah_usia'),
-          'jamaah_jk' => $this->request->getPost('jamaah_jk'),
-          'jamaah_alamat'  => $this->request->getPost('jamaah_alamat'),
-          'jamaah_no_hp'  => $this->request->getPost('jamaah_no_hp'),
-          'jamaah_ket_pembayaran'  => $this->request->getPost('jamaah_ket_pembayaran'),
-          'jamaah_tgl_berangkat'  => $this->request->getPost('jamaah_tgl_berangkat'),
-          'jamaah_foto' => $foto1->getName(),
-          'jamaah_foto_ktp' => $foto2->getName(),
-          'jamaah_foto_kk' => $foto3->getName(),
-          'paket_id'  => $this->request->getPost('paket_id'),
-      );
+              $jamaah_tempat_lahir=$this->request->getPost('jamaah_tempat_lahir');
+              $jamaah_tanggal_lahir=$this->request->getPost('jamaah_tanggal_lahir');
+              $jamaah_ttl=$jamaah_tempat_lahir.", ".$jamaah_tanggal_lahir;
+
+              echo $this->request->getPost('jamaah_dateofissue');
+              $timestamp1 = strtotime($this->request->getPost('jamaah_dateofissue'));
+              $new_date1 = date('Y-m-d', $timestamp1);
+
+              $timestamp2 = strtotime($this->request->getPost('jamaah_dateofexpire'));
+              $new_date2 = date('Y-m-d', $timestamp2);
+
+              echo $this->request->getPost('jamaah_dateofexpire');
+
+              $timestamp3 = strtotime($this->request->getPost('jamaah_tgl_berangkat'));
+              $new_date3 = date('Y-m-d', $timestamp3);
+
+              echo $this->request->getPost('jamaah_tgl_berangkat');
+
+              echo $this->request->getPost('jamaah_nama');
+
+              $data = array(
+                  'jamaah_nama'  => $this->request->getPost('jamaah_nama'),
+                  'jamaah_no_passport'  => $this->request->getPost('jamaah_no_passport'),
+                  'jamaah_dateofissue'  => $new_date1,
+                  'jamaah_dateofexpire'  => $new_date2,
+                  'jamaah_ttl'  => $jamaah_ttl,
+                  'jamaah_usia'  => $this->request->getPost('jamaah_usia'),
+                  'jamaah_jk' => $this->request->getPost('jamaah_jk'),
+                  'jamaah_alamat'  => $this->request->getPost('jamaah_alamat'),
+                  'jamaah_no_hp'  => $this->request->getPost('jamaah_no_hp'),
+                  'jamaah_ket_pembayaran'  => $this->request->getPost('jamaah_ket_pembayaran'),
+                  'jamaah_tgl_berangkat'  => $new_date3,
+                  'jamaah_foto' => $foto1->getName(),
+                  'jamaah_foto_ktp' => $foto2->getName(),
+                  'jamaah_foto_kk' => $foto3->getName(),
+                  'paket_id'  => $this->request->getPost('paket_id'),
+              );
       $builder->insert($data);
 
       $last_jamaah_id=$db->insertID();
@@ -222,6 +242,20 @@ class jamaah extends Controller
         $jamaah_id=$this->request->getPost('jamaah_id');
         $data=array();
 
+        $jamaah_tempat_lahir=$this->request->getPost('jamaah_tempat_lahir');
+        $jamaah_tanggal_lahir=$this->request->getPost('jamaah_tanggal_lahir');
+        $jamaah_ttl=$jamaah_tempat_lahir.", ".$jamaah_tanggal_lahir;
+
+        $timestamp1 = strtotime($this->request->getPost('jamaah_dateofissue'));
+        $new_date1 = date('Y-m-d', $timestamp1);
+
+        $timestamp2 = strtotime($this->request->getPost('jamaah_dateofexpire'));
+        $new_date2 = date('Y-m-d', $timestamp2);
+
+        $timestamp3 = strtotime($this->request->getPost('jamaah_tgl_berangkat'));
+        $new_date3 = date('Y-m-d', $timestamp3);
+
+
             $validated = $this->validate([
               'file' => [
                   'uploaded[file]',
@@ -238,9 +272,9 @@ class jamaah extends Controller
                   $data = array(
                       'jamaah_nama'  => $this->request->getPost('jamaah_nama'),
                       'jamaah_no_passport'  => $this->request->getPost('jamaah_no_passport'),
-                      'jamaah_dateofissue'  => $this->request->getPost('jamaah_dateofissue'),
-                      'jamaah_dateofexpire'  => $this->request->getPost('jamaah_dateofexpire'),
-                      'jamaah_ttl'  => $this->request->getPost('jamaah_ttl'),
+                      'jamaah_dateofissue'  => $new_date1,
+                      'jamaah_dateofexpire'  => $new_date2,
+                      'jamaah_ttl'  => $jamaah_ttl,
                       'jamaah_usia'  => $this->request->getPost('jamaah_usia'),
                       'jamaah_jk' => $this->request->getPost('jamaah_jk'),
                       'jamaah_alamat'  => $this->request->getPost('jamaah_alamat'),
@@ -262,9 +296,9 @@ class jamaah extends Controller
                   $data = array(
                       'jamaah_nama'  => $this->request->getPost('jamaah_nama'),
                       'jamaah_no_passport'  => $this->request->getPost('jamaah_no_passport'),
-                      'jamaah_dateofissue'  => $this->request->getPost('jamaah_dateofissue'),
-                      'jamaah_dateofexpire'  => $this->request->getPost('jamaah_dateofexpire'),
-                      'jamaah_ttl'  => $this->request->getPost('jamaah_ttl'),
+                      'jamaah_dateofissue'  => $new_date1,
+                      'jamaah_dateofexpire'  => $new_date2,
+                      'jamaah_ttl'  => $jamaah_ttl,
                       'jamaah_usia'  => $this->request->getPost('jamaah_usia'),
                       'jamaah_jk' => $this->request->getPost('jamaah_jk'),
                       'jamaah_alamat'  => $this->request->getPost('jamaah_alamat'),
@@ -284,9 +318,9 @@ class jamaah extends Controller
                   $data = array(
                       'jamaah_nama'  => $this->request->getPost('jamaah_nama'),
                       'jamaah_no_passport'  => $this->request->getPost('jamaah_no_passport'),
-                      'jamaah_dateofissue'  => $this->request->getPost('jamaah_dateofissue'),
-                      'jamaah_dateofexpire'  => $this->request->getPost('jamaah_dateofexpire'),
-                      'jamaah_ttl'  => $this->request->getPost('jamaah_ttl'),
+                      'jamaah_dateofissue'  => $new_date1,
+                      'jamaah_dateofexpire'  => $new_date2,
+                      'jamaah_ttl'  => $jamaah_ttl,
                       'jamaah_usia'  => $this->request->getPost('jamaah_usia'),
                       'jamaah_jk' => $this->request->getPost('jamaah_jk'),
                       'jamaah_alamat'  => $this->request->getPost('jamaah_alamat'),
@@ -304,9 +338,9 @@ class jamaah extends Controller
                   $data = array(
                       'jamaah_nama'  => $this->request->getPost('jamaah_nama'),
                       'jamaah_no_passport'  => $this->request->getPost('jamaah_no_passport'),
-                      'jamaah_dateofissue'  => $this->request->getPost('jamaah_dateofissue'),
-                      'jamaah_dateofexpire'  => $this->request->getPost('jamaah_dateofexpire'),
-                      'jamaah_ttl'  => $this->request->getPost('jamaah_ttl'),
+                      'jamaah_dateofissue'  => $new_date1,
+                      'jamaah_dateofexpire'  => $new_date2,
+                      'jamaah_ttl'  => $jamaah_ttl,
                       'jamaah_usia'  => $this->request->getPost('jamaah_usia'),
                       'jamaah_jk' => $this->request->getPost('jamaah_jk'),
                       'jamaah_alamat'  => $this->request->getPost('jamaah_alamat'),

@@ -40,13 +40,21 @@
                                     <div class="form-group row">
                                         <label class="col-sm-2 col-form-label">Tamggal berangkat</label>
                                         <div class="col-sm-10">
-                                            <input class="form-control mydatepicker1" value="<?=$row->paket_tanggal_berangkat;?>" placeholder="yyyy-mm-dd" name="paket_tanggal_berangkat" type="text" placeholder="Tanggal berangkat">
+                                          <?php
+                                          $timestamp1 = strtotime($row->paket_tanggal_berangkat);
+                                          $new_date1 = date('Y-m-d', $timestamp1);
+                                           ?>
+                                            <input class="form-control" value="<?=$new_date1;?>" placeholder="dd-mm-yyyy" name="paket_tanggal_berangkat"  type="date" data-date-format="yyyy-mm-dd">
                                         </div>
                                     </div>
                                     <div class="form-group row">
                                         <label class="col-sm-2 col-form-label">Tanggal pulang</label>
                                         <div class="col-sm-10">
-                                            <input class="form-control mydatepicker2" value="<?=$row->paket_tanggal_pulang;?>" placeholder="yyyy-mm-dd" name="paket_tanggal_pulang" type="text" placeholder="Tanggal pulang">
+                                          <?php
+                                          $timestamp2 = strtotime($row->paket_tanggal_pulang);
+                                          $new_date2 = date('Y-m-d', $timestamp2);
+                                           ?>
+                                            <input class="form-control" value="<?=$new_date2;?>" placeholder="dd-mm-yyyy" name="paket_tanggal_pulang"  type="date" data-date-format="yyyy-mm-dd">
                                         </div>
                                     </div>
                                     <div class="form-group row">

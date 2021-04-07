@@ -29,13 +29,19 @@ class paket extends Controller
     {
       $db = \Config\Database::connect();
 
+      $timestamp1 = strtotime($this->request->getPost('paket_tanggal_berangkat'));
+      $new_date1 = date('Y-m-d', $timestamp1);
+
+      $timestamp2 = strtotime($this->request->getPost('paket_tanggal_pulang'));
+      $new_date2 = date('Y-m-d', $timestamp2);
+
       $builder = $db->table('paket');
       $data = array(
           'paket_nomer'  => $this->request->getPost('paket_nomer'),
           'paket_nama'  => $this->request->getPost('paket_nama'),
           'paket_jumlah_hari'  => $this->request->getPost('paket_jumlah_hari'),
-          'paket_tanggal_berangkat'  => $this->request->getPost('paket_tanggal_berangkat'),
-          'paket_tanggal_pulang'  => $this->request->getPost('paket_tanggal_pulang'),
+          'paket_tanggal_berangkat'  => $new_date1,
+          'paket_tanggal_pulang'  => $new_date2,
           'paket_harga'  => $this->request->getPost('paket_harga'),
           'paket_hotel_makah'  => $this->request->getPost('paket_hotel_makah'),
           'paket_hotel_madinah'  => $this->request->getPost('paket_hotel_madinah'),
@@ -61,12 +67,19 @@ class paket extends Controller
     public function updatedata_aksi(){
         $paket_id=$this->request->getPost('paket_id');
         $db = \Config\Database::connect();
+
+        $timestamp1 = strtotime($this->request->getPost('paket_tanggal_berangkat'));
+        $new_date1 = date('Y-m-d', $timestamp1);
+
+        $timestamp2 = strtotime($this->request->getPost('paket_tanggal_pulang'));
+        $new_date2 = date('Y-m-d', $timestamp2);
+
         $data = array(
             'paket_nomer'  => $this->request->getPost('paket_nomer'),
             'paket_nama'  => $this->request->getPost('paket_nama'),
             'paket_jumlah_hari'  => $this->request->getPost('paket_jumlah_hari'),
-            'paket_tanggal_berangkat'  => $this->request->getPost('paket_tanggal_berangkat'),
-            'paket_tanggal_pulang'  => $this->request->getPost('paket_tanggal_pulang'),
+            'paket_tanggal_berangkat'  => $new_date1,
+            'paket_tanggal_pulang'  => $new_date2,
             'paket_harga'  => $this->request->getPost('paket_harga'),
             'paket_hotel_makah'  => $this->request->getPost('paket_hotel_makah'),
             'paket_hotel_madinah'  => $this->request->getPost('paket_hotel_madinah'),

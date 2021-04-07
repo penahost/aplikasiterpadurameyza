@@ -71,7 +71,7 @@ class paket extends Controller
             'paket_hotel_makah'  => $this->request->getPost('paket_hotel_makah'),
             'paket_hotel_madinah'  => $this->request->getPost('paket_hotel_madinah'),
             'paket_pesawat'  => $this->request->getPost('paket_pesawat'),
-            'paket_jenis'  => 'umrah',
+            'paket_jenis'  => 'haji khusus',
         );
         $builder = $db->table('paket');
         $builder->where('paket_id', $paket_id);

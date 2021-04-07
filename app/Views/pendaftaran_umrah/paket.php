@@ -51,8 +51,14 @@
                                           <td><?=$row->paket_nomer;?></td>
                                           <td><?=$row->paket_nama;?></td>
                                           <td><?=$row->paket_jumlah_hari;?></td>
-                                          <td><?=$row->paket_tanggal_berangkat;?></td>
-                                          <td><?=$row->paket_tanggal_pulang;?></td>
+                                          <?php
+                                          $timestamp1 = strtotime($row->paket_tanggal_berangkat);
+                                          $new_date1 = date('d-m-Y', $timestamp1);
+                                          $timestamp2 = strtotime($row->paket_tanggal_pulang);
+                                          $new_date2 = date('d-m-Y', $timestamp2);
+                                          ?>
+                                          <td><?=$new_date1;?></td>
+                                          <td><?=$new_date2;?></td>
                                           <td><?=$row->paket_harga;?></td>
                                           <td><?=$row->paket_hotel_makah;?></td>
                                           <td><?=$row->paket_hotel_madinah;?></td>
