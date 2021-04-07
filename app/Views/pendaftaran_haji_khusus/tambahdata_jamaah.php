@@ -48,19 +48,22 @@
                                   <div class="form-group row">
                                       <label class="col-sm-3 col-form-label">Date Of Issue</label>
                                       <div class="col-sm-9">
-                                          <input class="form-control" value="" name="jamaah_dateofissue" type="text" >
+                                          <input class="form-control datepicker" name="jamaah_dateofissue" type="date" data-date-format="yyyy-mm-dd" >
                                       </div>
                                   </div>
                                   <div class="form-group row">
                                       <label class="col-sm-3 col-form-label">Date Of Epire</label>
                                       <div class="col-sm-9">
-                                          <input class="form-control" value="" name="jamaah_dateofexpire" type="text" >
+                                          <input class="form-control datepicker" name="jamaah_dateofexpire" type="date" data-date-format="yyyy-mm-dd" >
                                       </div>
                                   </div>
                                   <div class="form-group row">
                                       <label class="col-sm-3 col-form-label">TTL</label>
-                                      <div class="col-sm-9">
-                                          <input class="form-control" value="" name="jamaah_ttl" type="text" placeholder="format harus KEDIRI, 17 Februari 1995">
+                                      <div class="col-sm-3">
+                                          <input class="form-control" value="" name="jamaah_tempat_lahir" type="text" placeholder="Kediri">
+                                      </div>
+                                      <div class="col-sm-6">
+                                          <input class="form-control" value="" name="jamaah_tanggal_lahir" type="text" placeholder="17 Februari 1995">
                                       </div>
                                   </div>
                                   <div class="form-group row">
@@ -103,7 +106,7 @@
                                   <div class="form-group row">
                                       <label class="col-sm-3 col-form-label">Tgl berangkat</label>
                                       <div class="col-sm-9">
-                                          <input class="form-control" value="" name="jamaah_tgl_berangkat" type="text">
+                                          <input class="form-control" value="" name="jamaah_tgl_berangkat" type="date" data-date-format="yyyy-mm-dd">
                                       </div>
                                   </div>
                                   <div class="form-group row">

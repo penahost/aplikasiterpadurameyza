@@ -17,6 +17,8 @@
     <!-- PAGE LEVEL STYLES-->
     <!-- PLUGINS STYLES-->
     <link href="<?=base_url('theme/cpanel/assets/vendors/DataTables/datatables.min.css');?>" rel="stylesheet" />
+
+    <link href="<?=base_url('vendor/eternicode/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css');?>" rel="stylesheet" />
 </head>
 
 <body class="fixed-navbar">
@@ -126,9 +128,35 @@
     <!-- PAGE LEVEL PLUGINS-->
     <script src="<?=base_url('theme/cpanel/assets/vendors/DataTables/datatables.min.js');?>" type="text/javascript"></script>
 
+    <script src="<?=base_url('vendor/eternicode/bootstrap-datepicker/dist/js/bootstrap-datepicker.js');?>" type="text/javascript"></script>
+
     <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
     <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
-    <script>
+    <script type="text/javascript">
+     $(function(){
+      $(".datepicker1").datepicker({
+          format: 'dd-mm-yyyy',
+          startDate: '-3d'
+      });
+     });
+    </script>
+    <script type="text/javascript">
+     $(function(){
+      $(".datepicker2").datepicker({
+          format: 'dd-mm-yyyy',
+          startDate: '-3d'
+      });
+     });
+    </script>
+    <script type="text/javascript">
+     $(function(){
+      $(".datepicker3").datepicker({
+          format: 'dd-mm-yyyy',
+          startDate: '-3d'
+      });
+     });
+    </script>
+    <!-- <script>
         $('.mydatepicker1').datetimepicker({
             uiLibrary: 'bootstrap4',
             modal: true,
@@ -143,7 +171,7 @@
             footer: true,
             format: 'yyyy-mm-dd hh:mm:ss',
         });
-    </script>
+    </script> -->
     <script type="text/javascript">
         $(function() {
             $('#example-table').DataTable({

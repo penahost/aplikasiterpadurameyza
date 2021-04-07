@@ -1,0 +1,62 @@
+CRITICAL - 2021-04-02 10:20:56 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran_umr...', Array, true)
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(546): view('pendaftaran_umr...', Array)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->download_surat_rekom_kemenag('13')
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-02 10:20:57 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran_umr...', Array, true)
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(546): view('pendaftaran_umr...', Array)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->download_surat_rekom_kemenag('13')
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-02 10:24:13 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran_umr...', Array, true)
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(525): view('pendaftaran_umr...', Array)
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->preview_surat_rekom_kemenag('15')
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-02 10:24:25 --> Undefined offset: 0
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Views\pendaftaran_umrah\preview_surat_rekom_kemenag.php(198): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\xampp\\htdocs...', 198, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\app\Views\pendaftaran_umrah\preview_surat_rekom_kemenag.php(201): tgl_indo('2021-Apr')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran_umr...', Array, true)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(525): view('pendaftaran_umr...', Array)
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->preview_surat_rekom_kemenag('15')
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-04-02 10:27:38 --> mysqli_sql_exception: Unknown column 'jamaah_dateofissue' in 'field list' in E:\xampp\htdocs\aplikasiterpadurameyza\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ja...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ja...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ja...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ja...', Array, false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(136): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->tambahdata_aksii()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-02 10:27:38 --> Unknown column 'jamaah_dateofissue' in 'field list'
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ja...')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\Database\BaseConnection.php(715): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ja...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ja...')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\Database\BaseBuilder.php(2265): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ja...', Array, false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(136): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->tambahdata_aksii()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -36,13 +36,13 @@
                                     <div class="form-group row">
                                         <label class="col-sm-2 col-form-label">Tamggal berangkat</label>
                                         <div class="col-sm-10">
-                                            <input class="form-control mydatepicker1" placeholder="yyyy-mm-dd" name="paket_tanggal_berangkat" type="text" placeholder="Tanggal berangkat">
+                                            <input class="form-control" placeholder="dd-mm-yyyy" name="paket_tanggal_berangkat" type="date" data-date-format="yyyy-mm-dd">
                                         </div>
                                     </div>
                                     <div class="form-group row">
                                         <label class="col-sm-2 col-form-label">Tanggal pulang</label>
                                         <div class="col-sm-10">
-                                            <input class="form-control mydatepicker2" placeholder="yyyy-mm-dd" name="paket_tanggal_pulang" type="text" placeholder="Tanggal pulang">
+                                            <input class="form-control" placeholder="dd-mm-yyyy" name="paket_tanggal_pulang" type="date" data-date-format="yyyy-mm-dd">
                                         </div>
                                     </div>
                                     <div class="form-group row">
@@ -52,7 +52,7 @@
                                         </div>
                                     </div>
                                     <div class="form-group row">
-                                        <label class="col-sm-2 col-form-label">Hotel makan</label>
+                                        <label class="col-sm-2 col-form-label">Hotel makah</label>
                                         <div class="col-sm-10">
                                             <input class="form-control" name="paket_hotel_makah" type="text" placeholder="Hotel makah">
                                         </div>

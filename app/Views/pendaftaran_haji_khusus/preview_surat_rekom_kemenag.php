@@ -186,8 +186,28 @@ line-height:115%;font-family:"Times New Roman",serif'>Dengan Hormat,</span></p>
 
 <p class=MsoNormal style='margin-left:31.5pt;text-indent:31.5pt'><span
 style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>Sehubungan
-dengan keberangkatan jamaah umroh kami pada bulan April 2021 dengan ini kami
-beritahukan bahwa :</span></p>
+dengan keberangkatan jamaah umroh kami pada bulan
+<?php
+function tgl_indo($tanggal){
+	$bulan = array (
+		1 =>   'Januari',
+		'Februari',
+		'Maret',
+		'April',
+		'Mei',
+		'Juni',
+		'Juli',
+		'Agustus',
+		'September',
+		'Oktober',
+		'November',
+		'Desember'
+	);
+	$pecahkan = explode('-', $tanggal);
+	return $bulan[ (int)$pecahkan[1] ] . ' ' . $pecahkan[0];
+}
+?>
+<?=tgl_indo(date("Y-m"));?> dengan ini kami beritahukan bahwa :</span></p>
 
 <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0 width=600
  style='width:6.25in;margin-left:31.25pt;border-collapse:collapse;border:none'>
@@ -229,8 +249,7 @@ beritahukan bahwa :</span></p>
   padding:0in 5.4pt 0in 5.4pt;height:17.0pt'>
   <p class=MsoNormal align=center style='text-align:center'><b><span
   style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
-  color:black'><?=$row['jamaah_nama'];?>
-  </span></b></p>
+  color:black'><?=$row['jamaah_nama'];?></span></b></p>
   <p class=MsoNormal align=center style='margin-right:14.2pt;text-align:center'><b><span
   lang=IN style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;</span></b></p>
   </td>
@@ -239,39 +258,45 @@ beritahukan bahwa :</span></p>
   padding:0in 5.4pt 0in 5.4pt;height:17.0pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
-  color:black'><?=$row['jamaah_ttl'];?>
-  </span></p>
+  color:black'><?=$row['jamaah_ttl'];?></span></p>
   </td>
   <td width=180 valign=top style='width:135.1pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
   padding:0in 5.4pt 0in 5.4pt;height:17.0pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
-  color:black'><?=$row['jamaah_alamat'];?>
-  </span></p>
+  color:black'><?=$row['jamaah_alamat'];?></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+line-height:115%;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<table class=MsoTableGrid border=0 cellspacing=0 cellpadding=0
+ style='margin-left:26.75pt;border-collapse:collapse;border:none'>
+ <tr>
+  <td width=586 valign=top style='width:439.3pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+  line-height:115%;font-family:"Times New Roman",serif'>Akan berangkat umroh
+  bersama Travel kami PT. Rameyza Wisata Jaya dengan  Izin Umroh No. 456 TH
+  2016 yang beralamat di Jl. Joyoboyo Gg. I No. 82 Tepus Kediri.</span></p>
+  <p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+  line-height:115%;font-family:"Times New Roman",serif'>Berkaitan dengan hal
+  tersebut di atas, bersama ini kami mohon diterbitkan rekomendasi untuk
+  pembuatan paspor bagi yang bersangkutan.</span></p>
+  <p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+  line-height:115%;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+  <p class=MsoNormal style='text-align:justify'><span style='font-size:12.0pt;
+  line-height:115%;font-family:"Times New Roman",serif'>Demikian surat ini kami
+  buat agar digunakan sebagaimana mestinya. Atas perhatian dan kerjasamanya
+  kami sampaikan terimakasih.</span></p>
   </td>
  </tr>
 </table>
 
 <p class=MsoNormal style='margin-left:31.5pt;text-align:justify'><span
-style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
-color:white'>Akan berangkat umroh bersama Travel kami PT. Rameyza Wisata Jaya
-dengan  Izin Umroh No. 456 TH 2016 yang beralamat di Jl. Joyoboyo Gg</span><span
-style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>.
-I No. 82 Tepus Kediri.</span></p>
-
-<p class=MsoNormal style='margin-left:31.5pt;text-align:justify'><span
-style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>Berkaitan
-dengan hal tersebut di atas, bersama ini kami mohon diterbitkan rekomendasi
-untuk pembuatan paspor bagi yang bersangkutan.</span></p>
-
-<p class=MsoNormal style='margin-left:31.5pt;text-align:justify'><span
 style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;</span></p>
-
-<p class=MsoNormal style='margin-left:31.5pt;text-align:justify'><span
-style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>Demikian
-surat ini kami buat agar digunakan sebagaimana mestinya. Atas perhatian dan
-kerjasamanya kami sampaikan terimakasih.</span></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
 "Times New Roman",serif'>&nbsp;</span></p>
@@ -284,8 +309,7 @@ kerjasamanya kami sampaikan terimakasih.</span></p>
  <tr>
   <td width=224 valign=top style='width:167.7pt;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
-  "Times New Roman",serif'>Kediri, <?=$row['jamaah_tgl_ttd'];?>
-  </span></p>
+  "Times New Roman",serif'>Kediri, <?=$row['jamaah_tgl_ttd'];?></span></p>
   </td>
  </tr>
  <tr>
