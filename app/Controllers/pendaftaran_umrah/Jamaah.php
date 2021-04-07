@@ -611,5 +611,24 @@ class jamaah extends Controller
       return view('pendaftaran_umrah/preview_report_manifest',$data);
     }
 
+    public function cetak_data_jamaah($jamaah_id)
+    {
+        $session = session();
+        $db = \Config\Database::connect();
+        $query1 = "SELECT * FROM jamaah
+        JOIN paket ON paket.paket_id=jamaah.paket_id
+        WHERE jamaah_id='$jamaah_id'";
+        $data_jamaah=$db->query($query1)->getResult();
+
+        $query2 = "SELECT * FROM perlengkapan_jamaah
+        JOIN perlengkapan ON perlengkapan.perlengkapan_id=perlengkapan_jamaah.perlengkapan_id
+        WHERE jamaah_id='$jamaah_id'";
+        $data_perlengkapan=$db->query($query2)->getResult();
+
+        $data['cetakdatajamaah']=$data_jamaah;
+        $data['dataperlengkapan']=$data_perlengkapan;
+
+        return view('pendaftaran_umrah/cetak_data_jamaah',$data);
+    }
 
 }

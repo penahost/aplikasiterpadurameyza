@@ -1,0 +1,22 @@
+CRITICAL - 2021-04-07 01:33:22 --> Trying to get property 'paket_nomer' of non-object
+#0 C:\xampp\htdocs\aplikasiterpadurameyza\app\Views\pendaftaran_umrah\cetak_data_jamaah.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran_umr...', Array, true)
+#4 C:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(625): view('pendaftaran_umr...', Array)
+#5 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->cetak_data_jamaah('13')
+#6 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#7 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-07 01:47:41 --> Undefined variable: dataperlengkapan
+#0 C:\xampp\htdocs\aplikasiterpadurameyza\app\Views\pendaftaran_umrah\cetak_data_jamaah.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran_umr...', Array, true)
+#4 C:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(631): view('pendaftaran_umr...', Array)
+#5 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->cetak_data_jamaah('13')
+#6 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#7 C:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
