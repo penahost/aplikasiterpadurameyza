@@ -4,7 +4,7 @@ https://downloadsapachefriends.global.ssl.fastly.net/7.4.16/xampp-windows-x64-7.
 # Installasi
 1. Import database aplikasirameyza.sql di folder database
 2. Open web browser http://localhost/aplikasiterpadurameyza/
-3. Jika mengalami error lakukan composer install melalui cmd dengan mengeklik kanan pada folder E:\xampp\htdocs\aplikasiterpadurameyza kemudian Open PowerShell window here
+3. Jika mengalami error lakukan composer install melalui cmd sebelum itu download dan install aplikasi composer dengan mengeklik kanan pada folder E:\xampp\htdocs\aplikasiterpadurameyza kemudian Open PowerShell window here
 4. Login username admin1 password admin1
 
 # CodeIgniter 4 Development
