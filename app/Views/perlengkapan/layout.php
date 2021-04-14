@@ -171,13 +171,15 @@
     <script type="text/javascript">
     $( document ).ready(function() {
       $(".popup_ambil_perlengkapan").click(function () {
-          var my_id_value = $(this).data('id');
-          //alert(my_id_value);
+          var perlengkapan_id = $(this).data('perlengkapan_id');
+          var perlengkapan_jamaah_id = $(this).data('perlengkapan_jamaah_id');
+          alert(perlengkapan_id);
+          alert(perlengkapan_jamaah_id);
           //alert(my_id_value);
           // $("#preview_image").attr("src", my_id_value);
           //Ajax Load data from ajax
           $.ajax({
-            url : "<?php echo base_url('/perlengkapan/perlengkapan_jamaah/preview_data_perlengkapan/')?>/" + my_id_value,
+            url : "<?php echo base_url('/perlengkapan/perlengkapan_jamaah/preview_data_perlengkapan/')?>/" + perlengkapan_id+"/"+perlengkapan_jamaah_id,
             type: "GET",
             dataType: "JSON",
             success: function(data)
@@ -204,41 +206,41 @@
 
         })
 
-        $(".popup_kembalikan_perlengkapan").click(function () {
-            var my_id_value = $(this).data('id');
-            //alert(my_id_value);
-            //alert(my_id_value);
-            // $("#preview_image").attr("src", my_id_value);
-            //Ajax Load data from ajax
-            $.ajax({
-              url : "<?php echo base_url('/perlengkapan/perlengkapan_jamaah/preview_data_perlengkapan/')?>/" + my_id_value,
-              type: "GET",
-              dataType: "JSON",
-              success: function(data)
-              {
-                  console.log(data);
-                  $.each(data, function(index) {
-                      $('[name="perlengkapan_jamaah_id"]').val(data[index].perlengkapan_jamaah_id);
-                      $('[name="jamaah_id"]').val(data[index].jamaah_id);
-                      $('[name="perlengkapan_id"]').val(data[index].perlengkapan_id);
-                      $('[name="perlengkapan_nama"]').val(data[index].perlengkapan_nama);
-                      $('[name="perlengkapan_jamaah_jumlah_kembali"]').val(data[index].perlengkapan_jamaah_jumlah_kembali);
-                      $('[name="perlengkapan_jamaah_tgl_kembali"]').val(data[index].perlengkapan_jamaah_tgl_kembali);
-
-                  });
-                  //alert(data.jamaah_nama);
-
-              },
-              error: function (jqXHR, textStatus, errorThrown)
-              {
-                  console.log(jqXHR);
-                  alert('Error get data from ajax');
-              }
-          });
-
-
-
-      })
+      //   $(".popup_kembalikan_perlengkapan").click(function () {
+      //       var my_id_value = $(this).data('id');
+      //       //alert(my_id_value);
+      //       //alert(my_id_value);
+      //       // $("#preview_image").attr("src", my_id_value);
+      //       //Ajax Load data from ajax
+      //       $.ajax({
+      //         url : "<?php echo base_url('/perlengkapan/perlengkapan_jamaah/preview_data_perlengkapan/')?>/" + my_id_value,
+      //         type: "GET",
+      //         dataType: "JSON",
+      //         success: function(data)
+      //         {
+      //             console.log(data);
+      //             $.each(data, function(index) {
+      //                 $('[name="perlengkapan_jamaah_id"]').val(data[index].perlengkapan_jamaah_id);
+      //                 $('[name="jamaah_id"]').val(data[index].jamaah_id);
+      //                 $('[name="perlengkapan_id"]').val(data[index].perlengkapan_id);
+      //                 $('[name="perlengkapan_nama"]').val(data[index].perlengkapan_nama);
+      //                 $('[name="perlengkapan_jamaah_jumlah_kembali"]').val(data[index].perlengkapan_jamaah_jumlah_kembali);
+      //                 $('[name="perlengkapan_jamaah_tgl_kembali"]').val(data[index].perlengkapan_jamaah_tgl_kembali);
+      //
+      //             });
+      //             //alert(data.jamaah_nama);
+      //
+      //         },
+      //         error: function (jqXHR, textStatus, errorThrown)
+      //         {
+      //             console.log(jqXHR);
+      //             alert('Error get data from ajax');
+      //         }
+      //     });
+      //
+      //
+      //
+      // })
     });
     </script>
 </body>

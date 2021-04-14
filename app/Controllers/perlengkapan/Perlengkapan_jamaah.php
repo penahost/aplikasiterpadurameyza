@@ -11,7 +11,7 @@ class Perlengkapan_jamaah extends Controller
         $db = \Config\Database::connect();
         $data['session'] = session();
         // echo "Welcome back, ".$session->get('username');
-        $query1 = "SELECT * FROM jamaah";
+        $query1 = "SELECT * FROM jamaah join paket on paket.paket_id=jamaah.paket_id";
 
         $query2 = "SELECT * FROM perlengkapan_jamaah join perlengkapan on perlengkapan.perlengkapan_id=perlengkapan_jamaah.perlengkapan_id
         WHERE perlengkapan_jamaah.jamaah_id='$jamaah_id' AND perlengkapan_jamaah_status='cek'";
@@ -21,7 +21,7 @@ class Perlengkapan_jamaah extends Controller
         return view('perlengkapan/perlengkapan_jamaah',$data);
     }
 
-    public function preview_data_perlengkapan($perlengkapan_id=NULL)
+    public function preview_data_perlengkapan($perlengkapan_id=NULL,$perlengkapan_jamaah_id=NULL)
     {
         $session = session();
         //echo "Welcome back, ".$session->get('username');
@@ -30,7 +30,7 @@ class Perlengkapan_jamaah extends Controller
         // echo "Welcome back, ".$session->get('username');
 
         $query1 = "SELECT * FROM perlengkapan_jamaah join perlengkapan on perlengkapan.perlengkapan_id=perlengkapan_jamaah.perlengkapan_id
-        WHERE perlengkapan_jamaah.perlengkapan_id='$perlengkapan_id'";
+        WHERE perlengkapan_jamaah.perlengkapan_id='$perlengkapan_id' AND perlengkapan_jamaah_id='$perlengkapan_jamaah_id'";
 
         $data=$db->query($query1)->getResult();
 
@@ -49,7 +49,7 @@ class Perlengkapan_jamaah extends Controller
     // }
 
     public function updatedata_ambil_aksi(){
-        $perlengkapan_jamaah_id=$this->request->getPost('perlengkapan_jamaah_id');
+        echo $perlengkapan_jamaah_id=$this->request->getPost('perlengkapan_jamaah_id');
         $jamaah_id=$this->request->getPost('jamaah_id');
         $perlengkapan_id=$this->request->getPost('perlengkapan_id');
         $jumlah_diambil=$this->request->getPost('perlengkapan_jamaah_jumlah_diambil');

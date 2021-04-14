@@ -114,6 +114,8 @@ $routes->get('/pendaftaran_haji_khusus/jamaah/download_surat_rekom_kemenag/(:any
 $routes->get('/pendaftaran_haji_khusus/jamaah/preview_surat_rekom_rameyza/(:any)', 'pendaftaran_haji_khusus\Jamaah::preview_surat_rekom_rameyza/$1');
 $routes->get('/pendaftaran_haji_khusus/jamaah/download_surat_rekom_rameyza/(:any)', 'pendaftaran_haji_khusus\Jamaah::download_surat_rekom_rameyza/$1');
 $routes->get('/pendaftaran_haji_khusus/jamaah/download_report_manifest/(:any)', 'pendaftaran_haji_khusus\Jamaah::download_report_manifest/$1');
+$routes->get('/pendaftaran_haji_khusus/jamaah/cetak_data_jamaah/(:any)', 'pendaftaran_haji_khusus\Jamaah::cetak_data_jamaah/$1');
+
 
 $routes->get('/pendaftaran_haji_khusus/laporan/jamaah', 'pendaftaran_haji_khusus\Laporan::jamaah');
 $routes->get('/pendaftaran_haji_khusus/laporan/download_report_manifest', 'pendaftaran_haji_khusus\Laporan::download_report_manifest');
@@ -153,6 +155,7 @@ $routes->get('/pendaftaran_umrah/jamaah/download_surat_rekom_kemenag/(:any)', 'p
 $routes->get('/pendaftaran_umrah/jamaah/preview_surat_rekom_rameyza/(:any)', 'pendaftaran_umrah\Jamaah::preview_surat_rekom_rameyza/$1');
 $routes->get('/pendaftaran_umrah/jamaah/download_surat_rekom_rameyza/(:any)', 'pendaftaran_umrah\Jamaah::download_surat_rekom_rameyza/$1');
 $routes->get('/pendaftaran_umrah/jamaah/download_report_manifest/(:any)', 'pendaftaran_umrah\Jamaah::download_report_manifest/$1');
+$routes->get('/pendaftaran_umrah/jamaah/cetak_data_jamaah/(:any)', 'pendaftaran_umrah\Jamaah::cetak_data_jamaah/$1');
 
 $routes->get('/pendaftaran_umrah/laporan/jamaah', 'pendaftaran_umrah\Laporan::jamaah');
 $routes->get('/pendaftaran_umrah/laporan/download_report_manifest', 'pendaftaran_umrah\Laporan::download_report_manifest');

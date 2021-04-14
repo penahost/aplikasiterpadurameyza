@@ -1,7 +1,7 @@
 <?= $this->extend('perlengkapan/layout') ?>
 <?= $this->section('content') ?>
 <div class="ibox-head">
-    <p class="page-title">Data Pinjam Perlengkapan</p>
+    <p class="page-title">Data Perlengkapan jamaah</p>
 </div>
               <div class="row">
 
@@ -97,9 +97,9 @@
                                           <!-- <td><?=$row->perlengkapan_jamaah_jumlah_kembali;?></td>
                                           <td><?=$row->perlengkapan_jamaah_tgl_kembali;?></td> -->
                                           <td>
-                                            <a style="width:50px;" class="btn btn-info popup_ambil_perlengkapan" href="" data-toggle="modal" data-target="#exampleModal4" data-id="<?=$row->perlengkapan_id;?>"><i class="fa ti-hand-open"></i></a>
+                                            <a style="width:50px;" class="btn btn-info popup_ambil_perlengkapan" href="" data-toggle="modal" data-target="#exampleModal4" data-perlengkapan_id="<?=$row->perlengkapan_id;?>" data-perlengkapan_jamaah_id="<?=$row->perlengkapan_jamaah_id;?>"><i class="fa ti-hand-open"></i></a>
                                             <?php
-                                            if($row->perlengkapan_jamaah_tgl_diambil==0){
+                                            if($row->perlengkapan_jamaah_jumlah_diambil!=0){
                                             ?>
 
                                             <a style="width:50px;" class="btn btn-info" href="<?=base_url();?>/perlengkapan/perlengkapan_jamaah/cancel_ambil_aksi/<?=$row->perlengkapan_jamaah_id;?>/<?=$row->jamaah_id;?>/<?=$row->perlengkapan_id;?>"><i class="fa ti-back-left"></i></a>
@@ -119,7 +119,7 @@
                       </div>
                   </div>
                   <?php
-                }
+                  }
                    ?>
                   <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel4" aria-hidden="true">
                   <div class="modal-dialog modal-dialog-centered modal-dialog-zoom modal-lg" role="document">
