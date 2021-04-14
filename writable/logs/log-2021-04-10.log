@@ -1,0 +1,25 @@
+CRITICAL - 2021-04-10 06:46:59 --> Undefined variable: perlengkapan_jamaah_id
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Views\perlengkapan\perlengkapan_jamaah.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 105, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('perlengkapan/pe...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\perlengkapan\Perlengkapan_jamaah.php(21): view('perlengkapan/pe...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\perlengkapan\Perlengkapan_jamaah->index('13')
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\perlengkapan\Perlengkapan_jamaah))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-10 06:49:32 --> Undefined variable: update_perlengkapan_jamaah
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\perlengkapan\Perlengkapan_jamaah.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 99, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\perlengkapan\Perlengkapan_jamaah->cancel_ambil_aksi('90', '13', '1')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\perlengkapan\Perlengkapan_jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-10 06:50:29 --> Use of undefined constant o - assumed 'o' (this will throw an Error in a future version of PHP)
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\perlengkapan\Perlengkapan_jamaah.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'E:\\xampp\\htdocs...', 99, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\perlengkapan\Perlengkapan_jamaah->cancel_ambil_aksi('90', '13', '1')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\perlengkapan\Perlengkapan_jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

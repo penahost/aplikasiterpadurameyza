@@ -210,7 +210,7 @@
                     event_data += '<a href="<?php echo base_url();?>/pendaftaran_haji_khusus/jamaah/download_surat_rekom_kemenag/'+data[index].jamaah_id+'"><i class="fa fa-download"></i> Surat Rekom Kemenag</a> ';
                     event_data += '<a href="<?php echo base_url();?>/pendaftaran_haji_khusus/jamaah/preview_surat_rekom_rameyza/'+data[index].jamaah_id+'"><i class="fa fa-eye"></i> Surat Rekom Rameyza</a> || ';
                     event_data += '<a href="<?php echo base_url();?>/pendaftaran_haji_khusus/jamaah/download_surat_rekom_rameyza/'+data[index].jamaah_id+'"><i class="fa fa-download"></i> Surat Rekom Rameyza</a> ';
-
+                    $('#print_data_jamaah').html('<button onclick="print_data_jamaah('+data[index].jamaah_id+');">Print data jamaah</button>');
                 });
                 //alert(data.jamaah_nama);
                 $("#dokumen").html(event_data);
@@ -244,6 +244,28 @@
 
       })
     });
+
+    function print_data_jamaah(my_id_value){
+      $.ajax({
+        url : "<?php echo base_url('/pendaftaran_haji_khusus/jamaah/print_data_jamaah/')?>/" + my_id_value,
+        type: "GET",
+        dataType: "JSON",
+        success: function(data)
+        {
+            console.log(data);
+            alert("sukses");
+            $.each(data, function(index) {
+
+            });
+            //alert(data.jamaah_nama);
+        },
+        error: function (jqXHR, textStatus, errorThrown)
+        {
+            console.log(jqXHR);
+            alert('Error get data from ajax');
+        }
+    });
+    }
     </script>
 </body>
 

@@ -84,24 +84,22 @@ class Perlengkapan_jamaah extends Controller
         return redirect()->to(site_url('/perlengkapan/perlengkapan_jamaah/index/'.$jamaah_id));
     }
 
-
-    public function updatedata_kembali_aksi(){
-        $perlengkapan_jamaah_id=$this->request->getPost('perlengkapan_jamaah_id');
-        $jamaah_id=$this->request->getPost('jamaah_id');
-        $perlengkapan_id=$this->request->getPost('perlengkapan_id');
-        $jumlah_kembali=$this->request->getPost('perlengkapan_jamaah_jumlah_kembali');
+    public function cancel_ambil_aksi($perlengkapan_jamaah_id=NULL,$jamaah_id=NULL,$perlengkapan_id=NULL){
         $db = \Config\Database::connect();
 
-        $query1 = "SELECT perlengkapan_jamaah_jumlah_kembali FROM perlengkapan_jamaah WHERE perlengkapan_jamaah_id='$perlengkapan_jamaah_id'";
-        $cek_kembali=$db->query($query1)->getRow();
-        $hasil_kembali=$cek_kembali->perlengkapan_jamaah_jumlah_kembali;
-        $update_perlengkapan_jamaah=$hasil_kembali+$jumlah_kembali;
+        $query1 = "SELECT perlengkapan_jamaah_jumlah_diambil FROM perlengkapan_jamaah WHERE perlengkapan_jamaah_id='$perlengkapan_jamaah_id'";
+        $cek_diambil=$db->query($query1)->getRow();
+        $hasil_diambil=$cek_diambil->perlengkapan_jamaah_jumlah_diambil;
+        $cek_diambil=$hasil_diambil;
+
 
 
         //update perlengkapan_jamaah
         $data = array(
-            'perlengkapan_jamaah_jumlah_kembali'  => $update_perlengkapan_jamaah,
-            'perlengkapan_jamaah_tgl_kembali'  => $this->request->getPost('perlengkapan_jamaah_tgl_kembali'),
+            'perlengkapan_jamaah_jumlah_diambil'  => 0,
+            'perlengkapan_jamaah_tgl_diambil'  => date('Y-m-d H:i:s'),
+            'perlengkapan_jamaah_jumlah_kembali'  => 0,
+            'perlengkapan_jamaah_tgl_kembali'  => date('Y-m-d H:i:s'),
         );
         $builder = $db->table('perlengkapan_jamaah');
         $builder->where('perlengkapan_jamaah_id', $perlengkapan_jamaah_id);
@@ -110,7 +108,7 @@ class Perlengkapan_jamaah extends Controller
 
         $query1 = "SELECT perlengkapan_stok FROM perlengkapan WHERE perlengkapan_id='$perlengkapan_id'";
         $cek_stok=$db->query($query1)->getRow();
-        $update_perlengkapan=$cek_stok->perlengkapan_stok+$jumlah_kembali;
+        $update_perlengkapan=$cek_stok->perlengkapan_stok+$cek_diambil;
         $data = array(
             'perlengkapan_stok'  => $update_perlengkapan,
         );
@@ -118,9 +116,46 @@ class Perlengkapan_jamaah extends Controller
         $builder->where('perlengkapan_id', $perlengkapan_id);
         $builder->update($data);
 
-
         return redirect()->to(site_url('/perlengkapan/perlengkapan_jamaah/index/'.$jamaah_id));
     }
+
+
+    // public function updatedata_kembali_aksi(){
+    //     $perlengkapan_jamaah_id=$this->request->getPost('perlengkapan_jamaah_id');
+    //     $jamaah_id=$this->request->getPost('jamaah_id');
+    //     $perlengkapan_id=$this->request->getPost('perlengkapan_id');
+    //     $jumlah_kembali=$this->request->getPost('perlengkapan_jamaah_jumlah_kembali');
+    //     $db = \Config\Database::connect();
+    //
+    //     $query1 = "SELECT perlengkapan_jamaah_jumlah_diambil FROM perlengkapan_jamaah WHERE perlengkapan_jamaah_id='$perlengkapan_jamaah_id'";
+    //     $cek_kembali=$db->query($query1)->getRow();
+    //     $hasil_kembali=$cek_kembali->perlengkapan_jamaah_jumlah_diambil;
+    //     $update_perlengkapan_jamaah=$hasil_kembali;
+    //
+    //
+    //     //update perlengkapan_jamaah
+    //     $data = array(
+    //         'perlengkapan_jamaah_jumlah_kembali'  => $update_perlengkapan_jamaah,
+    //         'perlengkapan_jamaah_tgl_kembali'  => $this->request->getPost('perlengkapan_jamaah_tgl_kembali'),
+    //     );
+    //     $builder = $db->table('perlengkapan_jamaah');
+    //     $builder->where('perlengkapan_jamaah_id', $perlengkapan_jamaah_id);
+    //     $builder->update($data);
+    //
+    //
+    //     $query1 = "SELECT perlengkapan_stok FROM perlengkapan WHERE perlengkapan_id='$perlengkapan_id'";
+    //     $cek_stok=$db->query($query1)->getRow();
+    //     $update_perlengkapan=$cek_stok->perlengkapan_stok+$jumlah_kembali;
+    //     $data = array(
+    //         'perlengkapan_stok'  => $update_perlengkapan,
+    //     );
+    //     $builder = $db->table('perlengkapan');
+    //     $builder->where('perlengkapan_id', $perlengkapan_id);
+    //     $builder->update($data);
+    //
+    //
+    //     return redirect()->to(site_url('/perlengkapan/perlengkapan_jamaah/index/'.$jamaah_id));
+    // }
 
 
 }

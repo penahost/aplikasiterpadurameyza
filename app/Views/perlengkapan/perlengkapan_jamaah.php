@@ -79,8 +79,8 @@
                                           <th>Nama perlengkapan</th>
                                           <th>Jml diambil</th>
                                           <th>Tgl. diambil</th>
-                                          <th>Jml kembali</th>
-                                          <th>Tgl. kembali</th>
+                                          <!-- <th>Jml kembali</th>
+                                          <th>Tgl. kembali</th> -->
                                           <th>Option</th>
                                       </tr>
                                   </thead>
@@ -94,11 +94,18 @@
                                           <td><?=$row->perlengkapan_nama;?></td>
                                           <td><?=$row->perlengkapan_jamaah_jumlah_diambil;?></td>
                                           <td><?=$row->perlengkapan_jamaah_tgl_diambil;?></td>
-                                          <td><?=$row->perlengkapan_jamaah_jumlah_kembali;?></td>
-                                          <td><?=$row->perlengkapan_jamaah_tgl_kembali;?></td>
+                                          <!-- <td><?=$row->perlengkapan_jamaah_jumlah_kembali;?></td>
+                                          <td><?=$row->perlengkapan_jamaah_tgl_kembali;?></td> -->
                                           <td>
-                                            <a style="width:15px;" class="btn btn-info popup_ambil_perlengkapan" href="" data-toggle="modal" data-target="#exampleModal4" data-id="<?=$row->perlengkapan_id;?>"><i class="fa ti-hand-open"></i></a>
-                                            <a style="width:15px;" class="btn btn-info popup_kembalikan_perlengkapan" href="" data-toggle="modal" data-target="#exampleModal5" data-id="<?=$row->perlengkapan_id;?>"><i class="fa ti-back-left"></i></a>
+                                            <a style="width:50px;" class="btn btn-info popup_ambil_perlengkapan" href="" data-toggle="modal" data-target="#exampleModal4" data-id="<?=$row->perlengkapan_id;?>"><i class="fa ti-hand-open"></i></a>
+                                            <?php
+                                            if($row->perlengkapan_jamaah_tgl_diambil==0){
+                                            ?>
+
+                                            <a style="width:50px;" class="btn btn-info" href="<?=base_url();?>/perlengkapan/perlengkapan_jamaah/cancel_ambil_aksi/<?=$row->perlengkapan_jamaah_id;?>/<?=$row->jamaah_id;?>/<?=$row->perlengkapan_id;?>"><i class="fa ti-back-left"></i></a>
+                                            <?php
+                                            }
+                                            ?>
                                           </td>
                                       </tr>
                                       <?php
