@@ -1,43 +1,97 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+<!DOCTYPE html>
+<html>
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
     <title>Login</title>
-  </head>
-  <body>
-    <div class="container">
-        <div class="row justify-content-md-center">
+    <!-- GLOBAL MAINLY STYLES-->
+    <link href="<?=base_url('theme/cpanel/assets/vendors/bootstrap/dist/css/bootstrap.min.css');?>" rel="stylesheet" />
+    <link href="<?=base_url('theme/cpanel/assets/vendors/font-awesome/css/font-awesome.min.css');?>" rel="stylesheet" />
+    <link href="<?=base_url('theme/cpanel/assets/vendors/themify-icons/css/themify-icons.css');?>" rel="stylesheet" />
+    <!-- THEME STYLES-->
+    <link href="<?=base_url('theme/cpanel/assets/css/main.css');?>" rel="stylesheet" />
+    <!-- PAGE LEVEL STYLES-->
+    <link href="<?=base_url('theme/cpanel/assets/css/pages/auth-light.css');?>" rel="stylesheet" />
+</head>
 
-            <div class="col-6">
-                <h1>Sign In</h1>
-                <?php if(session()->getFlashdata('msg')):?>
-                    <div class="alert alert-danger"><?= session()->getFlashdata('msg') ?></div>
-                <?php endif;?>
-                <form action="<?=base_url('/login/auth');?>" method="post">
-                    <div class="mb-3">
-                        <label for="InputForEmail" class="form-label">Username</label>
-                        <input type="text" name="username" class="form-control" id="InputForEmail" value="<?= set_value('username') ?>">
-                    </div>
-                    <div class="mb-3">
-                        <label for="InputForPassword" class="form-label">Password</label>
-                        <input type="password" name="password" class="form-control" id="InputForPassword">
-                    </div>
-                    <button type="submit" class="btn btn-primary">Login</button>
+<body class="bg-silver-300">
 
-                </form>
-                Belum punya akun ? <a href="<?php echo base_url();?>/register">Register</a>
-            </div>
-
+    <div class="content">
+      <div id="particle-container"></div>
+        <div class="brand">
+            <a class="link" href="index.html">APLIKASI TERPADU PT. RAMEYZA</a>
         </div>
+        <?php if(session()->getFlashdata('msg')):?>
+            <div class="alert alert-danger"><?= session()->getFlashdata('msg') ?></div>
+        <?php endif;?>
+        <form id="login-form" action="<?=base_url('/login/auth');?>" method="post">
+            <h2 class="login-title">Log in</h2>
+            <div class="form-group">
+                <div class="input-group-icon right">
+                    <div class="input-icon"><i class="fa fa-user"></i></div>
+                    <input class="form-control" type="text" name="username" placeholder="Username" autocomplete="off">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group-icon right">
+                    <div class="input-icon"><i class="fa fa-lock font-16"></i></div>
+                    <input class="form-control" type="password" name="password" placeholder="Password">
+                </div>
+            </div>
+            <div class="form-group d-flex justify-content-between">
+                <label class="ui-checkbox ui-checkbox-info">
+                    <input type="checkbox">
+                    <span class="input-span"></span>Remember me</label>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-info btn-block" type="submit">Login</button>
+            </div>
+            <div class="text-center">Belum Punya Akun?
+                <a class="color-blue" href="<?php echo base_url();?>/register">Create accaunt</a>
+            </div>
+        </form>
     </div>
+    <!-- BEGIN PAGA BACKDROPS-->
+    <div class="sidenav-backdrop backdrop"></div>
+    <div class="preloader-backdrop">
+        <div class="page-preloader">Loading</div>
+    </div>
+    <!-- END PAGA BACKDROPS-->
+    <!-- CORE PLUGINS -->
+    <script src="<?=base_url('theme/cpanel/assets/vendors/jquery/dist/jquery.min.js');?>" type="text/javascript"></script>
+    <script src="<?=base_url('theme/cpanel/assets/vendors/popper.js/dist/umd/popper.min.js');?>" type="text/javascript"></script>
+    <script src="<?=base_url('theme/cpanel/assets/vendors/bootstrap/dist/js/bootstrap.min.js');?>" type="text/javascript"></script>
+    <!-- PAGE LEVEL PLUGINS -->
+    <script src="<?=base_url('theme/cpanel/assets/vendors/jquery-validation/dist/jquery.validate.min.js');?>" type="text/javascript"></script>
+    <!-- CORE SCRIPTS-->
+    <script src="<?=base_url('theme/cpanel/assets/js/app.js');?>" type="text/javascript"></script>
+    <!-- PAGE LEVEL SCRIPTS-->
 
-    <!-- Popper.js first, then Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
-  </body>
+    <script type="text/javascript">
+        $(function() {
+            $('#login-form').validate({
+                errorClass: "help-block",
+                rules: {
+                    email: {
+                        required: true,
+                        email: true
+                    },
+                    password: {
+                        required: true
+                    }
+                },
+                highlight: function(e) {
+                    $(e).closest(".form-group").addClass("has-error")
+                },
+                unhighlight: function(e) {
+                    $(e).closest(".form-group").removeClass("has-error")
+                },
+            });
+        });
+    </script>
+
+</body>
+
 </html>
