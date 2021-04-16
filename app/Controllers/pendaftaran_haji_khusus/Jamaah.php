@@ -114,6 +114,22 @@ class jamaah extends Controller
               ];
               }
 
+              $foto4 = $this->request->getFile('file_bpih');
+              if ($foto4->isValid() && ! $foto4->hasMoved()){
+              $foto4->move(ROOTPATH . '/uploads/jamaah/');
+              $data = [
+                  'jamaah_foto_kk' => $foto4->getName()
+              ];
+              }
+
+              $foto5 = $this->request->getFile('file_spph');
+              if ($foto5->isValid() && ! $foto5->hasMoved()){
+              $foto5->move(ROOTPATH . '/uploads/jamaah/');
+              $data = [
+                  'jamaah_foto_kk' => $foto5->getName()
+              ];
+              }
+
 
 
               $jamaah_tempat_lahir=$this->request->getPost('jamaah_tempat_lahir');
@@ -143,6 +159,9 @@ class jamaah extends Controller
                   'jamaah_dateofexpire'  => $new_date2,
                   'jamaah_ttl'  => $jamaah_ttl,
                   'jamaah_usia'  => $this->request->getPost('jamaah_usia'),
+                  'jamaah_kewarganegaraan'  => $this->request->getPost('jamaah_kewarganegaraan'),
+                  'jamaah_pekerjaan'  => $this->request->getPost('jamaah_pekerjaan'),
+                  'jamaah_haji'  => $this->request->getPost('jamaah_haji'),
                   'jamaah_jk' => $this->request->getPost('jamaah_jk'),
                   'jamaah_alamat'  => $this->request->getPost('jamaah_alamat'),
                   'jamaah_no_hp'  => $this->request->getPost('jamaah_no_hp'),
@@ -151,6 +170,8 @@ class jamaah extends Controller
                   'jamaah_foto' => $foto1->getName(),
                   'jamaah_foto_ktp' => $foto2->getName(),
                   'jamaah_foto_kk' => $foto3->getName(),
+                  'jamaah_foto_bpih' => $foto4->getName(),
+                  'jamaah_foto_spph' => $foto3->getName(),
                   'paket_id'  => $this->request->getPost('paket_id'),
               );
       $builder->insert($data);
@@ -276,6 +297,9 @@ class jamaah extends Controller
                       'jamaah_dateofexpire'  => $new_date2,
                       'jamaah_ttl'  => $jamaah_ttl,
                       'jamaah_usia'  => $this->request->getPost('jamaah_usia'),
+                      'jamaah_kewarganegaraan'  => $this->request->getPost('jamaah_kewarganegaraan'),
+                      'jamaah_pekerjaan'  => $this->request->getPost('jamaah_pekerjaan'),
+                      'jamaah_haji'  => $this->request->getPost('jamaah_haji'),
                       'jamaah_jk' => $this->request->getPost('jamaah_jk'),
                       'jamaah_alamat'  => $this->request->getPost('jamaah_alamat'),
                       'jamaah_no_hp'  => $this->request->getPost('jamaah_no_hp'),
@@ -300,6 +324,9 @@ class jamaah extends Controller
                       'jamaah_dateofexpire'  => $new_date2,
                       'jamaah_ttl'  => $jamaah_ttl,
                       'jamaah_usia'  => $this->request->getPost('jamaah_usia'),
+                      'jamaah_kewarganegaraan'  => $this->request->getPost('jamaah_kewarganegaraan'),
+                      'jamaah_pekerjaan'  => $this->request->getPost('jamaah_pekerjaan'),
+                      'jamaah_haji'  => $this->request->getPost('jamaah_haji'),
                       'jamaah_jk' => $this->request->getPost('jamaah_jk'),
                       'jamaah_alamat'  => $this->request->getPost('jamaah_alamat'),
                       'jamaah_no_hp'  => $this->request->getPost('jamaah_no_hp'),
@@ -322,6 +349,9 @@ class jamaah extends Controller
                       'jamaah_dateofexpire'  => $new_date2,
                       'jamaah_ttl'  => $jamaah_ttl,
                       'jamaah_usia'  => $this->request->getPost('jamaah_usia'),
+                      'jamaah_kewarganegaraan'  => $this->request->getPost('jamaah_kewarganegaraan'),
+                      'jamaah_pekerjaan'  => $this->request->getPost('jamaah_pekerjaan'),
+                      'jamaah_haji'  => $this->request->getPost('jamaah_haji'),
                       'jamaah_jk' => $this->request->getPost('jamaah_jk'),
                       'jamaah_alamat'  => $this->request->getPost('jamaah_alamat'),
                       'jamaah_no_hp'  => $this->request->getPost('jamaah_no_hp'),
@@ -334,7 +364,9 @@ class jamaah extends Controller
                   $builder->update($data);
                 }
 
-                if (!$foto1->isValid() && !$foto2->isValid() && !$foto3->isValid()){
+                $foto4 = $this->request->getFile('file_bpih');
+                if ($foto4->isValid() && ! $foto4->hasMoved()){
+                $foto4->move(ROOTPATH . '/uploads/jamaah/');
                   $data = array(
                       'jamaah_nama'  => $this->request->getPost('jamaah_nama'),
                       'jamaah_no_passport'  => $this->request->getPost('jamaah_no_passport'),
@@ -342,6 +374,57 @@ class jamaah extends Controller
                       'jamaah_dateofexpire'  => $new_date2,
                       'jamaah_ttl'  => $jamaah_ttl,
                       'jamaah_usia'  => $this->request->getPost('jamaah_usia'),
+                      'jamaah_kewarganegaraan'  => $this->request->getPost('jamaah_kewarganegaraan'),
+                      'jamaah_pekerjaan'  => $this->request->getPost('jamaah_pekerjaan'),
+                      'jamaah_haji'  => $this->request->getPost('jamaah_haji'),
+                      'jamaah_jk' => $this->request->getPost('jamaah_jk'),
+                      'jamaah_alamat'  => $this->request->getPost('jamaah_alamat'),
+                      'jamaah_no_hp'  => $this->request->getPost('jamaah_no_hp'),
+                      'jamaah_ket_pembayaran'  => $this->request->getPost('jamaah_ket_pembayaran'),
+                      'jamaah_tgl_berangkat'  => $this->request->getPost('jamaah_tgl_berangkat'),
+                      'jamaah_foto_bpih' => $foto4->getName()
+                  );
+                  $builder = $db->table('jamaah');
+                  $builder->where('jamaah_id', $jamaah_id);
+                  $builder->update($data);
+                }
+
+                $foto5 = $this->request->getFile('file_spph');
+                if ($foto5->isValid() && ! $foto5->hasMoved()){
+                $foto5->move(ROOTPATH . '/uploads/jamaah/');
+                  $data = array(
+                      'jamaah_nama'  => $this->request->getPost('jamaah_nama'),
+                      'jamaah_no_passport'  => $this->request->getPost('jamaah_no_passport'),
+                      'jamaah_dateofissue'  => $new_date1,
+                      'jamaah_dateofexpire'  => $new_date2,
+                      'jamaah_ttl'  => $jamaah_ttl,
+                      'jamaah_usia'  => $this->request->getPost('jamaah_usia'),
+                      'jamaah_kewarganegaraan'  => $this->request->getPost('jamaah_kewarganegaraan'),
+                      'jamaah_pekerjaan'  => $this->request->getPost('jamaah_pekerjaan'),
+                      'jamaah_haji'  => $this->request->getPost('jamaah_haji'),
+                      'jamaah_jk' => $this->request->getPost('jamaah_jk'),
+                      'jamaah_alamat'  => $this->request->getPost('jamaah_alamat'),
+                      'jamaah_no_hp'  => $this->request->getPost('jamaah_no_hp'),
+                      'jamaah_ket_pembayaran'  => $this->request->getPost('jamaah_ket_pembayaran'),
+                      'jamaah_tgl_berangkat'  => $this->request->getPost('jamaah_tgl_berangkat'),
+                      'jamaah_foto_spph' => $foto5->getName()
+                  );
+                  $builder = $db->table('jamaah');
+                  $builder->where('jamaah_id', $jamaah_id);
+                  $builder->update($data);
+                }
+
+                if (!$foto1->isValid() && !$foto2->isValid() && !$foto3->isValid() && !$foto4->isValid() && !$foto5->isValid()){
+                  $data = array(
+                      'jamaah_nama'  => $this->request->getPost('jamaah_nama'),
+                      'jamaah_no_passport'  => $this->request->getPost('jamaah_no_passport'),
+                      'jamaah_dateofissue'  => $new_date1,
+                      'jamaah_dateofexpire'  => $new_date2,
+                      'jamaah_ttl'  => $jamaah_ttl,
+                      'jamaah_usia'  => $this->request->getPost('jamaah_usia'),
+                      'jamaah_kewarganegaraan'  => $this->request->getPost('jamaah_kewarganegaraan'),
+                      'jamaah_pekerjaan'  => $this->request->getPost('jamaah_pekerjaan'),
+                      'jamaah_haji'  => $this->request->getPost('jamaah_haji'),
                       'jamaah_jk' => $this->request->getPost('jamaah_jk'),
                       'jamaah_alamat'  => $this->request->getPost('jamaah_alamat'),
                       'jamaah_no_hp'  => $this->request->getPost('jamaah_no_hp'),

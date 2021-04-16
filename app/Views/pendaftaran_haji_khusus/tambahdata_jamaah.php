@@ -73,6 +73,18 @@
                                       </div>
                                   </div>
                                   <div class="form-group row">
+                                      <label class="col-sm-3 col-form-label">Kewarganeraan</label>
+                                      <div class="col-sm-9">
+                                          <input class="form-control" value="" name="jamaah_kewarganegaraan" type="text">
+                                      </div>
+                                  </div>
+                                  <div class="form-group row">
+                                      <label class="col-sm-3 col-form-label">Pekerjaan</label>
+                                      <div class="col-sm-9">
+                                          <input class="form-control" value="" name="jamaah_pekerjaan" type="text">
+                                      </div>
+                                  </div>
+                                  <div class="form-group row">
                                       <label class="col-sm-3 col-form-label">Jenis Kelamin</label>
                                       <div class="col-sm-9">
                                         <div>
@@ -82,6 +94,19 @@
                                           <label class="ui-radio ui-radio-inline">
                                               <input type="radio" name="jamaah_jk" value="Perempuan">
                                               <span class="input-span"></span>Perempuan</label>
+                                      </div>
+                                      </div>
+                                  </div>
+                                  <div class="form-group row">
+                                      <label class="col-sm-3 col-form-label">Haji</label>
+                                      <div class="col-sm-9">
+                                        <div>
+                                          <label class="ui-radio ui-radio-inline">
+                                              <input type="radio" name="jamaah_haji" value="ya">
+                                              <span class="input-span"></span>Ya</label>
+                                          <label class="ui-radio ui-radio-inline">
+                                              <input type="radio" name="jamaah_haji" value="tidak">
+                                              <span class="input-span"></span>Tidak</label>
                                       </div>
                                       </div>
                                   </div>
@@ -127,6 +152,20 @@
                                       <label class="col-sm-3 col-form-label">KK</label>
                                       <div class="col-sm-9">
                                           <input type="file" name="file_kk" id="">
+
+                                      </div>
+                                  </div>
+                                  <div class="form-group row">
+                                      <label class="col-sm-3 col-form-label">BPIH</label>
+                                      <div class="col-sm-9">
+                                          <input type="file" name="file_bpih" id="">
+
+                                      </div>
+                                  </div>
+                                  <div class="form-group row">
+                                      <label class="col-sm-3 col-form-label">SPPH</label>
+                                      <div class="col-sm-9">
+                                          <input type="file" name="file_spph" id="">
 
                                       </div>
                                   </div>

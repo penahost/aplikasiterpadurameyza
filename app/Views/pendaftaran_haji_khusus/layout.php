@@ -194,6 +194,9 @@
                     $('[name="jamaah_no_passport"]').val(data[index].jamaah_no_passport);
                     $('[name="jamaah_ttl"]').val(data[index].jamaah_ttl);
                     $('[name="jamaah_usia"]').val(data[index].jamaah_usia);
+                    $('[name="jamaah_kewarganegaraan"]').val(data[index].jamaah_kewarganegaraan);
+                    $('[name="jamaah_pekerjaan"]').val(data[index].jamaah_pekerjaan);
+                    $('[name="jamaah_haji"]').val(data[index].jamaah_haji);
                     $('[name="jamaah_alamat"]').val(data[index].jamaah_alamat);
                     $('[name="jamaah_no_hp"]').val(data[index].jamaah_no_hp);
                     $('[name="jamaah_ket_pembayaran"]').val(data[index].jamaah_ket_pembayaran);
@@ -201,6 +204,8 @@
                     $("#jamaah_foto").attr("src", "<?= base_url();?>/uploads/jamaah/"+data[index].jamaah_foto);
                     $("#jamaah_foto_ktp").attr("src", "<?= base_url();?>/uploads/jamaah/"+data[index].jamaah_foto_ktp);
                     $("#jamaah_foto_kk").attr("src", "<?= base_url();?>/uploads/jamaah/"+data[index].jamaah_foto_kk);
+                    $("#jamaah_foto_bpih").attr("src", "<?= base_url();?>/uploads/jamaah/"+data[index].jamaah_foto_bpih);
+                    $("#jamaah_foto_spph").attr("src", "<?= base_url();?>/uploads/jamaah/"+data[index].jamaah_foto_spph);
                     event_data += '<a href="<?php echo base_url();?>/pendaftaran_haji_khusus/jamaah/preview_surat_pernyataan/'+data[index].jamaah_id+'"><i class="fa fa-eye"></i> Surat Depag</a> || ';
                     event_data += '<a href="<?php echo base_url();?>/pendaftaran_haji_khusus/jamaah/download_surat_pernyataan/'+data[index].jamaah_id+'"><i class="fa fa-download"></i> Surat Depag</a> ';
                     event_data += '<a href="<?php echo base_url();?>/pendaftaran_haji_khusus/jamaah/preview_surat_pernyataan2/'+data[index].jamaah_id+'"><i class="fa fa-eye"></i> Surat Depag Kota</a> || ';

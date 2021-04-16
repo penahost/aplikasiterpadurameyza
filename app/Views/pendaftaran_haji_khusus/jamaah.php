@@ -166,6 +166,24 @@
                                                 </div>
                                             </div>
                                             <div class="form-group row">
+                                                <label class="col-sm-3 col-form-label">Warganegara</label>
+                                                <div class="col-sm-9">
+                                                    <input class="form-control" value="" name="jamaah_kewarganegaraan" type="text" readonly>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-sm-3 col-form-label">Pekerjaan</label>
+                                                <div class="col-sm-9">
+                                                    <input class="form-control" value="" name="jamaah_pekerjaan" type="text" readonly>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-sm-3 col-form-label">Haji</label>
+                                                <div class="col-sm-9">
+                                                    <input class="form-control" value="" name="jamaah_haji" type="text" readonly>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
                                                 <label class="col-sm-3 col-form-label">Alamat</label>
                                                 <div class="col-sm-9">
                                                     <input class="form-control" value="" name="jamaah_alamat" type="text" readonly>
@@ -220,6 +238,20 @@
                                                   <div class="col-sm-9">
 
                                                       <img class="img-responsive"  width="150" style="max-width: 100%;" id="jamaah_foto_kk" src="" >
+                                                  </div>
+                                              </div>
+                                              <div class="form-group row">
+                                                  <label class="col-sm-3 col-form-label">BPIH</label>
+                                                  <div class="col-sm-9">
+
+                                                      <img class="img-responsive"  width="150" style="max-width: 100%;" id="jamaah_foto_bpih" src="" >
+                                                  </div>
+                                              </div>
+                                              <div class="form-group row">
+                                                  <label class="col-sm-3 col-form-label">SPPH</label>
+                                                  <div class="col-sm-9">
+
+                                                      <img class="img-responsive"  width="150" style="max-width: 100%;" id="jamaah_foto_spph" src="" >
                                                   </div>
                                               </div>
 

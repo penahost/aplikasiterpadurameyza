@@ -72,6 +72,18 @@
                                     </div>
                                 </div>
                                 <div class="form-group row">
+                                    <label class="col-sm-3 col-form-label">Kewarganeraan</label>
+                                    <div class="col-sm-9">
+                                        <input class="form-control" value="<?=$row->jamaah_kewarganegaraan;?>" name="jamaah_kewarganegaraan" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-sm-3 col-form-label">Pekerjaan</label>
+                                    <div class="col-sm-9">
+                                        <input class="form-control" value="<?=$row->jamaah_pekerjaan;?>" name="jamaah_pekerjaan" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
                                     <label class="col-sm-3 col-form-label">Jenis Kelamin</label>
                                     <div class="col-sm-9">
                                       <div>
@@ -95,6 +107,35 @@
                                           <label class="ui-radio ui-radio-inline">
                                               <input type="radio" name="jamaah_jk" value="Perempuan" checked>
                                               <span class="input-span"></span>Perempuan</label>
+                                              <?php
+                                            } ?>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-sm-3 col-form-label">Haji</label>
+                                    <div class="col-sm-9">
+                                      <div>
+                                        <?php
+                                        if($row->jamaah_haji=="ya"){
+                                         ?>
+                                         <label class="ui-radio ui-radio-inline">
+                                             <input type="radio" name="jamaah_haji" value="ya" checked>
+                                             <span class="input-span"></span>Ya</label>
+                                         <label class="ui-radio ui-radio-inline">
+                                             <input type="radio" name="jamaah_haji" value="tidak">
+                                             <span class="input-span"></span>Tidak</label>
+                                            <?php
+                                          } ?>
+                                          <?php
+                                          if($row->jamaah_haji=="tidak"){
+                                           ?>
+                                           <label class="ui-radio ui-radio-inline">
+                                               <input type="radio" name="jamaah_haji" value="ya">
+                                               <span class="input-span"></span>Ya</label>
+                                           <label class="ui-radio ui-radio-inline">
+                                               <input type="radio" name="jamaah_haji" value="tidak" checked>
+                                               <span class="input-span"></span>Tidak</label>
                                               <?php
                                             } ?>
                                     </div>
@@ -143,6 +184,20 @@
                                     <div class="col-sm-9">
                                         <input type="file" name="file_kk" id="">
                                         <img src="<?=base_url();?>/uploads/jamaah/<?=$row->jamaah_foto_kk;?>" class="img-responsive" width="100" style="max-width: 100%;" id="jamaah_foto_kk" src="" >
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-sm-3 col-form-label">BPIH</label>
+                                    <div class="col-sm-9">
+                                        <input type="file" name="file_bpih" id="">
+                                        <img src="<?=base_url();?>/uploads/jamaah/<?=$row->jamaah_foto_bpih;?>" class="img-responsive" width="100" style="max-width: 100%;" id="jamaah_foto_kk" src="" >
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-sm-3 col-form-label">SPPH</label>
+                                    <div class="col-sm-9">
+                                        <input type="file" name="file_spph" id="">
+                                        <img src="<?=base_url();?>/uploads/jamaah/<?=$row->jamaah_foto_spph;?>" class="img-responsive" width="100" style="max-width: 100%;" id="jamaah_foto_kk" src="" >
                                     </div>
                                 </div>
                                   <?php
