@@ -1,7 +1,7 @@
 <?= $this->extend('keuangan/layout') ?>
 <?= $this->section('content') ?>
 <div class="ibox-head">
-    <p class="page-title">Data Pemayaran</p>
+    <p class="page-title">Data Pembayaran</p>
 </div>
               <div class="row">
 

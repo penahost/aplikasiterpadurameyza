@@ -11,7 +11,7 @@ class Perlengkapan_jamaah extends Controller
         $db = \Config\Database::connect();
         $data['session'] = session();
         // echo "Welcome back, ".$session->get('username');
-        $query1 = "SELECT * FROM jamaah join paket on paket.paket_id=jamaah.paket_id";
+        $query1 = "SELECT * FROM jamaah join paket on paket.paket_id=jamaah.paket_id WHERE paket.paket_jenis='umrah'";
 
         $query2 = "SELECT * FROM perlengkapan_jamaah join perlengkapan on perlengkapan.perlengkapan_id=perlengkapan_jamaah.perlengkapan_id
         WHERE perlengkapan_jamaah.jamaah_id='$jamaah_id' AND perlengkapan_jamaah_status='cek'";

@@ -11,7 +11,7 @@
  Target Server Version : 100416
  File Encoding         : 65001
 
- Date: 17/04/2021 00:20:25
+ Date: 17/04/2021 00:43:02
 */
 
 SET NAMES utf8mb4;
@@ -49,16 +49,18 @@ CREATE TABLE `jamaah`  (
   `jamaah_foto_spph` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   `paket_id` int(11) NULL DEFAULT NULL,
   PRIMARY KEY (`jamaah_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 46 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 54 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of jamaah
 -- ----------------------------
-INSERT INTO `jamaah` VALUES (13, 'Fauzin', '12345678', '1969-12-31', '1969-12-31', 'KEDIRI,    17 Februari 1995', '26', 'KTP', 'indonesia', 'Laki-laki', 'Desa sambirejo', 'Desa sambirejo', 'Gampengrejo', 'Kediri', 'wirausaha', '12345678', 'Lunas', NULL, '1995-02-17', NULL, 'privacy_policy2_18.png', 'privacy_policy2_19.png', 'privacy_policy2_20.png', NULL, NULL, 1);
+INSERT INTO `jamaah` VALUES (13, 'Fauzin', '12345678', NULL, NULL, 'KEDIRI, 17 Februari 1995', '26', NULL, NULL, 'Laki-laki', 'Desa sambirejo', NULL, NULL, NULL, NULL, '12345678', 'Lunas', NULL, '1995-02-17', 'ya', 'privacy_policy2_18.png', 'privacy_policy2_19.png', 'privacy_policy2_20.png', '', NULL, 8);
+INSERT INTO `jamaah` VALUES (14, 'Fauzin2', '12345678', NULL, NULL, 'KEDIRI, 17 Februari 1995', '26', NULL, NULL, 'Laki-laki', 'Desa sambirejo', NULL, NULL, NULL, NULL, '12345678', 'Lunas', NULL, '1995-02-17', 'tidak', 'privacy_policy2_18.png', 'privacy_policy2_19.png', 'privacy_policy2_20.png', NULL, NULL, 11);
 INSERT INTO `jamaah` VALUES (21, 'irhas', '898', '21/12/2022', '31/1/2022', '31/01/1997', '24', NULL, NULL, 'Laki-laki', 'kediri', NULL, NULL, NULL, NULL, '234234', 'lunas', NULL, '0000-00-00', NULL, '73138171_1.jpg', '139.png', '15-kota-terbaik-di-dunia-untuk-dikunjungi-PEQBX5KzVu_1.jpg', NULL, NULL, 4);
 INSERT INTO `jamaah` VALUES (23, 'Rony', '123456789', NULL, NULL, 'KEDIRI, 17 Agustus 1995', '26', NULL, NULL, 'Laki-laki', 'Nganjuk', NULL, NULL, NULL, NULL, '0812345677', 'Lunas', NULL, '2021-04-14', NULL, 'privacy_policy2_24.png', 'privacy_policy2_25.png', 'privacy_policy2_26.png', NULL, NULL, 6);
-INSERT INTO `jamaah` VALUES (44, 'a', 'a', '2021-04-05', '2021-04-05', 'Kediri,      17 Februari 1995', '24', 'KTP', 'indonesia', NULL, 'Desa Sambirejo', 'Desa sambirejo', 'Gampengrejo', 'Kediri', 'wirausaha', '0812345677', 'Lunas', NULL, '2024-12-31', 'tidak', '_4221049_1479597875.jpg', '_4221049_1479597876.jpg', '_4221049_1479597877.jpg', '10634-kucing-mirip-pikachu_2.jpg', '10634-kucing-mirip-pikachu_3.jpg', 11);
-INSERT INTO `jamaah` VALUES (45, 'b', 'b', '2021-04-05', '2021-04-05', 'Kediri,     17 Februari 1995', '26', 'KTP', 'indonesia', 'Laki-laki', 'Desa Sambirejo', 'Desa sambirejo', 'Gampengrejo', 'Kediri', 'wirausaha', '0812345677', 'Lunas', NULL, '2031-12-31', 'ya', '_4221049_1479597878.jpg', '_4221049_1479597879.jpg', '_4221049_1479597880.jpg', '10634-kucing-mirip-pikachu_4.jpg', '10634-kucing-mirip-pikachu_5.jpg', 8);
+INSERT INTO `jamaah` VALUES (43, '', '', '2021-04-05', '2021-04-06', 'Kediri, 17 Februari 1995', '', NULL, NULL, 'Laki-laki', '', NULL, NULL, NULL, NULL, '', '', NULL, '2021-04-05', NULL, '', '', '', NULL, NULL, 9);
+INSERT INTO `jamaah` VALUES (46, 'AHMAD BAHRONI ADNAN', 'B 123445', '2021-10-04', '2026-10-04', 'NGANJUK,    03 JUNI 2021', '24 TAHUN', NULL, NULL, 'Laki-laki', 'JL.MUSI NO 41.BEGADUNG NGANJUK', NULL, NULL, NULL, NULL, '085736925657', 'UTANG', NULL, '2021-10-10', NULL, '1 DIAH SULISTIYAWATI.jpg', 'KTP Bu Diah Sulistiyawati.jpg', 'SCAN KK BPK ASFIYAK.jpeg', NULL, NULL, 12);
+INSERT INTO `jamaah` VALUES (47, 'DEWI NUR KUMALA', 'B 123454', '2021-04-15', '2026-04-15', 'KEDIRII, 6 FEBRUARI 1997', '24', NULL, NULL, 'Perempuan', 'JL.MUSI NO 41.BEGADUNG NGANJUK', NULL, NULL, NULL, NULL, '085736925657', 'LUNAS', NULL, '2021-04-15', NULL, '506670_620.jpg', 'e-KTP.jpg', '95f3b55c-28dc-457c-bd7a-08dea1ed954b.jpg', NULL, NULL, 12);
 
 -- ----------------------------
 -- Table structure for jurnal
@@ -127,14 +129,16 @@ CREATE TABLE `paket`  (
   `paket_pesawat` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   `paket_jenis` enum('umrah','haji khusus') CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   PRIMARY KEY (`paket_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 12 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 15 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of paket
 -- ----------------------------
-INSERT INTO `paket` VALUES (1, '1', 'Paket Umrah 12 Hari', '12', '2021-11-01', '2021-12-31', '10000000', 'Hotel yes', 'Hotel Berkah', 'LION AIR', 'umrah');
 INSERT INTO `paket` VALUES (8, '2', 'Paket Haji Khusus 14 Hari', '14', '2021-04-14', '2021-04-28', '10000000', 'Hotel Makah', 'Hotel madinah', 'Garuda', 'haji khusus');
 INSERT INTO `paket` VALUES (11, 'a', 'a', 'a', '2021-04-01', '2021-04-01', '100000', 'Hotel Berkah', 'Hotel Berkah', 'Garuda', 'haji khusus');
+INSERT INTO `paket` VALUES (12, '2021', 'PAKET UMROH PERDANA 2021', '13 HARI', '2021-12-10', '2021-02-10', '25.600.000', 'LE MERIDIEN AJYAD', 'NOZOL ROYAL INN', 'SAUDI AIR LINE', 'umrah');
+INSERT INTO `paket` VALUES (13, '2021', 'PAKET UMROH RAMADHAN APRIL', '13 HARI', '2021-04-12', '2021-04-28', '35.500.000', 'ZAM ZAM TOWER', 'MAKKAREM PLAZA', 'SAUDY AIRLINES', 'umrah');
+INSERT INTO `paket` VALUES (14, '2021', 'PAKET UMROH AKHIR RAMADHAN 2021', '15 HARI', '2021-04-28', '2021-05-08', '45.000.000', 'ANJUM HOTEL', 'MADINAH AL PLAZA', 'GARUDA INDONESIA', 'umrah');
 
 -- ----------------------------
 -- Table structure for pembayaran
