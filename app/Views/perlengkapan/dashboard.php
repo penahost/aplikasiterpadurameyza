@@ -5,7 +5,7 @@
             <div class="ibox bg-success color-white widget-stat">
                 <div class="ibox-body">
                     <h2 class="m-b-5 font-strong">Selamat Datang</h2>
-                    <div class="m-b-5">Pendaftaran UMRAH</div><i class="ti-angle-double-left widget-stat-icon"></i>
+                    <div class="m-b-5">DATA PERLENGKAPAN JAMAAH</div><i class="ti-angle-double-left widget-stat-icon"></i>
 
                 </div>
             </div>

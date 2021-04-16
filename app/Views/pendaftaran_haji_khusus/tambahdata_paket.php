@@ -34,7 +34,7 @@
                                         </div>
                                     </div>
                                     <div class="form-group row">
-                                        <label class="col-sm-2 col-form-label">Tamggal berangkat</label>
+                                        <label class="col-sm-2 col-form-label">Tanggal berangkat</label>
                                         <div class="col-sm-10">
                                             <input class="form-control mydatepicker1" placeholder="yyyy-mm-dd" name="paket_tanggal_berangkat" type="date" data-date-format="yyyy-mm-dd">
                                         </div>

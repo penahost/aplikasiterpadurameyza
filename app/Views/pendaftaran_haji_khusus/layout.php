@@ -72,11 +72,12 @@
                     <li>
                         <a class="active" href="<?=base_url('/pendaftaran_haji_khusus/jamaah');?>"><i class="sidebar-item-icon fa fa-th-large"></i>
                             <span class="nav-label">DATA JAMAAH</span>
+                            <span class="nav-label" style="margin-left:30px;">HAJI KHUSUS</span>
                         </a>
                     </li>
                     <li>
                         <a class="active" href="<?=base_url('/pendaftaran_haji_khusus/laporan/jamaah');?>"><i class="sidebar-item-icon fa fa-th-large"></i>
-                            <span class="nav-label">LAPORAN JAMAAH</span>
+                            <span class="nav-label">DATA MANIFEST JAMAAH</span>
                         </a>
                     </li>
 

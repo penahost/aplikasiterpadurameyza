@@ -73,12 +73,12 @@
 
                     <li>
                         <a class="active" href="<?=base_url('/pendaftaran_umrah/jamaah');?>"><i class="sidebar-item-icon fa fa-th-large"></i>
-                            <span class="nav-label">DATA JAMAAH PAKET</span>
+                            <span class="nav-label">DATA JAMAAH UMRAH</span>
                         </a>
                     </li>
                     <li>
                         <a class="active" href="<?=base_url('/pendaftaran_umrah/laporan/jamaah');?>"><i class="sidebar-item-icon fa fa-th-large"></i>
-                            <span class="nav-label">LAPORAN JAMAAH</span>
+                            <span class="nav-label">DATA MANIFEST JAMAAH</span>
                         </a>
                     </li>
 

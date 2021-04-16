@@ -70,7 +70,8 @@
                     </li>
                     <li>
                         <a class="active" href="<?=base_url('/perlengkapan/perlengkapan_jamaah');?>"><i class="sidebar-item-icon fa fa-th-large"></i>
-                            <span class="nav-label">PINJAM PERLENGKAPAN</span>
+                            <span class="nav-label">DATA PENGAMBILAN</span>
+                            <span class="nav-label" style="margin-left:30px;">PERLENGKAPAN</span>
                         </a>
                     </li>
 

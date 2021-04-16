@@ -34,8 +34,8 @@
                                           <th>Jumlah Hari</th>
                                           <th>Tgl. Berangkat</th>
                                           <th>Tgl. Pulang</th>
-                                          <th>harga</th>
-                                          <th>Hotel makan</th>
+                                          <th>Harga</th>
+                                          <th>Hotel makah</th>
                                           <th>Hotel madinah</th>
                                           <th>Pesawat</th>
                                           <th>Aksi</th>
