@@ -223,10 +223,14 @@
                     $('[name="jamaah_ttl"]').val(data[index].jamaah_ttl);
                     $('[name="jamaah_dateofissue"]').val(data[index].jamaah_dateofissue);
                     $('[name="jamaah_dateofexpire"]').val(data[index].jamaah_dateofexpire);
+                    $('[name="jamaah_jenis_identitas"]').val(data[index].jamaah_jenis_identitas);
                     $('[name="jamaah_usia"]').val(data[index].jamaah_usia);
                     $('[name="jamaah_kewarganegaraan"]').val(data[index].jamaah_kewarganegaraan);
                     $('[name="jamaah_pekerjaan"]').val(data[index].jamaah_pekerjaan);
                     $('[name="jamaah_alamat"]').val(data[index].jamaah_alamat);
+                    $('[name="jamaah_desa_kel"]').val(data[index].jamaah_desa_kel);
+                    $('[name="jamaah_kecamatan"]').val(data[index].jamaah_kecamatan);
+                    $('[name="jamaah_kota_kab"]').val(data[index].jamaah_kota_kab);
                     $('[name="jamaah_no_hp"]').val(data[index].jamaah_no_hp);
                     $('[name="jamaah_pekerjaan"]').val(data[index].jamaah_pekerjaan);
                     $('[name="jamaah_ket_pembayaran"]').val(data[index].jamaah_ket_pembayaran);

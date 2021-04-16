@@ -55,6 +55,12 @@
                                       </div>
                                   </div>
                                   <div class="form-group row">
+                                      <label class="col-sm-3 col-form-label">Jenis Identitas</label>
+                                      <div class="col-sm-9">
+                                          <input class="form-control" value="<?=$row->jamaah_jenis_identitas;?>" name="jamaah_jenis_identitas" type="text">
+                                      </div>
+                                  </div>
+                                  <div class="form-group row">
                                       <label class="col-sm-3 col-form-label">TTL</label>
                                       <?php
                                       $pecahkan = explode(',', $row->jamaah_ttl);
@@ -72,6 +78,7 @@
                                           <input class="form-control" value="<?=$row->jamaah_usia;?>" name="jamaah_usia" type="text">
                                       </div>
                                   </div>
+
                                   <div class="form-group row">
                                       <label class="col-sm-3 col-form-label">Jenis Kelamin</label>
                                       <div class="col-sm-9">
@@ -105,6 +112,24 @@
                                       <label class="col-sm-3 col-form-label">Alamat</label>
                                       <div class="col-sm-9">
                                           <input class="form-control" value="<?=$row->jamaah_alamat;?>" name="jamaah_alamat" type="text">
+                                      </div>
+                                  </div>
+                                  <div class="form-group row">
+                                      <label class="col-sm-3 col-form-label">Desa / Kel</label>
+                                      <div class="col-sm-9">
+                                          <input class="form-control" value="<?=$row->jamaah_desa_kel;?>" name="jamaah_desa_kel" type="text">
+                                      </div>
+                                  </div>
+                                  <div class="form-group row">
+                                      <label class="col-sm-3 col-form-label">Kecamatan</label>
+                                      <div class="col-sm-9">
+                                          <input class="form-control" value="<?=$row->jamaah_kecamatan;?>" name="jamaah_kecamatan" type="text">
+                                      </div>
+                                  </div>
+                                  <div class="form-group row">
+                                      <label class="col-sm-3 col-form-label">Kota / Kabupaten</label>
+                                      <div class="col-sm-9">
+                                          <input class="form-control" value="<?=$row->jamaah_kota_kab;?>" name="jamaah_kota_kab" type="text">
                                       </div>
                                   </div>
                                   <div class="form-group row">

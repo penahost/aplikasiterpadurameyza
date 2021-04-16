@@ -140,10 +140,14 @@ class jamaah extends Controller
           'jamaah_no_passport'  => $this->request->getPost('jamaah_no_passport'),
           'jamaah_dateofissue'  => $new_date1,
           'jamaah_dateofexpire'  => $new_date2,
+          'jamaah_jenis_identitas'  => $this->request->getPost('jamaah_jenis_identitas'),
           'jamaah_ttl'  => $jamaah_ttl,
           'jamaah_usia'  => $this->request->getPost('jamaah_usia'),
           'jamaah_jk' => $this->request->getPost('jamaah_jk'),
           'jamaah_alamat'  => $this->request->getPost('jamaah_alamat'),
+          'jamaah_desa_kel'  => $this->request->getPost('jamaah_desa_kel'),
+          'jamaah_kecamatan'  => $this->request->getPost('jamaah_kecamatan'),
+          'jamaah_kota_kab'  => $this->request->getPost('jamaah_kota_kab'),
           'jamaah_no_hp'  => $this->request->getPost('jamaah_no_hp'),
           'jamaah_kewarganegaraan'  => $this->request->getPost('jamaah_kewarganegaraan'),
           'jamaah_pekerjaan'  => $this->request->getPost('jamaah_pekerjaan'),
@@ -275,10 +279,14 @@ class jamaah extends Controller
                       'jamaah_no_passport'  => $this->request->getPost('jamaah_no_passport'),
                       'jamaah_dateofissue'  => $new_date1,
                       'jamaah_dateofexpire'  => $new_date2,
+                      'jamaah_jenis_identitas'  => $this->request->getPost('jamaah_jenis_identitas'),
                       'jamaah_ttl'  => $jamaah_ttl,
                       'jamaah_usia'  => $this->request->getPost('jamaah_usia'),
                       'jamaah_jk' => $this->request->getPost('jamaah_jk'),
                       'jamaah_alamat'  => $this->request->getPost('jamaah_alamat'),
+                      'jamaah_desa_kel'  => $this->request->getPost('jamaah_desa_kel'),
+                      'jamaah_kecamatan'  => $this->request->getPost('jamaah_kecamatan'),
+                      'jamaah_kota_kab'  => $this->request->getPost('jamaah_kota_kab'),
                       'jamaah_no_hp'  => $this->request->getPost('jamaah_no_hp'),
                       'jamaah_kewarganegaraan'  => $this->request->getPost('jamaah_kewarganegaraan'),
                       'jamaah_pekerjaan'  => $this->request->getPost('jamaah_pekerjaan'),
@@ -301,10 +309,14 @@ class jamaah extends Controller
                       'jamaah_no_passport'  => $this->request->getPost('jamaah_no_passport'),
                       'jamaah_dateofissue'  => $new_date1,
                       'jamaah_dateofexpire'  => $new_date2,
+                      'jamaah_jenis_identitas'  => $this->request->getPost('jamaah_jenis_identitas'),
                       'jamaah_ttl'  => $jamaah_ttl,
                       'jamaah_usia'  => $this->request->getPost('jamaah_usia'),
                       'jamaah_jk' => $this->request->getPost('jamaah_jk'),
                       'jamaah_alamat'  => $this->request->getPost('jamaah_alamat'),
+                      'jamaah_desa_kel'  => $this->request->getPost('jamaah_desa_kel'),
+                      'jamaah_kecamatan'  => $this->request->getPost('jamaah_kecamatan'),
+                      'jamaah_kota_kab'  => $this->request->getPost('jamaah_kota_kab'),
                       'jamaah_no_hp'  => $this->request->getPost('jamaah_no_hp'),
                       'jamaah_kewarganegaraan'  => $this->request->getPost('jamaah_kewarganegaraan'),
                       'jamaah_pekerjaan'  => $this->request->getPost('jamaah_pekerjaan'),
@@ -325,10 +337,14 @@ class jamaah extends Controller
                       'jamaah_no_passport'  => $this->request->getPost('jamaah_no_passport'),
                       'jamaah_dateofissue'  => $new_date1,
                       'jamaah_dateofexpire'  => $new_date2,
+                      'jamaah_jenis_identitas'  => $this->request->getPost('jamaah_jenis_identitas'),
                       'jamaah_ttl'  => $jamaah_ttl,
                       'jamaah_usia'  => $this->request->getPost('jamaah_usia'),
                       'jamaah_jk' => $this->request->getPost('jamaah_jk'),
                       'jamaah_alamat'  => $this->request->getPost('jamaah_alamat'),
+                      'jamaah_desa_kel'  => $this->request->getPost('jamaah_desa_kel'),
+                      'jamaah_kecamatan'  => $this->request->getPost('jamaah_kecamatan'),
+                      'jamaah_kota_kab'  => $this->request->getPost('jamaah_kota_kab'),
                       'jamaah_no_hp'  => $this->request->getPost('jamaah_no_hp'),
                       'jamaah_kewarganegaraan'  => $this->request->getPost('jamaah_kewarganegaraan'),
                       'jamaah_pekerjaan'  => $this->request->getPost('jamaah_pekerjaan'),
@@ -347,10 +363,14 @@ class jamaah extends Controller
                       'jamaah_no_passport'  => $this->request->getPost('jamaah_no_passport'),
                       'jamaah_dateofissue'  => $new_date1,
                       'jamaah_dateofexpire'  => $new_date2,
+                      'jamaah_jenis_identitas'  => $this->request->getPost('jamaah_jenis_identitas'),
                       'jamaah_ttl'  => $jamaah_ttl,
                       'jamaah_usia'  => $this->request->getPost('jamaah_usia'),
                       'jamaah_jk' => $this->request->getPost('jamaah_jk'),
                       'jamaah_alamat'  => $this->request->getPost('jamaah_alamat'),
+                      'jamaah_desa_kel'  => $this->request->getPost('jamaah_desa_kel'),
+                      'jamaah_kecamatan'  => $this->request->getPost('jamaah_kecamatan'),
+                      'jamaah_kota_kab'  => $this->request->getPost('jamaah_kota_kab'),
                       'jamaah_no_hp'  => $this->request->getPost('jamaah_no_hp'),
                       'jamaah_kewarganegaraan'  => $this->request->getPost('jamaah_kewarganegaraan'),
                       'jamaah_pekerjaan'  => $this->request->getPost('jamaah_pekerjaan'),
@@ -682,6 +702,50 @@ class jamaah extends Controller
         $data['dataperlengkapan']=$data_perlengkapan;
 
         return view('pendaftaran_umrah/cetak_data_jamaah',$data);
+    }
+
+    public function preview_bukti_pendaftaran($jamaah_id)
+    {
+        $session = session();
+        $db = \Config\Database::connect();
+        $query1 = "SELECT * FROM jamaah WHERE jamaah_id='$jamaah_id'";
+        $data_jamaah=$db->query($query1)->getRow();
+
+        $data['row']=array(
+            'jamaah_id'  => $data_jamaah->jamaah_id,
+            'jamaah_nama'  => $data_jamaah->jamaah_nama,
+            'jamaah_ttl'  => $data_jamaah->jamaah_ttl,
+            'jamaah_alamat'  => $data_jamaah->jamaah_alamat,
+            'jamaah_pekerjaan'  => $data_jamaah->jamaah_pekerjaan,
+            'jamaah_no_hp'  => $data_jamaah->jamaah_no_hp,
+            'jamaah_tgl_ttd'  => $this->tgl_indo(date('Y-m-d')),
+            'jamaah_berangkat'  => $this->tgl_berangkat(date('Y-m-d')),
+            );
+
+        return view('pendaftaran_umrah/preview_bukti_pendaftaran',$data);
+    }
+
+    public function download_bukti_pendaftaran($jamaah_id)
+    {
+        $session = session();
+        $db = \Config\Database::connect();
+        $query1 = "SELECT * FROM jamaah WHERE jamaah_id='$jamaah_id'";
+        $data_jamaah=$db->query($query1)->getRow();
+
+        $data['row']=array(
+            'jamaah_id'  => $data_jamaah->jamaah_id,
+            'jamaah_nama'  => $data_jamaah->jamaah_nama,
+            'jamaah_ttl'  => $data_jamaah->jamaah_ttl,
+            'jamaah_alamat'  => $data_jamaah->jamaah_alamat,
+            'jamaah_pekerjaan'  => $data_jamaah->jamaah_pekerjaan,
+            'jamaah_no_hp'  => $data_jamaah->jamaah_no_hp,
+            'jamaah_tgl_ttd'  => $this->tgl_indo(date('Y-m-d')),
+            'jamaah_berangkat'  => $this->tgl_berangkat(date('Y-m-d')),
+            );
+
+        header('Content-type: application/vnd.ms-word');
+        header("Content-disposition: attachment; filename=example.doc");
+        return view('pendaftaran_umrah/preview_bukti_pendaftaran',$data);
     }
 
 }

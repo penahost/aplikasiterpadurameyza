@@ -62,3 +62,304 @@ CRITICAL - 2021-04-16 04:14:18 --> Trying to get property 'jamaah_id' of non-obj
 #3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
 #5 {main}
+CRITICAL - 2021-04-16 11:02:47 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI PENDAFTAR...', 'image002.png')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 11:02:47 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI PENDAFTAR...', 'image001.png')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 11:05:44 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI PENDAFTAR...', 'image001.png')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 11:09:14 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI_PENDAFTAR...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 11:09:14 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI_PENDAFTAR...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 11:09:30 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI_PENDAFTAR...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 11:09:35 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI_PENDAFTAR...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 11:09:35 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI_PENDAFTAR...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 11:09:38 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI_PENDAFTAR...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 11:09:56 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI_PENDAFTAR...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 11:09:56 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI_PENDAFTAR...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 11:16:04 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI_PENDAFTAR...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 11:16:27 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI_PENDAFTAR...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 11:17:39 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI_PENDAFTAR...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 11:18:49 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI_PENDAFTAR...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 11:18:56 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI_PENDAFTAR...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 11:19:06 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI_PENDAFTAR...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 11:19:32 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI_PENDAFTAR...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 11:19:48 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI_PENDAFTAR...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 11:19:58 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI_PENDAFTAR...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 11:20:22 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI_PENDAFTAR...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 11:20:53 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI_PENDAFTAR...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 11:21:51 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI_PENDAFTAR...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 11:21:52 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI_PENDAFTAR...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 11:21:54 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI_PENDAFTAR...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 11:21:55 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI_PENDAFTAR...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 11:22:16 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI_PENDAFTAR...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 11:22:25 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI_PENDAFTAR...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 11:22:53 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI_PENDAFTAR...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 11:23:04 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI_PENDAFTAR...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 11:24:08 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI_PENDAFTAR...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 11:24:10 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI_PENDAFTAR...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 11:24:29 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI_PENDAFTAR...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 11:24:40 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI_PENDAFTAR...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 11:24:41 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI_PENDAFTAR...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 11:24:54 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI_PENDAFTAR...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 11:26:18 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI_PENDAFTAR...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 11:27:07 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI_PENDAFTAR...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 11:27:14 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI_PENDAFTAR...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 11:27:28 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI_PENDAFTAR...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 11:27:37 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI_PENDAFTAR...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 11:27:52 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI_PENDAFTAR...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 11:27:59 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(742): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 742, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_bukti_pendaftaran('BUKTI_PENDAFTAR...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

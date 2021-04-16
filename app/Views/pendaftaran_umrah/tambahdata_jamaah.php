@@ -55,6 +55,12 @@
                                       </div>
                                   </div>
                                   <div class="form-group row">
+                                      <label class="col-sm-3 col-form-label">Jenis Identitas</label>
+                                      <div class="col-sm-9">
+                                          <input class="form-control" value="" name="jamaah_jenis_identitas" type="text">
+                                      </div>
+                                  </div>
+                                  <div class="form-group row">
                                       <label class="col-sm-3 col-form-label">TTL</label>
                                       <div class="col-sm-3">
                                           <input class="form-control" value="" name="jamaah_tempat_lahir" type="text" placeholder="Kediri">
@@ -69,6 +75,7 @@
                                           <input class="form-control" value="" name="jamaah_usia" type="text">
                                       </div>
                                   </div>
+
                                   <div class="form-group row">
                                       <label class="col-sm-3 col-form-label">Jenis Kelamin</label>
                                       <div class="col-sm-9">
@@ -82,10 +89,29 @@
                                       </div>
                                       </div>
                                   </div>
+
                                   <div class="form-group row">
                                       <label class="col-sm-3 col-form-label">Alamat</label>
                                       <div class="col-sm-9">
                                           <input class="form-control" value="" name="jamaah_alamat" type="text">
+                                      </div>
+                                  </div>
+                                  <div class="form-group row">
+                                      <label class="col-sm-3 col-form-label">Desa / Kel</label>
+                                      <div class="col-sm-9">
+                                          <input class="form-control" value="" name="jamaah_desa_kel" type="text">
+                                      </div>
+                                  </div>
+                                  <div class="form-group row">
+                                      <label class="col-sm-3 col-form-label">Kecamatan</label>
+                                      <div class="col-sm-9">
+                                          <input class="form-control" value="" name="jamaah_kecamatan" type="text">
+                                      </div>
+                                  </div>
+                                  <div class="form-group row">
+                                      <label class="col-sm-3 col-form-label">Kota / Kabupaten</label>
+                                      <div class="col-sm-9">
+                                          <input class="form-control" value="" name="jamaah_kota_kab" type="text">
                                       </div>
                                   </div>
                                   <div class="form-group row">

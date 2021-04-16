@@ -110,6 +110,7 @@
                                             <a style="width:15px;" class="btn btn-danger" href="<?php echo base_url();?>/pendaftaran_umrah/jamaah/hapus/<?=$row->jamaah_id;?>/<?=$paket_id;?>"><i class="fa fa-times"></i></a>
                                             <a style="width:15px;" class="btn btn-info popup_detail_jamaah" data-toggle="modal" data-target="#exampleModal4" data-id="<?=$row->jamaah_id;?>"><i class="fa ti-layers-alt"></i></a>
                                             <a style="width:15px;" class="btn btn-warning" href="<?php echo base_url();?>/pendaftaran_umrah/jamaah/cetak_data_jamaah/<?=$row->jamaah_id;?>"><i class="fa fa-print"></i></a>
+                                            <a style="width:15px;" class="btn btn-warning" href="<?php echo base_url();?>/pendaftaran_umrah/jamaah/download_bukti_pendaftaran/<?=$row->jamaah_id;?>"><i class="fa fa-envelope"></i></a>
                                           </td>
                                       </tr>
                                       <?php
@@ -174,6 +175,12 @@
                                                 </div>
                                             </div>
                                             <div class="form-group row">
+                                                <label class="col-sm-3 col-form-label">Jenis Identitas</label>
+                                                <div class="col-sm-9">
+                                                    <input class="form-control" value="" name="jamaah_jenis_identitas" type="text" readonly>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
                                                 <label class="col-sm-3 col-form-label">TTL</label>
                                                 <div class="col-sm-9">
                                                     <input class="form-control" value="" name="jamaah_ttl" type="text" readonly>
@@ -189,6 +196,24 @@
                                                 <label class="col-sm-3 col-form-label">Alamat</label>
                                                 <div class="col-sm-9">
                                                     <input class="form-control" value="" name="jamaah_alamat" type="text" readonly>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-sm-3 col-form-label">Desa / Kel</label>
+                                                <div class="col-sm-9">
+                                                    <input class="form-control" value="" name="jamaah_desa_kel" type="text" readonly>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-sm-3 col-form-label">Kecamatan</label>
+                                                <div class="col-sm-9">
+                                                    <input class="form-control" value="" name="jamaah_kecamatan" type="text" readonly>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-sm-3 col-form-label">Kota / Kabupaten</label>
+                                                <div class="col-sm-9">
+                                                    <input class="form-control" value="" name="jamaah_kota_kab" type="text" readonly>
                                                 </div>
                                             </div>
                                             <div class="form-group row">

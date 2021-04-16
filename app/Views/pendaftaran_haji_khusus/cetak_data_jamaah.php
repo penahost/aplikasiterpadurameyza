@@ -57,6 +57,12 @@
                           </div>
                       </div>
                       <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Jenis identitas</label>
+                          <div class="col-sm-9">
+                              <input class="form-control" value="<?=$row->jamaah_jenis_identitas;?>" name="jamaah_tgl_berangkat" type="text" readonly>
+                          </div>
+                      </div>
+                      <div class="form-group row">
                           <label class="col-sm-3 col-form-label">TTL</label>
                           <div class="col-sm-9">
                               <input class="form-control" value="<?=$row->jamaah_ttl;?>" name="jamaah_ttl" type="text" readonly>
@@ -78,6 +84,24 @@
                           <label class="col-sm-3 col-form-label">Alamat</label>
                           <div class="col-sm-9">
                               <input class="form-control" value="<?=$row->jamaah_alamat;?>" name="jamaah_alamat" type="text" readonly>
+                          </div>
+                      </div>
+                      <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Desa / Kelurahan</label>
+                          <div class="col-sm-9">
+                              <input class="form-control" value="<?=$row->jamaah_desa_kel;?>" name="jamaah_alamat" type="text" readonly>
+                          </div>
+                      </div>
+                      <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Kecamatan</label>
+                          <div class="col-sm-9">
+                              <input class="form-control" value="<?=$row->jamaah_kecamatan;?>" name="jamaah_alamat" type="text" readonly>
+                          </div>
+                      </div>
+                      <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Kota / Kabupaten</label>
+                          <div class="col-sm-9">
+                              <input class="form-control" value="<?=$row->jamaah_kota_kab;?>" name="jamaah_alamat" type="text" readonly>
                           </div>
                       </div>
                       <div class="form-group row">
