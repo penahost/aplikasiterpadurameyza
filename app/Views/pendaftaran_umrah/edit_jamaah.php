@@ -114,6 +114,12 @@
                                       </div>
                                   </div>
                                   <div class="form-group row">
+                                      <label class="col-sm-3 col-form-label">Pekerjaan</label>
+                                      <div class="col-sm-9">
+                                          <input class="form-control" value="<?=$row->jamaah_pekerjaan;?>" name="jamaah_pekerjaan" type="text">
+                                      </div>
+                                  </div>
+                                  <div class="form-group row">
                                       <label class="col-sm-3 col-form-label">Ket. Pembayaran</label>
                                       <div class="col-sm-9">
                                           <input class="form-control" value="<?=$row->jamaah_ket_pembayaran;?>" name="jamaah_ket_pembayaran" type="text">

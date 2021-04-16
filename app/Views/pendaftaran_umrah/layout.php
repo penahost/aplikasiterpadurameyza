@@ -224,6 +224,7 @@
                     $('[name="jamaah_usia"]').val(data[index].jamaah_usia);
                     $('[name="jamaah_alamat"]').val(data[index].jamaah_alamat);
                     $('[name="jamaah_no_hp"]').val(data[index].jamaah_no_hp);
+                    $('[name="jamaah_pekerjaan"]').val(data[index].jamaah_pekerjaan);
                     $('[name="jamaah_ket_pembayaran"]').val(data[index].jamaah_ket_pembayaran);
                     $('[name="jamaah_tgl_berangkat"]').val(data[index].jamaah_tgl_berangkat);
                     $("#jamaah_foto").attr("src", "<?= base_url();?>/uploads/jamaah/"+data[index].jamaah_foto);
