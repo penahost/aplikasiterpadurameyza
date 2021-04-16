@@ -730,4 +730,25 @@ class jamaah extends Controller
 
         return view('pendaftaran_umrah/cetak_data_jamaah',$data);
     }
+
+    public function preview_bukti_pendaftaran($jamaah_id)
+    {
+        $session = session();
+        $db = \Config\Database::connect();
+        $query1 = "SELECT * FROM jamaah WHERE jamaah_id='$jamaah_id'";
+        $data_jamaah=$db->query($query1)->getRow();
+
+        $data['row']=array(
+            'jamaah_id'  => $data_jamaah->jamaah_id,
+            'jamaah_nama'  => $data_jamaah->jamaah_nama,
+            'jamaah_ttl'  => $data_jamaah->jamaah_ttl,
+            'jamaah_alamat'  => $data_jamaah->jamaah_alamat,
+            'jamaah_pekerjaan'  => $data_jamaah->jamaah_pekerjaan,
+            'jamaah_no_hp'  => $data_jamaah->jamaah_no_hp,
+            'jamaah_tgl_ttd'  => $this->tgl_indo(date('Y-m-d')),
+            'jamaah_berangkat'  => $this->tgl_berangkat(date('Y-m-d')),
+            );
+
+        return view('pendaftaran_haji_khusus/preview_bukti_pendaftaran',$data);
+    }
 }

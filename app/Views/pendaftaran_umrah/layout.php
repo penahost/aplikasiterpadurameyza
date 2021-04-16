@@ -221,7 +221,11 @@
                     $('[name="jamaah_nama"]').val(data[index].jamaah_nama);
                     $('[name="jamaah_no_passport"]').val(data[index].jamaah_no_passport);
                     $('[name="jamaah_ttl"]').val(data[index].jamaah_ttl);
+                    $('[name="jamaah_dateofissue"]').val(data[index].jamaah_dateofissue);
+                    $('[name="jamaah_dateofexpire"]').val(data[index].jamaah_dateofexpire);
                     $('[name="jamaah_usia"]').val(data[index].jamaah_usia);
+                    $('[name="jamaah_kewarganegaraan"]').val(data[index].jamaah_kewarganegaraan);
+                    $('[name="jamaah_pekerjaan"]').val(data[index].jamaah_pekerjaan);
                     $('[name="jamaah_alamat"]').val(data[index].jamaah_alamat);
                     $('[name="jamaah_no_hp"]').val(data[index].jamaah_no_hp);
                     $('[name="jamaah_pekerjaan"]').val(data[index].jamaah_pekerjaan);

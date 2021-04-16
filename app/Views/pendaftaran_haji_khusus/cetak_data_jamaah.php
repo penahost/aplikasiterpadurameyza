@@ -33,6 +33,12 @@
                           </div>
                       </div>
                       <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Kewarganegaraan</label>
+                          <div class="col-sm-9">
+                              <input class="form-control" value="<?=$row->jamaah_kewarganegaraan;?>" name="jamaah_tgl_berangkat" type="text" readonly>
+                          </div>
+                      </div>
+                      <div class="form-group row">
                           <label class="col-sm-3 col-form-label">NO Passport</label>
                           <div class="col-sm-9">
                               <input class="form-control" value="<?=$row->jamaah_no_passport;?>" name="jamaah_no_passport" type="text" readonly>
@@ -81,6 +87,12 @@
                           </div>
                       </div>
                       <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Pekerjaan</label>
+                          <div class="col-sm-9">
+                              <input class="form-control" value="<?=$row->jamaah_pekerjaan;?>" name="jamaah_tgl_berangkat" type="text" readonly>
+                          </div>
+                      </div>
+                      <div class="form-group row">
                           <label class="col-sm-3 col-form-label">Ket. Pembayaran</label>
                           <div class="col-sm-9">
                               <input class="form-control" value="<?=$row->jamaah_ket_pembayaran;?>" name="jamaah_ket_pembayaran" type="text" readonly>
@@ -92,12 +104,7 @@
                               <input class="form-control" value="<?=$row->jamaah_tgl_berangkat;?>" name="jamaah_tgl_berangkat" type="text" readonly>
                           </div>
                       </div>
-                      <div class="form-group row">
-                          <label class="col-sm-3 col-form-label">Pekerjaan</label>
-                          <div class="col-sm-9">
-                              <input class="form-control" value="<?=$row->jamaah_pekerjaan;?>" name="jamaah_tgl_berangkat" type="text" readonly>
-                          </div>
-                      </div>
+
               </div>
           </div>
     </div>

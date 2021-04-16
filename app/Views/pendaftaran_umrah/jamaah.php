@@ -162,6 +162,18 @@
                                                 </div>
                                             </div>
                                             <div class="form-group row">
+                                                <label class="col-sm-3 col-form-label">Date of issue</label>
+                                                <div class="col-sm-9">
+                                                    <input class="form-control" value="" name="jamaah_dateofissue" type="text" readonly>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-sm-3 col-form-label">Date of expired</label>
+                                                <div class="col-sm-9">
+                                                    <input class="form-control" value="" name="jamaah_dateofexpire" type="text" readonly>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
                                                 <label class="col-sm-3 col-form-label">TTL</label>
                                                 <div class="col-sm-9">
                                                     <input class="form-control" value="" name="jamaah_ttl" type="text" readonly>
@@ -183,6 +195,12 @@
                                                 <label class="col-sm-3 col-form-label">No HP</label>
                                                 <div class="col-sm-9">
                                                     <input class="form-control" value="" name="jamaah_no_hp" type="text" readonly>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-sm-3 col-form-label">Warganegara</label>
+                                                <div class="col-sm-9">
+                                                    <input class="form-control" value="" name="jamaah_kewarganegaraan" type="text" readonly>
                                                 </div>
                                             </div>
                                             <div class="form-group row">

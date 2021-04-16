@@ -114,6 +114,12 @@
                                       </div>
                                   </div>
                                   <div class="form-group row">
+                                      <label class="col-sm-3 col-form-label">Kewarganeraan</label>
+                                      <div class="col-sm-9">
+                                          <input class="form-control" value="<?=$row->jamaah_kewarganegaraan;?>" name="jamaah_kewarganegaraan" type="text">
+                                      </div>
+                                  </div>
+                                  <div class="form-group row">
                                       <label class="col-sm-3 col-form-label">Pekerjaan</label>
                                       <div class="col-sm-9">
                                           <input class="form-control" value="<?=$row->jamaah_pekerjaan;?>" name="jamaah_pekerjaan" type="text">

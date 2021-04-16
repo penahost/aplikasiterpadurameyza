@@ -72,18 +72,7 @@
                                           <input class="form-control" value="" name="jamaah_usia" type="text">
                                       </div>
                                   </div>
-                                  <div class="form-group row">
-                                      <label class="col-sm-3 col-form-label">Kewarganeraan</label>
-                                      <div class="col-sm-9">
-                                          <input class="form-control" value="" name="jamaah_kewarganegaraan" type="text">
-                                      </div>
-                                  </div>
-                                  <div class="form-group row">
-                                      <label class="col-sm-3 col-form-label">Pekerjaan</label>
-                                      <div class="col-sm-9">
-                                          <input class="form-control" value="" name="jamaah_pekerjaan" type="text">
-                                      </div>
-                                  </div>
+
                                   <div class="form-group row">
                                       <label class="col-sm-3 col-form-label">Jenis Kelamin</label>
                                       <div class="col-sm-9">
@@ -120,6 +109,18 @@
                                       <label class="col-sm-3 col-form-label">No HP</label>
                                       <div class="col-sm-9">
                                           <input class="form-control" value="" name="jamaah_no_hp" type="text">
+                                      </div>
+                                  </div>
+                                  <div class="form-group row">
+                                      <label class="col-sm-3 col-form-label">Kewarganeraan</label>
+                                      <div class="col-sm-9">
+                                          <input class="form-control" value="" name="jamaah_kewarganegaraan" type="text">
+                                      </div>
+                                  </div>
+                                  <div class="form-group row">
+                                      <label class="col-sm-3 col-form-label">Pekerjaan</label>
+                                      <div class="col-sm-9">
+                                          <input class="form-control" value="" name="jamaah_pekerjaan" type="text">
                                       </div>
                                   </div>
                                   <div class="form-group row">

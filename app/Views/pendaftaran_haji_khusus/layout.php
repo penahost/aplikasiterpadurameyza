@@ -193,6 +193,8 @@
                     $('[name="jamaah_nama"]').val(data[index].jamaah_nama);
                     $('[name="jamaah_no_passport"]').val(data[index].jamaah_no_passport);
                     $('[name="jamaah_ttl"]').val(data[index].jamaah_ttl);
+                    $('[name="jamaah_dateofissue"]').val(data[index].jamaah_dateofissue);
+                    $('[name="jamaah_dateofexpire"]').val(data[index].jamaah_dateofexpire);
                     $('[name="jamaah_usia"]').val(data[index].jamaah_usia);
                     $('[name="jamaah_kewarganegaraan"]').val(data[index].jamaah_kewarganegaraan);
                     $('[name="jamaah_pekerjaan"]').val(data[index].jamaah_pekerjaan);
@@ -236,7 +238,7 @@
           {
               console.log(data);
               $.each(data, function(index) {
-                  $('#perlengkapan').append("&#10004; "+data[index].perlengkapan_nama);
+                  // $('#perlengkapan').append("&#10004; "+data[index].perlengkapan_nama);
               });
               //alert(data.jamaah_nama);
           },

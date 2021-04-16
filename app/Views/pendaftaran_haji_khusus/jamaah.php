@@ -102,6 +102,7 @@
                                               <a style="width:15px;" class="btn btn-danger" href="<?php echo base_url();?>/pendaftaran_haji_khusus/jamaah/hapus/<?=$row->jamaah_id;?>/<?=$paket_id;?>"><i class="fa fa-times"></i></a>
                                               <a style="width:15px;" class="btn btn-info popup_detail_jamaah" data-toggle="modal" data-target="#exampleModal4" data-id="<?=$row->jamaah_id;?>"><i class="fa ti-layers-alt"></i></a>
                                               <a style="width:15px;" class="btn btn-warning" href="<?php echo base_url();?>/pendaftaran_haji_khusus/jamaah/cetak_data_jamaah/<?=$row->jamaah_id;?>"><i class="fa fa-print"></i></a>
+                                              <a style="width:15px;" class="btn btn-warning" href="<?php echo base_url();?>/pendaftaran_haji_khusus/jamaah/preview_bukti_pendaftaran/<?=$row->jamaah_id;?>"><i class="fa fa-print"></i></a>
                                           </td>
                                       </tr>
                                       <?php
@@ -151,6 +152,18 @@
                                                 <label class="col-sm-3 col-form-label">NO Passport</label>
                                                 <div class="col-sm-9">
                                                     <input class="form-control" value="" name="jamaah_no_passport" type="text" readonly>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-sm-3 col-form-label">Date of issue</label>
+                                                <div class="col-sm-9">
+                                                    <input class="form-control" value="" name="jamaah_dateofissue" type="text" readonly>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-sm-3 col-form-label">Date of expired</label>
+                                                <div class="col-sm-9">
+                                                    <input class="form-control" value="" name="jamaah_dateofexpire" type="text" readonly>
                                                 </div>
                                             </div>
                                             <div class="form-group row">
@@ -257,8 +270,8 @@
 
 
                                           </form>
-                                          <h5>Data Perlengkapan</h5>
-                                          <div id="perlengkapan"></div>
+                                          <!-- <h5>Data Perlengkapan</h5>
+                                          <div id="perlengkapan"></div> -->
                                       </div>
                                   </div>
                             </div>
