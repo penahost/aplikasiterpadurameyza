@@ -363,3 +363,320 @@ CRITICAL - 2021-04-16 11:27:59 --> Trying to get property 'jamaah_id' of non-obj
 #3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
 #5 {main}
+CRITICAL - 2021-04-16 22:51:06 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(715): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 715, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->preview_bukti_pendaftaran('BUKTI PENDAFTAR...', 'image002.png')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 22:51:22 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(715): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 715, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->preview_bukti_pendaftaran('BUKTI PENDAFTAR...', 'image002.png')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 22:54:58 --> Undefined index: jamaah_foto
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Views\pendaftaran_umrah\preview_bukti_pendaftaran.php(161): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 161, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran_umr...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(748): view('pendaftaran_umr...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->download_bukti_pendaftaran('47')
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-16 22:55:00 --> Undefined index: jamaah_foto
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Views\pendaftaran_umrah\preview_bukti_pendaftaran.php(161): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 161, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran_umr...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(748): view('pendaftaran_umr...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->download_bukti_pendaftaran('47')
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-16 23:21:56 --> Undefined property: stdClass::$paket_nama
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(748): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\xampp\\htdocs...', 748, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->download_bukti_pendaftaran('47')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 23:22:46 --> Undefined property: stdClass::$jamaah_jenis_kelamin
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(758): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\xampp\\htdocs...', 758, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->download_bukti_pendaftaran('47')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 23:23:31 --> Undefined property: stdClass::$jamaah_jenis_kelamin
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(758): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\xampp\\htdocs...', 758, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->download_bukti_pendaftaran('47')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 23:24:32 --> Undefined index: jamaah_tgl_berangkat
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Views\pendaftaran_umrah\preview_bukti_pendaftaran.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 127, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran_umr...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(774): view('pendaftaran_umr...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->download_bukti_pendaftaran('47')
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-16 23:24:34 --> Undefined index: jamaah_tgl_berangkat
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Views\pendaftaran_umrah\preview_bukti_pendaftaran.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 127, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran_umr...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(774): view('pendaftaran_umr...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->download_bukti_pendaftaran('47')
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-16 23:24:35 --> Undefined index: jamaah_tgl_berangkat
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Views\pendaftaran_umrah\preview_bukti_pendaftaran.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 127, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran_umr...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(774): view('pendaftaran_umr...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->download_bukti_pendaftaran('47')
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-16 23:25:24 --> Undefined index: jamaah_tgl_berangkat
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Views\pendaftaran_umrah\preview_bukti_pendaftaran.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 127, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran_umr...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(774): view('pendaftaran_umr...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->download_bukti_pendaftaran('47')
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-16 23:25:25 --> Undefined index: jamaah_tgl_berangkat
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Views\pendaftaran_umrah\preview_bukti_pendaftaran.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 127, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran_umr...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(774): view('pendaftaran_umr...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->download_bukti_pendaftaran('47')
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-16 23:25:26 --> Undefined index: jamaah_tgl_berangkat
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Views\pendaftaran_umrah\preview_bukti_pendaftaran.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 127, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran_umr...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(774): view('pendaftaran_umr...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->download_bukti_pendaftaran('47')
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-16 23:25:27 --> Undefined index: jamaah_tgl_berangkat
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Views\pendaftaran_umrah\preview_bukti_pendaftaran.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 127, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran_umr...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(774): view('pendaftaran_umr...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->download_bukti_pendaftaran('47')
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-16 23:25:27 --> Undefined index: jamaah_tgl_berangkat
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Views\pendaftaran_umrah\preview_bukti_pendaftaran.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 127, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran_umr...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(774): view('pendaftaran_umr...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->download_bukti_pendaftaran('47')
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-16 23:25:27 --> Undefined index: jamaah_tgl_berangkat
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Views\pendaftaran_umrah\preview_bukti_pendaftaran.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 127, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran_umr...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(774): view('pendaftaran_umr...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->download_bukti_pendaftaran('47')
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-16 23:26:01 --> Undefined index: jamaah_tgl_berangkat
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Views\pendaftaran_umrah\preview_bukti_pendaftaran.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 127, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran_umr...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(774): view('pendaftaran_umr...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->download_bukti_pendaftaran('47')
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-16 23:26:02 --> Undefined index: jamaah_tgl_berangkat
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Views\pendaftaran_umrah\preview_bukti_pendaftaran.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 127, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran_umr...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(774): view('pendaftaran_umr...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->download_bukti_pendaftaran('47')
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-16 23:26:03 --> Undefined index: jamaah_tgl_berangkat
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Views\pendaftaran_umrah\preview_bukti_pendaftaran.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 127, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran_umr...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(774): view('pendaftaran_umr...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->download_bukti_pendaftaran('47')
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-16 23:26:35 --> Undefined index: jamaah_tgl_berangkat
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Views\pendaftaran_umrah\preview_bukti_pendaftaran.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 127, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran_umr...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(739): view('pendaftaran_umr...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->preview_bukti_pendaftaran('47')
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-16 23:28:54 --> Undefined index: jamaah_tgl_berangkat
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Views\pendaftaran_umrah\preview_bukti_pendaftaran.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 127, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran_umr...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(739): view('pendaftaran_umr...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->preview_bukti_pendaftaran('47')
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-16 23:28:56 --> Undefined index: jamaah_tgl_berangkat
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Views\pendaftaran_umrah\preview_bukti_pendaftaran.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 127, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran_umr...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(739): view('pendaftaran_umr...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->preview_bukti_pendaftaran('47')
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-16 23:28:57 --> Undefined index: jamaah_tgl_berangkat
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Views\pendaftaran_umrah\preview_bukti_pendaftaran.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 127, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran_umr...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(739): view('pendaftaran_umr...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->preview_bukti_pendaftaran('47')
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-16 23:31:59 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(432): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 432, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->preview_surat_pernyataan('SURAT PERNYATAA...', 'image001.png')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 23:32:11 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(432): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 432, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->preview_surat_pernyataan('SURAT PERNYATAA...', 'image001.png')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 23:34:58 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(432): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 432, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->preview_surat_pernyataan('SURAT PERNYATAA...', 'image001.png')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 23:46:09 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(432): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 432, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->preview_surat_pernyataan('SURAT PERNYATAA...', 'image001.png')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 23:46:45 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(432): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 432, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->preview_surat_pernyataan('SURAT PERNYATAA...', 'image001.png')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 23:48:10 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(432): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 432, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->preview_surat_pernyataan('SURAT PERNYATAA...', 'image001.png')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 23:48:56 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(432): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 432, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->preview_surat_pernyataan('SURAT PERNYATAA...', 'image001.png')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 23:49:58 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(432): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 432, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->preview_surat_pernyataan('SURAT PERNYATAA...', 'image001.png')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 23:50:09 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(432): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 432, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->preview_surat_pernyataan('SURAT PERNYATAA...', 'image001.png')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 23:52:20 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(432): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 432, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->preview_surat_pernyataan('SURAT PERNYATAA...', 'image001.png')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 23:52:39 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(432): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 432, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->preview_surat_pernyataan('SURAT PERNYATAA...', 'image001.png')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 23:52:54 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(432): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 432, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->preview_surat_pernyataan('SURAT PERNYATAA...', 'image001.png')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

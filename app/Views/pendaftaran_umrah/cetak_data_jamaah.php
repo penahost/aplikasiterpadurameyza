@@ -35,7 +35,7 @@
                       <div class="form-group row">
                           <label class="col-sm-3 col-form-label">Kewarganegaraan</label>
                           <div class="col-sm-9">
-                              <input class="form-control" value="<?=$row->jamaah_kewarganegaraan;?>" name="jamaah_tgl_berangkat" type="text" readonly>
+                              <input class="form-control" value="<?=$row->jamaah_kewarganegaraan;?>" name="jamaah_kewarganegaraan" type="text" readonly>
                           </div>
                       </div>
                       <div class="form-group row">
@@ -47,19 +47,25 @@
                       <div class="form-group row">
                           <label class="col-sm-3 col-form-label">Date Of Issue</label>
                           <div class="col-sm-9">
-                              <input class="form-control" value="<?=$row->jamaah_dateofissue;?>" name="jamaah_tgl_berangkat" type="text" readonly>
+                              <input class="form-control" value="<?=$row->jamaah_dateofissue;?>" name="jamaah_dateofissue" type="text" readonly>
                           </div>
                       </div>
                       <div class="form-group row">
                           <label class="col-sm-3 col-form-label">Date Of Expire</label>
                           <div class="col-sm-9">
-                              <input class="form-control" value="<?=$row->jamaah_dateofexpire;?>" name="jamaah_tgl_berangkat" type="text" readonly>
+                              <input class="form-control" value="<?=$row->jamaah_dateofexpire;?>" name="jamaah_dateofexpire" type="text" readonly>
                           </div>
                       </div>
                       <div class="form-group row">
                           <label class="col-sm-3 col-form-label">Jenis identitas</label>
                           <div class="col-sm-9">
-                              <input class="form-control" value="<?=$row->jamaah_jenis_identitas;?>" name="jamaah_tgl_berangkat" type="text" readonly>
+                              <input class="form-control" value="<?=$row->jamaah_jenis_identitas;?>" name="jamaah_jenis_identitas" type="text" readonly>
+                          </div>
+                      </div>
+                      <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">No identitas</label>
+                          <div class="col-sm-9">
+                              <input class="form-control" value="<?=$row->jamaah_no_identitas;?>" name="jamaah_no_identitas" type="text" readonly>
                           </div>
                       </div>
                       <div class="form-group row">

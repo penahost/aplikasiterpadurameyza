@@ -224,6 +224,7 @@
                     $('[name="jamaah_dateofissue"]').val(data[index].jamaah_dateofissue);
                     $('[name="jamaah_dateofexpire"]').val(data[index].jamaah_dateofexpire);
                     $('[name="jamaah_jenis_identitas"]').val(data[index].jamaah_jenis_identitas);
+                    $('[name="jamaah_no_identitas"]').val(data[index].jamaah_no_identitas);
                     $('[name="jamaah_usia"]').val(data[index].jamaah_usia);
                     $('[name="jamaah_kewarganegaraan"]').val(data[index].jamaah_kewarganegaraan);
                     $('[name="jamaah_pekerjaan"]').val(data[index].jamaah_pekerjaan);

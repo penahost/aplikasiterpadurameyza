@@ -131,7 +131,7 @@ style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman",serif'>1.
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
 lang=IN style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman",serif'>Saya
 benar – benar akan melaksanakan ibadah umroh melalui PT. Rameyza Wisata Jaya
-pada tanggal 02 April 2021.</span></p>
+pada tanggal <?=$row['jamaah_berangkat'];?>.</span></p>
 
 <p class=MsoListParagraphCxSpLast style='text-align:justify;text-justify:kashida;
 text-kashida:0%;text-indent:-.25in;line-height:150%'><span lang=IN
@@ -175,10 +175,15 @@ font-family:"Times New Roman",serif'>&nbsp;</span></p>
   <p class=MsoNormal align=center style='margin-bottom:0in;text-align:center;
   line-height:150%'><span lang=IN style='font-size:12.0pt;line-height:150%;
   font-family:"Times New Roman",serif'>&nbsp;</span></p>
-  <p class=MsoNormal align=center style='margin-bottom:0in;text-align:center;
+  <br>
+
+
+  <p class=MsoNormal align=center style='margin-bottom:0in;text-align:left;
   line-height:150%'><span style='font-size:12.0pt;line-height:150%;font-family:
   "Times New Roman",serif'><img width=92 height=51 id="Picture 2"
-  src="SURAT%20PERNYATAAN%20Ke%20Depag%20(A4)_files/image001.png"></span></p>
+  src="<?=base_url();?>/uploads/materai6000.png"></span></p>
+    <br>
+    <br>
   </td>
  </tr>
  <tr>

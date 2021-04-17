@@ -141,6 +141,7 @@ class jamaah extends Controller
           'jamaah_dateofissue'  => $new_date1,
           'jamaah_dateofexpire'  => $new_date2,
           'jamaah_jenis_identitas'  => $this->request->getPost('jamaah_jenis_identitas'),
+          'jamaah_no_identitas'  => $this->request->getPost('jamaah_no_identitas'),
           'jamaah_ttl'  => $jamaah_ttl,
           'jamaah_usia'  => $this->request->getPost('jamaah_usia'),
           'jamaah_jk' => $this->request->getPost('jamaah_jk'),
@@ -280,6 +281,7 @@ class jamaah extends Controller
                       'jamaah_dateofissue'  => $new_date1,
                       'jamaah_dateofexpire'  => $new_date2,
                       'jamaah_jenis_identitas'  => $this->request->getPost('jamaah_jenis_identitas'),
+                      'jamaah_no_identitas'  => $this->request->getPost('jamaah_no_identitas'),
                       'jamaah_ttl'  => $jamaah_ttl,
                       'jamaah_usia'  => $this->request->getPost('jamaah_usia'),
                       'jamaah_jk' => $this->request->getPost('jamaah_jk'),
@@ -310,6 +312,7 @@ class jamaah extends Controller
                       'jamaah_dateofissue'  => $new_date1,
                       'jamaah_dateofexpire'  => $new_date2,
                       'jamaah_jenis_identitas'  => $this->request->getPost('jamaah_jenis_identitas'),
+                      'jamaah_no_identitas'  => $this->request->getPost('jamaah_no_identitas'),
                       'jamaah_ttl'  => $jamaah_ttl,
                       'jamaah_usia'  => $this->request->getPost('jamaah_usia'),
                       'jamaah_jk' => $this->request->getPost('jamaah_jk'),
@@ -338,6 +341,7 @@ class jamaah extends Controller
                       'jamaah_dateofissue'  => $new_date1,
                       'jamaah_dateofexpire'  => $new_date2,
                       'jamaah_jenis_identitas'  => $this->request->getPost('jamaah_jenis_identitas'),
+                      'jamaah_no_identitas'  => $this->request->getPost('jamaah_no_identitas'),
                       'jamaah_ttl'  => $jamaah_ttl,
                       'jamaah_usia'  => $this->request->getPost('jamaah_usia'),
                       'jamaah_jk' => $this->request->getPost('jamaah_jk'),
@@ -364,6 +368,7 @@ class jamaah extends Controller
                       'jamaah_dateofissue'  => $new_date1,
                       'jamaah_dateofexpire'  => $new_date2,
                       'jamaah_jenis_identitas'  => $this->request->getPost('jamaah_jenis_identitas'),
+                      'jamaah_no_identitas'  => $this->request->getPost('jamaah_no_identitas'),
                       'jamaah_ttl'  => $jamaah_ttl,
                       'jamaah_usia'  => $this->request->getPost('jamaah_usia'),
                       'jamaah_jk' => $this->request->getPost('jamaah_jk'),
@@ -434,6 +439,7 @@ class jamaah extends Controller
             'jamaah_ttl'  => $data_jamaah->jamaah_ttl,
             'jamaah_alamat'  => $data_jamaah->jamaah_alamat,
             'jamaah_tgl_ttd'  => $this->tgl_indo(date('Y-m-d')),
+            'jamaah_berangkat'  => $this->tgl_indo(date('Y-m-d')),
             );
 
         return view('pendaftaran_umrah/preview_surat_pernyataan',$data);
@@ -451,6 +457,7 @@ class jamaah extends Controller
           'jamaah_ttl'  => $data_jamaah->jamaah_ttl,
           'jamaah_alamat'  => $data_jamaah->jamaah_alamat,
           'jamaah_tgl_ttd'  => $this->tgl_indo(date('Y-m-d')),
+          'jamaah_berangkat'  => $this->tgl_indo(date('Y-m-d')),
           );
 
       header('Content-type: application/vnd.ms-word');
@@ -708,18 +715,31 @@ class jamaah extends Controller
     {
         $session = session();
         $db = \Config\Database::connect();
-        $query1 = "SELECT * FROM jamaah WHERE jamaah_id='$jamaah_id'";
+        $query1 = "SELECT * FROM jamaah
+        join paket on paket.paket_id=jamaah.paket_id
+        WHERE jamaah_id='$jamaah_id'";
         $data_jamaah=$db->query($query1)->getRow();
 
         $data['row']=array(
-            'jamaah_id'  => $data_jamaah->jamaah_id,
-            'jamaah_nama'  => $data_jamaah->jamaah_nama,
-            'jamaah_ttl'  => $data_jamaah->jamaah_ttl,
-            'jamaah_alamat'  => $data_jamaah->jamaah_alamat,
-            'jamaah_pekerjaan'  => $data_jamaah->jamaah_pekerjaan,
-            'jamaah_no_hp'  => $data_jamaah->jamaah_no_hp,
-            'jamaah_tgl_ttd'  => $this->tgl_indo(date('Y-m-d')),
-            'jamaah_berangkat'  => $this->tgl_berangkat(date('Y-m-d')),
+              'paket_nama'  => $data_jamaah->paket_nama,
+              'jamaah_id'  => $data_jamaah->jamaah_id,
+              'jamaah_nama'  => $data_jamaah->jamaah_nama,
+              'jamaah_no_identitas'  => $data_jamaah->jamaah_no_identitas,
+              'jamaah_jenis_identitas'  => $data_jamaah->jamaah_jenis_identitas,
+              'jamaah_ttl'  => $data_jamaah->jamaah_ttl,
+              'jamaah_jk'  => $data_jamaah->jamaah_jk,
+              'jamaah_kewarganegaraan'  => $data_jamaah->jamaah_kewarganegaraan,
+              'jamaah_desa_kel'  => $data_jamaah->jamaah_desa_kel,
+              'jamaah_kecamatan'  => $data_jamaah->jamaah_kecamatan,
+              'jamaah_kota_kab'  => $data_jamaah->jamaah_kota_kab,
+              'jamaah_alamat'  => $data_jamaah->jamaah_alamat,
+              'jamaah_pekerjaan'  => $data_jamaah->jamaah_pekerjaan,
+              'jamaah_no_hp'  => $data_jamaah->jamaah_no_hp,
+              'jamaah_foto'  => $data_jamaah->jamaah_foto,
+              'jamaah_tgl_ttd'  => $this->tgl_indo(date('Y-m-d')),
+              'jamaah_berangkat'  => $this->tgl_berangkat(date('Y-m-d')),
+              'jamaah_tgl_berangkat'  => $data_jamaah->jamaah_tgl_berangkat,
+              'paket_harga'  => $data_jamaah->paket_harga,
             );
 
         return view('pendaftaran_umrah/preview_bukti_pendaftaran',$data);
@@ -729,18 +749,31 @@ class jamaah extends Controller
     {
         $session = session();
         $db = \Config\Database::connect();
-        $query1 = "SELECT * FROM jamaah WHERE jamaah_id='$jamaah_id'";
+        $query1 = "SELECT * FROM jamaah
+        join paket on paket.paket_id=jamaah.paket_id
+        WHERE jamaah_id='$jamaah_id'";
         $data_jamaah=$db->query($query1)->getRow();
 
         $data['row']=array(
+            'paket_nama'  => $data_jamaah->paket_nama,
             'jamaah_id'  => $data_jamaah->jamaah_id,
             'jamaah_nama'  => $data_jamaah->jamaah_nama,
+            'jamaah_no_identitas'  => $data_jamaah->jamaah_no_identitas,
+            'jamaah_jenis_identitas'  => $data_jamaah->jamaah_jenis_identitas,
             'jamaah_ttl'  => $data_jamaah->jamaah_ttl,
+            'jamaah_jk'  => $data_jamaah->jamaah_jk,
+            'jamaah_kewarganegaraan'  => $data_jamaah->jamaah_kewarganegaraan,
+            'jamaah_desa_kel'  => $data_jamaah->jamaah_desa_kel,
+            'jamaah_kecamatan'  => $data_jamaah->jamaah_kecamatan,
+            'jamaah_kota_kab'  => $data_jamaah->jamaah_kota_kab,
             'jamaah_alamat'  => $data_jamaah->jamaah_alamat,
             'jamaah_pekerjaan'  => $data_jamaah->jamaah_pekerjaan,
             'jamaah_no_hp'  => $data_jamaah->jamaah_no_hp,
+            'jamaah_foto'  => $data_jamaah->jamaah_foto,
             'jamaah_tgl_ttd'  => $this->tgl_indo(date('Y-m-d')),
             'jamaah_berangkat'  => $this->tgl_berangkat(date('Y-m-d')),
+            'jamaah_tgl_berangkat'  => $data_jamaah->jamaah_tgl_berangkat,
+            'paket_harga'  => $data_jamaah->paket_harga,
             );
 
         header('Content-type: application/vnd.ms-word');

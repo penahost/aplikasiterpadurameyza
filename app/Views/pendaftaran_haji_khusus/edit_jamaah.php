@@ -60,6 +60,12 @@
                                     </div>
                                 </div>
                                 <div class="form-group row">
+                                    <label class="col-sm-3 col-form-label">No Identitas</label>
+                                    <div class="col-sm-9">
+                                        <input class="form-control" value="<?=$row->jamaah_no_identitas;?>" name="jamaah_jenis_identitas" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
                                     <label class="col-sm-3 col-form-label">TTL</label>
                                     <?php
                                     $pecahkan = explode(',', $row->jamaah_ttl);

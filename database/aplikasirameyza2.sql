@@ -11,7 +11,7 @@
  Target Server Version : 100416
  File Encoding         : 65001
 
- Date: 17/04/2021 00:43:02
+ Date: 17/04/2021 12:03:56
 */
 
 SET NAMES utf8mb4;
@@ -27,10 +27,11 @@ CREATE TABLE `jamaah`  (
   `jamaah_no_passport` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   `jamaah_dateofissue` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   `jamaah_dateofexpire` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
+  `jamaah_jenis_identitas` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
+  `jamaah_no_identitas` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
+  `jamaah_kewarganegaraan` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   `jamaah_ttl` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   `jamaah_usia` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
-  `jamaah_jenis_identitas` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
-  `jamaah_kewarganegaraan` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   `jamaah_jk` enum('Laki-laki','Perempuan') CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   `jamaah_alamat` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   `jamaah_desa_kel` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
@@ -54,13 +55,13 @@ CREATE TABLE `jamaah`  (
 -- ----------------------------
 -- Records of jamaah
 -- ----------------------------
-INSERT INTO `jamaah` VALUES (13, 'Fauzin', '12345678', NULL, NULL, 'KEDIRI, 17 Februari 1995', '26', NULL, NULL, 'Laki-laki', 'Desa sambirejo', NULL, NULL, NULL, NULL, '12345678', 'Lunas', NULL, '1995-02-17', 'ya', 'privacy_policy2_18.png', 'privacy_policy2_19.png', 'privacy_policy2_20.png', '', NULL, 8);
-INSERT INTO `jamaah` VALUES (14, 'Fauzin2', '12345678', NULL, NULL, 'KEDIRI, 17 Februari 1995', '26', NULL, NULL, 'Laki-laki', 'Desa sambirejo', NULL, NULL, NULL, NULL, '12345678', 'Lunas', NULL, '1995-02-17', 'tidak', 'privacy_policy2_18.png', 'privacy_policy2_19.png', 'privacy_policy2_20.png', NULL, NULL, 11);
-INSERT INTO `jamaah` VALUES (21, 'irhas', '898', '21/12/2022', '31/1/2022', '31/01/1997', '24', NULL, NULL, 'Laki-laki', 'kediri', NULL, NULL, NULL, NULL, '234234', 'lunas', NULL, '0000-00-00', NULL, '73138171_1.jpg', '139.png', '15-kota-terbaik-di-dunia-untuk-dikunjungi-PEQBX5KzVu_1.jpg', NULL, NULL, 4);
-INSERT INTO `jamaah` VALUES (23, 'Rony', '123456789', NULL, NULL, 'KEDIRI, 17 Agustus 1995', '26', NULL, NULL, 'Laki-laki', 'Nganjuk', NULL, NULL, NULL, NULL, '0812345677', 'Lunas', NULL, '2021-04-14', NULL, 'privacy_policy2_24.png', 'privacy_policy2_25.png', 'privacy_policy2_26.png', NULL, NULL, 6);
-INSERT INTO `jamaah` VALUES (43, '', '', '2021-04-05', '2021-04-06', 'Kediri, 17 Februari 1995', '', NULL, NULL, 'Laki-laki', '', NULL, NULL, NULL, NULL, '', '', NULL, '2021-04-05', NULL, '', '', '', NULL, NULL, 9);
-INSERT INTO `jamaah` VALUES (46, 'AHMAD BAHRONI ADNAN', 'B 123445', '2021-10-04', '2026-10-04', 'NGANJUK,    03 JUNI 2021', '24 TAHUN', NULL, NULL, 'Laki-laki', 'JL.MUSI NO 41.BEGADUNG NGANJUK', NULL, NULL, NULL, NULL, '085736925657', 'UTANG', NULL, '2021-10-10', NULL, '1 DIAH SULISTIYAWATI.jpg', 'KTP Bu Diah Sulistiyawati.jpg', 'SCAN KK BPK ASFIYAK.jpeg', NULL, NULL, 12);
-INSERT INTO `jamaah` VALUES (47, 'DEWI NUR KUMALA', 'B 123454', '2021-04-15', '2026-04-15', 'KEDIRII, 6 FEBRUARI 1997', '24', NULL, NULL, 'Perempuan', 'JL.MUSI NO 41.BEGADUNG NGANJUK', NULL, NULL, NULL, NULL, '085736925657', 'LUNAS', NULL, '2021-04-15', NULL, '506670_620.jpg', 'e-KTP.jpg', '95f3b55c-28dc-457c-bd7a-08dea1ed954b.jpg', NULL, NULL, 12);
+INSERT INTO `jamaah` VALUES (13, 'Fauzin', '12345678', NULL, NULL, NULL, NULL, NULL, 'KEDIRI, 17 Februari 1995', '26', 'Laki-laki', 'Desa sambirejo', NULL, NULL, NULL, NULL, '12345678', 'Lunas', NULL, '1995-02-17', 'ya', 'privacy_policy2_18.png', 'privacy_policy2_19.png', 'privacy_policy2_20.png', '', NULL, 8);
+INSERT INTO `jamaah` VALUES (14, 'Fauzin2', '12345678', NULL, NULL, NULL, NULL, NULL, 'KEDIRI, 17 Februari 1995', '26', 'Laki-laki', 'Desa sambirejo', NULL, NULL, NULL, NULL, '12345678', 'Lunas', NULL, '1995-02-17', 'tidak', 'privacy_policy2_18.png', 'privacy_policy2_19.png', 'privacy_policy2_20.png', NULL, NULL, 11);
+INSERT INTO `jamaah` VALUES (21, 'irhas', '898', '21/12/2022', '31/1/2022', NULL, NULL, NULL, '31/01/1997', '24', 'Laki-laki', 'kediri', NULL, NULL, NULL, NULL, '234234', 'lunas', NULL, '0000-00-00', NULL, '73138171_1.jpg', '139.png', '15-kota-terbaik-di-dunia-untuk-dikunjungi-PEQBX5KzVu_1.jpg', NULL, NULL, 4);
+INSERT INTO `jamaah` VALUES (23, 'Rony', '123456789', NULL, NULL, NULL, NULL, NULL, 'KEDIRI, 17 Agustus 1995', '26', 'Laki-laki', 'Nganjuk', NULL, NULL, NULL, NULL, '0812345677', 'Lunas', NULL, '2021-04-14', NULL, 'privacy_policy2_24.png', 'privacy_policy2_25.png', 'privacy_policy2_26.png', NULL, NULL, 6);
+INSERT INTO `jamaah` VALUES (43, '', '', '2021-04-05', '2021-04-06', NULL, NULL, NULL, 'Kediri, 17 Februari 1995', '', 'Laki-laki', '', NULL, NULL, NULL, NULL, '', '', NULL, '2021-04-05', NULL, '', '', '', NULL, NULL, 9);
+INSERT INTO `jamaah` VALUES (46, 'AHMAD BAHRONI ADNAN', 'B 123445', '2021-10-04', '2026-10-04', NULL, NULL, NULL, 'NGANJUK,    03 JUNI 2021', '24 TAHUN', 'Laki-laki', 'JL.MUSI NO 41.BEGADUNG NGANJUK', NULL, NULL, NULL, NULL, '085736925657', 'UTANG', NULL, '2021-10-10', NULL, '1 DIAH SULISTIYAWATI.jpg', 'KTP Bu Diah Sulistiyawati.jpg', 'SCAN KK BPK ASFIYAK.jpeg', NULL, NULL, 12);
+INSERT INTO `jamaah` VALUES (47, 'DEWI NUR KUMALA', 'B 123454', '2021-04-15', '2026-04-15', '', NULL, '', 'KEDIRII,  6 FEBRUARI 1997', '24', 'Perempuan', 'JL.MUSI NO 41.BEGADUNG NGANJUK', '', '', '', '', '085736925657', 'LUNAS', NULL, '2021-04-15', NULL, 'privacy_policy2_33.png', 'privacy_policy2_34.png', 'privacy_policy2_35.png', NULL, NULL, 12);
 
 -- ----------------------------
 -- Table structure for jurnal
@@ -224,7 +225,7 @@ CREATE TABLE `perlengkapan_jamaah`  (
   `perlengkapan_jamaah_tgl_kembali` datetime(0) NULL DEFAULT NULL,
   `perlengkapan_jamaah_status` enum('cek','uncek') CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL,
   PRIMARY KEY (`perlengkapan_jamaah_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 448 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 470 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of perlengkapan_jamaah
@@ -383,6 +384,28 @@ INSERT INTO `perlengkapan_jamaah` VALUES (444, 45, 8, NULL, NULL, NULL, NULL, 'u
 INSERT INTO `perlengkapan_jamaah` VALUES (445, 45, 9, NULL, NULL, NULL, NULL, 'uncek');
 INSERT INTO `perlengkapan_jamaah` VALUES (446, 45, 10, NULL, NULL, NULL, NULL, 'uncek');
 INSERT INTO `perlengkapan_jamaah` VALUES (447, 45, 11, NULL, NULL, NULL, NULL, 'uncek');
+INSERT INTO `perlengkapan_jamaah` VALUES (448, 46, 1, NULL, NULL, NULL, NULL, 'uncek');
+INSERT INTO `perlengkapan_jamaah` VALUES (449, 46, 2, NULL, NULL, NULL, NULL, 'uncek');
+INSERT INTO `perlengkapan_jamaah` VALUES (450, 46, 3, NULL, NULL, NULL, NULL, 'uncek');
+INSERT INTO `perlengkapan_jamaah` VALUES (451, 46, 4, NULL, NULL, NULL, NULL, 'uncek');
+INSERT INTO `perlengkapan_jamaah` VALUES (452, 46, 5, NULL, NULL, NULL, NULL, 'uncek');
+INSERT INTO `perlengkapan_jamaah` VALUES (453, 46, 6, NULL, NULL, NULL, NULL, 'uncek');
+INSERT INTO `perlengkapan_jamaah` VALUES (454, 46, 7, NULL, NULL, NULL, NULL, 'uncek');
+INSERT INTO `perlengkapan_jamaah` VALUES (455, 46, 8, NULL, NULL, NULL, NULL, 'uncek');
+INSERT INTO `perlengkapan_jamaah` VALUES (456, 46, 9, NULL, NULL, NULL, NULL, 'uncek');
+INSERT INTO `perlengkapan_jamaah` VALUES (457, 46, 10, NULL, NULL, NULL, NULL, 'uncek');
+INSERT INTO `perlengkapan_jamaah` VALUES (458, 46, 11, NULL, NULL, NULL, NULL, 'uncek');
+INSERT INTO `perlengkapan_jamaah` VALUES (459, 47, 1, NULL, NULL, NULL, NULL, 'uncek');
+INSERT INTO `perlengkapan_jamaah` VALUES (460, 47, 2, NULL, NULL, NULL, NULL, 'uncek');
+INSERT INTO `perlengkapan_jamaah` VALUES (461, 47, 3, NULL, NULL, NULL, NULL, 'uncek');
+INSERT INTO `perlengkapan_jamaah` VALUES (462, 47, 4, NULL, NULL, NULL, NULL, 'uncek');
+INSERT INTO `perlengkapan_jamaah` VALUES (463, 47, 5, NULL, NULL, NULL, NULL, 'uncek');
+INSERT INTO `perlengkapan_jamaah` VALUES (464, 47, 6, NULL, NULL, NULL, NULL, 'uncek');
+INSERT INTO `perlengkapan_jamaah` VALUES (465, 47, 7, NULL, NULL, NULL, NULL, 'uncek');
+INSERT INTO `perlengkapan_jamaah` VALUES (466, 47, 8, NULL, NULL, NULL, NULL, 'uncek');
+INSERT INTO `perlengkapan_jamaah` VALUES (467, 47, 9, NULL, NULL, NULL, NULL, 'uncek');
+INSERT INTO `perlengkapan_jamaah` VALUES (468, 47, 10, NULL, NULL, NULL, NULL, 'uncek');
+INSERT INTO `perlengkapan_jamaah` VALUES (469, 47, 11, NULL, NULL, NULL, NULL, 'uncek');
 
 -- ----------------------------
 -- Table structure for users

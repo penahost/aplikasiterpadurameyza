@@ -4,15 +4,9 @@
 <meta http-equiv=Content-Type content="text/html; charset=utf-8">
 <meta name=Generator content="Microsoft Word 15 (filtered)">
 <style>
-    .header {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 65%;
-    }
-    .konten {
+    body {
         height: 842px;
-        width: 595px;
+        width: 800px;
         /* to centre page on screen*/
         margin-left: auto;
         margin-right: auto;
@@ -42,7 +36,7 @@
  /* Page Definitions */
  @page WordSection1
 	{size:8.5in 14.0in;
-	margin:1.0in 1.0in 1.0in 1.0in;}
+	margin:0in 0in 0in 0in;}
 div.WordSection1
 	{page:WordSection1;}
 -->
@@ -63,7 +57,7 @@ div.WordSection1
   <p class=MsoNormal style='margin-top:0in;margin-right:-.75pt;margin-bottom:
   5.6pt;margin-left:0in;line-height:normal'><b><span style='font-size:16.0pt'><img
   width=793 height=181 id="Picture 2"
-  src="BUKTI%20PENDAFTARAN%20UMROH_files/image001.png"></span></b></p>
+  src="<?= base_url();?>/uploads/koprameyza.png"></span></b></p>
   </td>
  </tr>
 </table>
@@ -81,7 +75,7 @@ margin-bottom:5.6pt;margin-left:.5pt;text-align:center;text-indent:-.5pt;
 line-height:normal'>&nbsp;</p>
 
 <table class=MsoTableGrid border=0 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
+ style='margin-left:72.75pt;border-collapse:collapse;border:none'>
  <tr>
   <td width=186 valign=top style='width:139.25pt;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='line-height:150%'><b><span style='font-size:12.0pt;
@@ -115,33 +109,33 @@ line-height:normal'>&nbsp;</p>
   </td>
   <td width=438 valign=top style='width:328.25pt;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='line-height:150%'><b><span style='font-size:12.0pt;
-  line-height:150%'>: Rony</span></b></p>
+  line-height:150%'>: <?=$row['jamaah_nama'];?></span></b></p>
   <p class=MsoNormal style='line-height:150%'><b><span style='font-size:12.0pt;
-  line-height:150%'>: 12345</span></b></p>
+  line-height:150%'>: <?=$row['jamaah_no_identitas'];?></span></b></p>
   <p class=MsoNormal style='line-height:150%'><b><span style='font-size:12.0pt;
-  line-height:150%'>: KTP</span></b></p>
+  line-height:150%'>: <?=$row['jamaah_jenis_identitas'];?></span></b></p>
   <p class=MsoNormal style='line-height:150%'><b><span style='font-size:12.0pt;
-  line-height:150%'>: KEDIRI, 17 Januari 1996</span></b></p>
+  line-height:150%'>: <?=$row['jamaah_ttl'];?></span></b></p>
   <p class=MsoNormal style='line-height:150%'><b><span style='font-size:12.0pt;
-  line-height:150%'>: Nganjuk</span></b></p>
+  line-height:150%'>: <?=$row['jamaah_alamat'];?></span></b></p>
   <p class=MsoNormal style='line-height:150%'><b><span style='font-size:12.0pt;
-  line-height:150%'>: Laki-laki</span></b></p>
+  line-height:150%'>: <?=$row['jamaah_jk'];?></span></b></p>
   <p class=MsoNormal style='line-height:150%'><b><span style='font-size:12.0pt;
-  line-height:150%'>: Indonesia</span></b></p>
+  line-height:150%'>: <?=$row['jamaah_kewarganegaraan'];?></span></b></p>
   <p class=MsoNormal style='line-height:150%'><b><span style='font-size:12.0pt;
-  line-height:150%'>: Nganjuk</span></b></p>
+  line-height:150%'>: <?=$row['jamaah_desa_kel'];?></span></b></p>
   <p class=MsoNormal style='line-height:150%'><b><span style='font-size:12.0pt;
-  line-height:150%'>: Nganjuk</span></b></p>
+  line-height:150%'>: <?=$row['jamaah_kecamatan'];?></span></b></p>
   <p class=MsoNormal style='line-height:150%'><b><span style='font-size:12.0pt;
-  line-height:150%'>: Nganjuk</span></b></p>
+  line-height:150%'>: <?=$row['jamaah_kota_kab'];?></span></b></p>
   <p class=MsoNormal style='line-height:150%'><b><span style='font-size:12.0pt;
-  line-height:150%'>: 086566766</span></b></p>
+  line-height:150%'>: <?=$row['jamaah_no_hp'];?></span></b></p>
   <p class=MsoNormal style='line-height:150%'><b><span style='font-size:12.0pt;
-  line-height:150%'>: Paket umrah 12 Hari</span></b></p>
+  line-height:150%'>: <?=$row['paket_nama'];?></span></b></p>
   <p class=MsoNormal style='line-height:150%'><b><span style='font-size:12.0pt;
-  line-height:150%'>: Tanggal 12</span></b></p>
+  line-height:150%'>: <?=$row['jamaah_tgl_berangkat'];?></span></b></p>
   <p class=MsoNormal style='line-height:150%'><b><span style='font-size:12.0pt;
-  line-height:150%'>: 500000</span></b></p>
+  line-height:150%'>: <?=$row['paket_harga'];?></span></b></p>
   </td>
  </tr>
 </table>
@@ -153,7 +147,8 @@ line-height:normal'>&nbsp;</p>
 <p class=MsoNormal><b>&nbsp;</b></p>
 
 <table class=MsoTableGrid border=0 cellspacing=0 cellpadding=0 width=624
- style='width:467.75pt;border-collapse:collapse;border:none'>
+ style='width:467.75pt;margin-left:71.75pt;border-collapse:collapse;border:
+ none'>
  <tr>
   <td width=186 valign=top style='width:139.25pt;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
@@ -163,12 +158,12 @@ line-height:normal'>&nbsp;</p>
   </td>
   <td width=204 valign=top style='width:153.0pt;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><b><img width=113
-  height=138 id="Picture 1" src="BUKTI%20PENDAFTARAN%20UMROH_files/image002.png"></b></p>
+  height=138 id="Picture 1" src="<?= base_url();?>/uploads/jamaah/<?=$row['jamaah_foto'];?>"></b></p>
   </td>
  </tr>
  <tr>
   <td width=186 valign=top style='width:139.25pt;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b>Tanggal</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>KEDIRI, <?=$row['jamaah_tgl_ttd'];?></b></p>
   </td>
   <td width=234 valign=top style='width:175.5pt;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
@@ -196,6 +191,10 @@ line-height:normal'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
   <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
   <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
   <p class=MsoNormal align=center style='text-align:center'><b>…………………………….</b></p>
   </td>
   <td width=234 valign=top style='width:175.5pt;padding:0in 5.4pt 0in 5.4pt'>
@@ -205,6 +204,10 @@ line-height:normal'>&nbsp;</p>
   <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
   <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
   <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b>&nbsp;</b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b><?=$row['jamaah_nama'];?></b></p>
   <p class=MsoNormal align=center style='text-align:center'><b>……………………………….</b></p>
   </td>
  </tr>
