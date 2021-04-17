@@ -49,7 +49,7 @@
                                           <td><?=$row->pengeluaran_nominal;?></td>
                                           <td>
                                             <a style="width:15px;" class="btn btn-warning" href="<?php echo base_url();?>/keuangan/pengeluaran/edit/<?=$row->pengeluaran_id;?>"><i class="fa ti-pencil"></i></a>
-                                            <a style="width:15px;" class="btn btn-danger" href="<?php echo base_url();?>/keuangan/pengeluaran/hapus/<?=$row->pengeluaran_id;?>/<?=$row->id_transaksi;?>"><i class="fa fa-times"></i></a>
+                                            <a style="width:15px;" class="btn btn-danger" href="<?php echo base_url();?>/keuangan/pengeluaran/hapus/<?=$row->pengeluaran_id;?>/<?=$row->id_transaksi;?>" onclick="javascript: return confirm('Yakin Menghapus Data?')"><i class="fa fa-times"></i></a>
                                           </td>
 
                                       </tr>
