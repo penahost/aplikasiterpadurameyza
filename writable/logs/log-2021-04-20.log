@@ -22,3 +22,22 @@ CRITICAL - 2021-04-20 14:40:31 --> Call to undefined function App\Controllers\pe
 #2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #3 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
 #4 {main}
+CRITICAL - 2021-04-20 15:03:22 --> Invalid file: dashboard.php
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\Dashboard.php(11): view('dashboard')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\Dashboard->index()
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-20 15:03:22 --> Uncaught ErrorException: Undefined variable: viewFile in E:\xampp\htdocs\aplikasiterpadurameyza\system\Debug\Exceptions.php:281
+Stack trace:
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\system\Debug\Exceptions.php(281): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 281, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\Debug\Exceptions.php(281): include()
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
