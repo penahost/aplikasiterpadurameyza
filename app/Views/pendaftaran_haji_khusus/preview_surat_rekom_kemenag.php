@@ -207,7 +207,7 @@ function tgl_indo($tanggal){
 	return $bulan[ (int)$pecahkan[1] ] . ' ' . $pecahkan[0];
 }
 ?>
-<?=tgl_indo(date("Y-m"));?> dengan ini kami beritahukan bahwa :</span></p>
+<?=tgl_indo($row['jamaah_tgl_berangkat']);?> dengan ini kami beritahukan bahwa :</span></p>
 
 <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0 width=600
  style='width:6.25in;margin-left:31.25pt;border-collapse:collapse;border:none'>

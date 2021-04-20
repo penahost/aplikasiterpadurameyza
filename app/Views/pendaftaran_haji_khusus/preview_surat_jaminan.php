@@ -225,7 +225,7 @@ font-family:"Times New Roman",serif;color:black'>&nbsp;</span></p>
 <p class=MsoNormal><span lang=IN style='font-size:12.0pt;line-height:115%;
 font-family:"Times New Roman",serif;color:black'>Kediri, </span><span
 lang=IN style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
-color:black'>10 Februari 2021</span></p>
+color:black'><?=$row['jamaah_tgl_ttd'];?></span></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
 "Times New Roman",serif;color:black'>PT.  </span><span lang=IN

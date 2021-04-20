@@ -47,7 +47,7 @@
                                           <td><?=$row->perlengkapan_keterangan;?></td>
                                           <td>
                                             <a style="width:15px;" class="btn btn-warning" href="<?php echo base_url();?>/perlengkapan/perlengkapan/edit/<?=$row->perlengkapan_id;?>"><i class="fa ti-pencil"></i></a>
-                                            <a style="width:15px;" class="btn btn-danger" href="<?php echo base_url();?>/perlengkapan/perlengkapan/hapus/<?=$row->perlengkapan_id;?>"><i class="fa fa-times"></i></a>
+                                            <a style="width:15px;" class="btn btn-danger" href="<?php echo base_url();?>/perlengkapan/perlengkapan/hapus/<?=$row->perlengkapan_id;?>" onclick="return confirm('Apakah anda yakin ingin menghapus data ?');"><i class="fa fa-times"></i></a>
                                           </td>
                                       </tr>
                                       <?php

@@ -1,0 +1,29 @@
+CRITICAL - 2021-04-18 23:31:03 --> Undefined offset: 2
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(484): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'E:\\xampp\\htdocs...', 484, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(442): App\Controllers\pendaftaran_umrah\jamaah->tgl_indo('JL.MUSI NO 41.B...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->preview_surat_pernyataan('46')
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-18 23:34:57 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(514): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 514, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->preview_surat_pernyataan2('SURAT PERNYATAA...', 'image001.png')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-18 23:36:42 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(494): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 494, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_surat_pernyataan('SURAT PERNYATAA...', 'image001.png')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-18 23:37:32 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_haji_khusus\Jamaah.php(494): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 494, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_haji_khusus\jamaah->preview_surat_pernyataan('SURAT PERNYATAA...', 'image001.png')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_haji_khusus\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

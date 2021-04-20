@@ -145,7 +145,7 @@ div.WordSection1
 31.5pt'><span style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>Berkaitan
 dengan keberangkatan umroh jamaah kami di bulan
 <?php
-echo $row['jamaah_berangkat'];
+echo $row['jamaah_tgl_berangkat'];
 ?>, dengan ini kami
 mohon untuk dapat dibuatkan paspor dengan 3 (tiga) buah suku kata untuk jamaah 
 kami sebagaimana tersebut dibawah ini yaitu :</span></p>

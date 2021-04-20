@@ -1,0 +1,40 @@
+CRITICAL - 2021-04-19 00:18:49 --> Trying to get property 'jamaah_id' of non-object
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(514): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\xampp\\htdocs...', 514, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->preview_surat_pernyataan2('SURAT PERNYATAA...', 'image001.png')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-19 00:21:36 --> Undefined index: jamaah_ttd
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Views\pendaftaran_umrah\preview_surat_jaminan.php(228): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 228, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran_umr...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(564): view('pendaftaran_umr...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->preview_surat_jaminan('46')
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-19 00:32:12 --> Undefined index: jamaah_berangkat
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Views\pendaftaran_umrah\preview_surat_rekom_rameyza.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\xampp\\htdocs...', 148, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('pendaftaran_umr...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\pendaftaran_umrah\Jamaah.php(649): view('pendaftaran_umr...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\pendaftaran_umrah\jamaah->preview_surat_rekom_rameyza('46')
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pendaftaran_umrah\jamaah))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-19 00:47:31 --> Undefined variable: total_pemasukan
+#0 E:\xampp\htdocs\aplikasiterpadurameyza\app\Views\keuangan\laporan_kas_mingguan.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xampp\\htdocs...', 135, Array)
+#1 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(220): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\aplikasiterpadurameyza\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\aplikasiterpadurameyza\system\Common.php(1217): CodeIgniter\View\View->render('keuangan/lapora...', Array, true)
+#4 E:\xampp\htdocs\aplikasiterpadurameyza\app\Controllers\keuangan\Laporan_kas.php(31): view('keuangan/lapora...', Array)
+#5 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(935): App\Controllers\keuangan\Laporan_kas->minggu()
+#6 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(431): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\keuangan\Laporan_kas))
+#7 E:\xampp\htdocs\aplikasiterpadurameyza\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\aplikasiterpadurameyza\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

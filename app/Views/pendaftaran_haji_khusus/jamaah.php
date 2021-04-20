@@ -99,7 +99,7 @@
                                           <td><?=$row->jamaah_usia;?></td>
                                           <td>
                                               <a style="width:15px;" class="btn btn-warning" href="<?php echo base_url();?>/pendaftaran_haji_khusus/jamaah/edit/<?=$row->jamaah_id;?>"><i class="fa ti-pencil"></i></a>
-                                              <a style="width:15px;" class="btn btn-danger" href="<?php echo base_url();?>/pendaftaran_haji_khusus/jamaah/hapus/<?=$row->jamaah_id;?>/<?=$paket_id;?>"><i class="fa fa-times"></i></a>
+                                              <a style="width:15px;" class="btn btn-danger" href="<?php echo base_url();?>/pendaftaran_haji_khusus/jamaah/hapus/<?=$row->jamaah_id;?>/<?=$paket_id;?>" onclick="return confirm('Apakah anda yakin ingin menghapus data ?');"><i class="fa fa-times"></i></a>
                                               <a style="width:15px;" class="btn btn-info popup_detail_jamaah" data-toggle="modal" data-target="#exampleModal4" data-id="<?=$row->jamaah_id;?>"><i class="fa ti-layers-alt"></i></a>
                                               <a style="width:15px;" class="btn btn-warning" href="<?php echo base_url();?>/pendaftaran_haji_khusus/jamaah/cetak_data_jamaah/<?=$row->jamaah_id;?>"><i class="fa fa-print"></i></a>
                                               <a style="width:15px;" class="btn btn-warning" href="<?php echo base_url();?>/pendaftaran_haji_khusus/jamaah/download_bukti_pendaftaran/<?=$row->jamaah_id;?>"><i class="fa fa-envelope"></i></a>

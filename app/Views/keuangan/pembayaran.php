@@ -101,7 +101,7 @@
                                           <td><?=$row->pembayaran_keterangan;?></td>
                                           <td>
                                             <a style="width:15px;" class="btn btn-warning" href="<?php echo base_url();?>/keuangan/pembayaran/edit/<?=$row->pembayaran_id;?>"><i class="fa ti-pencil"></i></a>
-                                            <a style="width:15px;" class="btn btn-danger" href="<?php echo base_url();?>/keuangan/pembayaran/hapus/<?=$row->pembayaran_id;?>/<?=$row->jamaah_id;?>/<?=$row->id_transaksi;?>"><i class="fa fa-times"></i></a>
+                                            <a style="width:15px;" class="btn btn-danger" href="<?php echo base_url();?>/keuangan/pembayaran/hapus/<?=$row->pembayaran_id;?>/<?=$row->jamaah_id;?>/<?=$row->id_transaksi;?>" onclick="return confirm('Apakah anda yakin ingin menghapus data ?');"><i class="fa fa-times"></i></a>
                                           </td>
                                       </tr>
                                       <?php

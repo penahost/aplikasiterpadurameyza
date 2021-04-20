@@ -131,7 +131,7 @@ style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman",serif'>1.
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
 lang=IN style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman",serif'>Saya
 benar – benar akan melaksanakan ibadah umroh melalui PT. Rameyza Wisata Jaya
-pada tanggal 02 April 2021.</span></p>
+pada tanggal <?=$row['jamaah_tgl_berangkat'];?>.</span></p>
 
 <p class=MsoListParagraphCxSpLast style='text-align:justify;text-justify:kashida;
 text-kashida:0%;text-indent:-.25in;line-height:150%'><span lang=IN

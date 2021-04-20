@@ -130,6 +130,8 @@
                                         <td>Tahun <?php echo $i;?></td>
                                     </tr>
                                     <?php
+                                    $total_pemasukan=0;
+                                    $total_pengeluaran=0;
                                     foreach($laporan_kas as $row):
                                     ?>
                                     <?php
@@ -154,13 +156,27 @@
 
                                       </tr>
                                       <?php
+                                          if($row->tipe_kas=="masuk"){
+                                            $total_pemasukan+=$row->nominal;
 
+                                          }else if($row->tipe_kas=="keluar"){
+                                            $total_pengeluaran+=$row->nominal;
+                                          }
+                                           ?>
+
+                                      <?php
                                       }
                                       ?>
-                                      <?php
 
+                                      <?php
                                       endforeach;
                                       ?>
+                                      <tr style="background-color:red;">
+                                        <td>Total Pemasukan </td>
+                                        <td><?=$total_pemasukan;?> </td>
+                                        <td>Total Pengeluaran </td>
+                                        <td><?=$total_pengeluaran;?> </td>
+                                      </tr>
                                       <?php
                                       }
                                       ?>

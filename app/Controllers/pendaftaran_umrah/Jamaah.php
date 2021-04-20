@@ -439,7 +439,7 @@ class jamaah extends Controller
             'jamaah_ttl'  => $data_jamaah->jamaah_ttl,
             'jamaah_alamat'  => $data_jamaah->jamaah_alamat,
             'jamaah_tgl_ttd'  => $this->tgl_indo(date('Y-m-d')),
-            'jamaah_berangkat'  => $this->tgl_indo(date('Y-m-d')),
+            'jamaah_tgl_berangkat'  => $this->tgl_indo($data_jamaah->jamaah_tgl_berangkat),
             );
 
         return view('pendaftaran_umrah/preview_surat_pernyataan',$data);
@@ -457,7 +457,7 @@ class jamaah extends Controller
           'jamaah_ttl'  => $data_jamaah->jamaah_ttl,
           'jamaah_alamat'  => $data_jamaah->jamaah_alamat,
           'jamaah_tgl_ttd'  => $this->tgl_indo(date('Y-m-d')),
-          'jamaah_berangkat'  => $this->tgl_indo(date('Y-m-d')),
+          'jamaah_tgl_berangkat'  => $this->tgl_indo($data_jamaah->jamaah_tgl_berangkat),
           );
 
       header('Content-type: application/vnd.ms-word');
@@ -600,6 +600,7 @@ class jamaah extends Controller
             'jamaah_pekerjaan'  => $data_jamaah->jamaah_pekerjaan,
             'jamaah_no_hp'  => $data_jamaah->jamaah_no_hp,
             'jamaah_tgl_ttd'  => $this->tgl_indo(date('Y-m-d')),
+            'jamaah_tgl_berangkat'  => $data_jamaah->jamaah_tgl_berangkat,
             );
 
         return view('pendaftaran_umrah/preview_surat_rekom_kemenag',$data);
@@ -619,6 +620,7 @@ class jamaah extends Controller
           'jamaah_pekerjaan'  => $data_jamaah->jamaah_pekerjaan,
           'jamaah_no_hp'  => $data_jamaah->jamaah_no_hp,
           'jamaah_tgl_ttd'  => $this->tgl_indo(date('Y-m-d')),
+          'jamaah_tgl_berangkat'  => $data_jamaah->jamaah_tgl_berangkat,
           );
 
       header('Content-type: application/vnd.ms-word');
@@ -641,7 +643,7 @@ class jamaah extends Controller
             'jamaah_pekerjaan'  => $data_jamaah->jamaah_pekerjaan,
             'jamaah_no_hp'  => $data_jamaah->jamaah_no_hp,
             'jamaah_tgl_ttd'  => $this->tgl_indo(date('Y-m-d')),
-            'jamaah_berangkat'  => $this->tgl_berangkat(date('Y-m-d')),
+            'jamaah_tgl_berangkat'  => $this->tgl_berangkat($data_jamaah->jamaah_tgl_berangkat),
             );
 
         return view('pendaftaran_umrah/preview_surat_rekom_rameyza',$data);
@@ -661,7 +663,7 @@ class jamaah extends Controller
           'jamaah_pekerjaan'  => $data_jamaah->jamaah_pekerjaan,
           'jamaah_no_hp'  => $data_jamaah->jamaah_no_hp,
           'jamaah_tgl_ttd'  => $this->tgl_indo(date('Y-m-d')),
-          'jamaah_berangkat'  => $this->tgl_berangkat(date('Y-m-d')),
+          'jamaah_tgl_berangkat'  => $this->tgl_berangkat($data_jamaah->jamaah_tgl_berangkat),
           );
 
       header('Content-type: application/vnd.ms-word');
