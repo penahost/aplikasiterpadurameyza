@@ -16,12 +16,12 @@
     <link href="<?=base_url('theme/cpanel/assets/css/pages/auth-light.css');?>" rel="stylesheet" />
 </head>
 
-<body class="bg-silver-300">
+<body style="background-image: url('uploads/bglogin.jpg');">
 
     <div class="content">
       <div id="particle-container"></div>
         <div class="brand">
-            <a class="link" href="index.html">APLIKASI TERPADU PT. RAMEYZA</a>
+            <img src="<?=base_url('uploads/iconlogo.png');?>"/>
         </div>
         <?php if(session()->getFlashdata('msg')):?>
             <div class="alert alert-danger"><?= session()->getFlashdata('msg') ?></div>

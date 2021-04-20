@@ -65,7 +65,7 @@
                                           <td><?=$row->paket_pesawat;?></td>
                                           <td>
                                             <a style="width:15px;" class="btn btn-warning" href="<?php echo base_url();?>/pendaftaran_umrah/paket/edit/<?=$row->paket_id;?>"><i class="fa ti-pencil"></i></a>
-                                            <a style="width:15px;" class="btn btn-danger" href="<?php echo base_url();?>/pendaftaran_umrah/paket/hapus/<?=$row->paket_id;?>" onclick="return confirm('Apakah anda yakin ingin menghapus data ?');"><i class="fa fa-times"></i></a>
+                                            <a style="width:15px;" class="btn btn-danger" href="<?php echo base_url();?>/pendaftaran_umrah/paket/hapus/<?=$row->paket_id;?>" onclick="javascript: return confirm('Yakin Menghapus Data?')"><i class="fa fa-times"></i></a>
                                           </td>
                                       </tr>
                                       <?php

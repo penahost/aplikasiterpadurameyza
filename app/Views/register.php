@@ -16,18 +16,18 @@
     <link href="<?=base_url('theme/cpanel/assets/css/pages/auth-light.css');?>" rel="stylesheet" />
 </head>
 
-<body class="bg-silver-300">
+<body style="background-image: url('uploads/bglogin.jpg');">
 
     <div class="content">
       <div id="particle-container"></div>
         <div class="brand">
-            <a class="link" href="index.html">APLIKASI TERPADU PT. RAMEYZA</a>
+            <img src="<?=base_url('uploads/iconlogo.png');?>"/>
         </div>
         <?php if(isset($validation)):?>
             <div class="alert alert-danger"><?= $validation->listErrors() ?></div>
         <?php endif;?>
         <form id="login-form" action="<?=base_url('/register/save');?>" method="post">
-            <h2 class="login-title">Log in</h2>
+            <h2 class="login-title">Registrasi</h2>
             <div class="form-group">
                 <div class="input-group-icon right">
                     <div class="input-icon"><i class="fa fa-text"></i></div>
@@ -58,15 +58,10 @@
                     <input class="form-control" type="confpassword" name="password" placeholder="Ulangi Password">
                 </div>
             </div>
-            <div class="form-group d-flex justify-content-between">
-                <label class="ui-checkbox ui-checkbox-info">
-                    <input type="checkbox">
-                    <span class="input-span"></span>Remember me</label>
-            </div>
             <div class="form-group">
                 <button class="btn btn-info btn-block" type="submit">Daftar</button>
             </div>
-            <div class="text-center">Sudah Punya Akun.?
+            <div class="text-center">Sudah Punya Akun?
                 <a class="color-blue" href="<?php echo base_url();?>/login">Login</a>
             </div>
         </form>
