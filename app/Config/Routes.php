@@ -65,9 +65,13 @@ $routes->post('/perlengkapan/perlengkapan/hapus/(:any)', 'perlengkapan\Perlengka
 
 $routes->get('/keuangan/jurnal', 'keuangan\Jurnal::index');
 $routes->get('/keuangan/laporan_kas', 'keuangan\Laporan_kas::index');
-$routes->post('/keuangan/laporan_kas/minggu', 'keuangan\Laporan_kas::minggu');
-$routes->post('/keuangan/laporan_kas/bulan', 'keuangan\Laporan_kas::bulan');
-$routes->post('/keuangan/laporan_kas/tahun', 'keuangan\Laporan_kas::tahun');
+$routes->get('/keuangan/laporan_kas/minggu', 'keuangan\Laporan_kas::minggu');
+$routes->get('/keuangan/laporan_kas/bulan', 'keuangan\Laporan_kas::bulan');
+$routes->get('/keuangan/laporan_kas/tahun', 'keuangan\Laporan_kas::tahun');
+
+$routes->get('/keuangan/laporan_kas/download_minggu', 'keuangan\Laporan_kas::download_minggu');
+$routes->get('/keuangan/laporan_kas/download_bulan', 'keuangan\Laporan_kas::download_bulan');
+$routes->get('/keuangan/laporan_kas/download_tahun', 'keuangan\Laporan_kas::download_tahun');
 
 $routes->get('/keuangan/pembayaran', 'keuangan\Pembayaran::index');
 $routes->get('/keuangan/pembayaran/index/(:any)', 'keuangan\Pembayaran::index/$1');
