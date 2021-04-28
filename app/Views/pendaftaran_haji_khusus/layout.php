@@ -192,7 +192,8 @@
                 $.each(data, function(index) {
                     $('[name="jamaah_nama"]').val(data[index].jamaah_nama);
                     $('[name="jamaah_no_passport"]').val(data[index].jamaah_no_passport);
-                    $('[name="jamaah_ttl"]').val(data[index].jamaah_ttl);
+                    $('[name="jamaah_tempat_lahir"]').val(data[index].jamaah_tempat_lahir);
+                    $('[name="jamaah_tanggal_lahir"]').val(data[index].jamaah_tanggal_lahir);
                     $('[name="jamaah_dateofissue"]').val(data[index].jamaah_dateofissue);
                     $('[name="jamaah_dateofexpire"]').val(data[index].jamaah_dateofexpire);
                     $('[name="jamaah_jenis_identitas"]').val(data[index].jamaah_jenis_identitas);
@@ -278,6 +279,40 @@
             alert('Error get data from ajax');
         }
     });
+    }
+    </script>
+    <script>
+    $( document ).ready(function() {
+      getAge();
+    });
+    function getAge() {
+      var date_cek = $("#jamaah_tanggal_lahir").val();
+    	if(date_cek === ""){
+    		//alert("Please complete the required field!");
+        $("#jamaah_usia").val(0);
+        }else{
+        var date = convert($("#jamaah_tanggal_lahir").val());
+    		var today = new Date();
+    		var birthday = new Date(date);
+    		var year = 0;
+    		if (today.getMonth() < birthday.getMonth()) {
+    			year = 1;
+    		} else if ((today.getMonth() == birthday.getMonth()) && today.getDate() < birthday.getDate()) {
+    			year = 1;
+    		}
+    		var age = today.getFullYear() - birthday.getFullYear() - year;
+
+    		if(age < 0){
+    			age = 0;
+    		}
+    		$("#jamaah_usia").val(age);
+    	}
+    }
+
+    function convert(date){
+      var datearray = date.split("-");
+      var newdate = datearray[1] + '/' + datearray[0] + '/' + datearray[2];
+      return newdate;
     }
     </script>
 </body>

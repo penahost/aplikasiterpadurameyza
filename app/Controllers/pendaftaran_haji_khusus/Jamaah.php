@@ -140,15 +140,16 @@ class jamaah extends Controller
               $timestamp1 = strtotime($this->request->getPost('jamaah_dateofissue'));
               $new_date1 = date('Y-m-d', $timestamp1);
 
+              echo $this->request->getPost('jamaah_dateofexpire');
               $timestamp2 = strtotime($this->request->getPost('jamaah_dateofexpire'));
               $new_date2 = date('Y-m-d', $timestamp2);
 
-              echo $this->request->getPost('jamaah_dateofexpire');
-
+              echo $this->request->getPost('jamaah_tgl_berangkat');
               $timestamp3 = strtotime($this->request->getPost('jamaah_tgl_berangkat'));
               $new_date3 = date('Y-m-d', $timestamp3);
 
-              echo $this->request->getPost('jamaah_tgl_berangkat');
+              $timestamp4 = strtotime($this->request->getPost('jamaah_tanggal_lahir'));
+              $new_date4 = date('Y-m-d', $timestamp4);
 
               echo $this->request->getPost('jamaah_nama');
 
@@ -159,7 +160,8 @@ class jamaah extends Controller
                   'jamaah_dateofexpire'  => $new_date2,
                   'jamaah_jenis_identitas'  => $this->request->getPost('jamaah_jenis_identitas'),
                   'jamaah_no_identitas'  => $this->request->getPost('jamaah_no_identitas'),
-                  'jamaah_ttl'  => $jamaah_ttl,
+                  'jamaah_tempat_lahir'  => $this->request->getPost('jamaah_tempat_lahir'),
+                  'jamaah_tanggal_lahir'  => $new_date4,
                   'jamaah_usia'  => $this->request->getPost('jamaah_usia'),
                   'jamaah_kewarganegaraan'  => $this->request->getPost('jamaah_kewarganegaraan'),
                   'jamaah_pekerjaan'  => $this->request->getPost('jamaah_pekerjaan'),
@@ -281,6 +283,9 @@ class jamaah extends Controller
         $timestamp3 = strtotime($this->request->getPost('jamaah_tgl_berangkat'));
         $new_date3 = date('Y-m-d', $timestamp3);
 
+        $timestamp4 = strtotime($this->request->getPost('jamaah_tanggal_lahir'));
+        $new_date4 = date('Y-m-d', $timestamp4);
+
 
             $validated = $this->validate([
               'file' => [
@@ -302,7 +307,8 @@ class jamaah extends Controller
                       'jamaah_dateofexpire'  => $new_date2,
                       'jamaah_jenis_identitas'  => $this->request->getPost('jamaah_jenis_identitas'),
                       'jamaah_no_identitas'  => $this->request->getPost('jamaah_no_identitas'),
-                      'jamaah_ttl'  => $jamaah_ttl,
+                      'jamaah_tempat_lahir'  => $this->request->getPost('jamaah_tempat_lahir'),
+                      'jamaah_tanggal_lahir'  => $new_date4,
                       'jamaah_usia'  => $this->request->getPost('jamaah_usia'),
                       'jamaah_kewarganegaraan'  => $this->request->getPost('jamaah_kewarganegaraan'),
                       'jamaah_pekerjaan'  => $this->request->getPost('jamaah_pekerjaan'),
@@ -334,7 +340,8 @@ class jamaah extends Controller
                       'jamaah_dateofexpire'  => $new_date2,
                       'jamaah_jenis_identitas'  => $this->request->getPost('jamaah_jenis_identitas'),
                       'jamaah_no_identitas'  => $this->request->getPost('jamaah_no_identitas'),
-                      'jamaah_ttl'  => $jamaah_ttl,
+                      'jamaah_tempat_lahir'  => $this->request->getPost('jamaah_tempat_lahir'),
+                      'jamaah_tanggal_lahir'  => $new_date4,
                       'jamaah_usia'  => $this->request->getPost('jamaah_usia'),
                       'jamaah_kewarganegaraan'  => $this->request->getPost('jamaah_kewarganegaraan'),
                       'jamaah_pekerjaan'  => $this->request->getPost('jamaah_pekerjaan'),
@@ -364,7 +371,8 @@ class jamaah extends Controller
                       'jamaah_dateofexpire'  => $new_date2,
                       'jamaah_jenis_identitas'  => $this->request->getPost('jamaah_jenis_identitas'),
                       'jamaah_no_identitas'  => $this->request->getPost('jamaah_no_identitas'),
-                      'jamaah_ttl'  => $jamaah_ttl,
+                      'jamaah_tempat_lahir'  => $this->request->getPost('jamaah_tempat_lahir'),
+                      'jamaah_tanggal_lahir'  => $new_date4,
                       'jamaah_usia'  => $this->request->getPost('jamaah_usia'),
                       'jamaah_kewarganegaraan'  => $this->request->getPost('jamaah_kewarganegaraan'),
                       'jamaah_pekerjaan'  => $this->request->getPost('jamaah_pekerjaan'),
@@ -394,7 +402,8 @@ class jamaah extends Controller
                       'jamaah_dateofexpire'  => $new_date2,
                       'jamaah_jenis_identitas'  => $this->request->getPost('jamaah_jenis_identitas'),
                       'jamaah_no_identitas'  => $this->request->getPost('jamaah_no_identitas'),
-                      'jamaah_ttl'  => $jamaah_ttl,
+                      'jamaah_tempat_lahir'  => $this->request->getPost('jamaah_tempat_lahir'),
+                      'jamaah_tanggal_lahir'  => $new_date4,
                       'jamaah_usia'  => $this->request->getPost('jamaah_usia'),
                       'jamaah_kewarganegaraan'  => $this->request->getPost('jamaah_kewarganegaraan'),
                       'jamaah_pekerjaan'  => $this->request->getPost('jamaah_pekerjaan'),
@@ -424,7 +433,8 @@ class jamaah extends Controller
                       'jamaah_dateofexpire'  => $new_date2,
                       'jamaah_jenis_identitas'  => $this->request->getPost('jamaah_jenis_identitas'),
                       'jamaah_no_identitas'  => $this->request->getPost('jamaah_no_identitas'),
-                      'jamaah_ttl'  => $jamaah_ttl,
+                      'jamaah_tempat_lahir'  => $this->request->getPost('jamaah_tempat_lahir'),
+                      'jamaah_tanggal_lahir'  => $new_date4,
                       'jamaah_usia'  => $this->request->getPost('jamaah_usia'),
                       'jamaah_kewarganegaraan'  => $this->request->getPost('jamaah_kewarganegaraan'),
                       'jamaah_pekerjaan'  => $this->request->getPost('jamaah_pekerjaan'),
@@ -452,7 +462,8 @@ class jamaah extends Controller
                       'jamaah_dateofexpire'  => $new_date2,
                       'jamaah_jenis_identitas'  => $this->request->getPost('jamaah_jenis_identitas'),
                       'jamaah_no_identitas'  => $this->request->getPost('jamaah_no_identitas'),
-                      'jamaah_ttl'  => $jamaah_ttl,
+                      'jamaah_tempat_lahir'  => $this->request->getPost('jamaah_tempat_lahir'),
+                      'jamaah_tanggal_lahir'  => $new_date4,
                       'jamaah_usia'  => $this->request->getPost('jamaah_usia'),
                       'jamaah_kewarganegaraan'  => $this->request->getPost('jamaah_kewarganegaraan'),
                       'jamaah_pekerjaan'  => $this->request->getPost('jamaah_pekerjaan'),
@@ -493,7 +504,8 @@ class jamaah extends Controller
         $data['row']=array(
             'jamaah_id'  => $data_jamaah->jamaah_id,
             'jamaah_nama'  => $data_jamaah->jamaah_nama,
-            'jamaah_ttl'  => $data_jamaah->jamaah_ttl,
+            'jamaah_tempat_lahir'  => $data_jamaah->jamaah_tempat_lahir,
+            'jamaah_tanggal_lahir'  => $data_jamaah->jamaah_tanggal_lahir,
             'jamaah_alamat'  => $data_jamaah->jamaah_alamat,
             'jamaah_tgl_ttd'  => $this->tgl_indo(date('Y-m-d')),
             'jamaah_tgl_berangkat'  => $this->tgl_indo($data_jamaah->jamaah_tgl_berangkat),
@@ -511,7 +523,8 @@ class jamaah extends Controller
       $data['row']=array(
           'jamaah_id'  => $data_jamaah->jamaah_id,
           'jamaah_nama'  => $data_jamaah->jamaah_nama,
-          'jamaah_ttl'  => $data_jamaah->jamaah_ttl,
+          'jamaah_tempat_lahir'  => $data_jamaah->jamaah_tempat_lahir,
+          'jamaah_tanggal_lahir'  => $data_jamaah->jamaah_tanggal_lahir,
           'jamaah_alamat'  => $data_jamaah->jamaah_alamat,
           'jamaah_tgl_ttd'  => $this->tgl_indo(date('Y-m-d')),
           'jamaah_tgl_berangkat'  => $this->tgl_indo($data_jamaah->jamaah_tgl_berangkat),
@@ -570,7 +583,8 @@ class jamaah extends Controller
         $data['row']=array(
             'jamaah_id'  => $data_jamaah->jamaah_id,
             'jamaah_nama'  => $data_jamaah->jamaah_nama,
-            'jamaah_ttl'  => $data_jamaah->jamaah_ttl,
+            'jamaah_tempat_lahir'  => $data_jamaah->jamaah_tempat_lahir,
+            'jamaah_tanggal_lahir'  => $data_jamaah->jamaah_tanggal_lahir,
             'jamaah_alamat'  => $data_jamaah->jamaah_alamat,
             'jamaah_pekerjaan'  => $data_jamaah->jamaah_pekerjaan,
             'jamaah_no_hp'  => $data_jamaah->jamaah_no_hp,
@@ -589,7 +603,8 @@ class jamaah extends Controller
       $data['row']=array(
           'jamaah_id'  => $data_jamaah->jamaah_id,
           'jamaah_nama'  => $data_jamaah->jamaah_nama,
-          'jamaah_ttl'  => $data_jamaah->jamaah_ttl,
+          'jamaah_tempat_lahir'  => $data_jamaah->jamaah_tempat_lahir,
+          'jamaah_tanggal_lahir'  => $data_jamaah->jamaah_tanggal_lahir,
           'jamaah_alamat'  => $data_jamaah->jamaah_alamat,
           'jamaah_pekerjaan'  => $data_jamaah->jamaah_pekerjaan,
           'jamaah_no_hp'  => $data_jamaah->jamaah_no_hp,
@@ -611,7 +626,8 @@ class jamaah extends Controller
         $data['row']=array(
             'jamaah_id'  => $data_jamaah->jamaah_id,
             'jamaah_nama'  => $data_jamaah->jamaah_nama,
-            'jamaah_ttl'  => $data_jamaah->jamaah_ttl,
+            'jamaah_tempat_lahir'  => $data_jamaah->jamaah_tempat_lahir,
+            'jamaah_tanggal_lahir'  => $data_jamaah->jamaah_tanggal_lahir,
             'jamaah_alamat'  => $data_jamaah->jamaah_alamat,
             'jamaah_pekerjaan'  => $data_jamaah->jamaah_pekerjaan,
             'jamaah_no_hp'  => $data_jamaah->jamaah_no_hp,
@@ -630,7 +646,8 @@ class jamaah extends Controller
       $data['row']=array(
           'jamaah_id'  => $data_jamaah->jamaah_id,
           'jamaah_nama'  => $data_jamaah->jamaah_nama,
-          'jamaah_ttl'  => $data_jamaah->jamaah_ttl,
+          'jamaah_tempat_lahir'  => $data_jamaah->jamaah_tempat_lahir,
+          'jamaah_tanggal_lahir'  => $data_jamaah->jamaah_tanggal_lahir,
           'jamaah_alamat'  => $data_jamaah->jamaah_alamat,
           'jamaah_pekerjaan'  => $data_jamaah->jamaah_pekerjaan,
           'jamaah_no_hp'  => $data_jamaah->jamaah_no_hp,
@@ -652,7 +669,8 @@ class jamaah extends Controller
         $data['row']=array(
             'jamaah_id'  => $data_jamaah->jamaah_id,
             'jamaah_nama'  => $data_jamaah->jamaah_nama,
-            'jamaah_ttl'  => $data_jamaah->jamaah_ttl,
+            'jamaah_tempat_lahir'  => $data_jamaah->jamaah_tempat_lahir,
+            'jamaah_tanggal_lahir'  => $data_jamaah->jamaah_tanggal_lahir,
             'jamaah_alamat'  => $data_jamaah->jamaah_alamat,
             'jamaah_pekerjaan'  => $data_jamaah->jamaah_pekerjaan,
             'jamaah_no_hp'  => $data_jamaah->jamaah_no_hp,
@@ -672,7 +690,8 @@ class jamaah extends Controller
       $data['row']=array(
           'jamaah_id'  => $data_jamaah->jamaah_id,
           'jamaah_nama'  => $data_jamaah->jamaah_nama,
-          'jamaah_ttl'  => $data_jamaah->jamaah_ttl,
+          'jamaah_tempat_lahir'  => $data_jamaah->jamaah_tempat_lahir,
+          'jamaah_tanggal_lahir'  => $data_jamaah->jamaah_tanggal_lahir,
           'jamaah_alamat'  => $data_jamaah->jamaah_alamat,
           'jamaah_pekerjaan'  => $data_jamaah->jamaah_pekerjaan,
           'jamaah_no_hp'  => $data_jamaah->jamaah_no_hp,
@@ -695,7 +714,8 @@ class jamaah extends Controller
         $data['row']=array(
             'jamaah_id'  => $data_jamaah->jamaah_id,
             'jamaah_nama'  => $data_jamaah->jamaah_nama,
-            'jamaah_ttl'  => $data_jamaah->jamaah_ttl,
+            'jamaah_tempat_lahir'  => $data_jamaah->jamaah_tempat_lahir,
+            'jamaah_tanggal_lahir'  => $data_jamaah->jamaah_tanggal_lahir,
             'jamaah_alamat'  => $data_jamaah->jamaah_alamat,
             'jamaah_pekerjaan'  => $data_jamaah->jamaah_pekerjaan,
             'jamaah_no_hp'  => $data_jamaah->jamaah_no_hp,
@@ -715,7 +735,8 @@ class jamaah extends Controller
       $data['row']=array(
           'jamaah_id'  => $data_jamaah->jamaah_id,
           'jamaah_nama'  => $data_jamaah->jamaah_nama,
-          'jamaah_ttl'  => $data_jamaah->jamaah_ttl,
+          'jamaah_tempat_lahir'  => $data_jamaah->jamaah_tempat_lahir,
+          'jamaah_tanggal_lahir'  => $data_jamaah->jamaah_tanggal_lahir,
           'jamaah_alamat'  => $data_jamaah->jamaah_alamat,
           'jamaah_pekerjaan'  => $data_jamaah->jamaah_pekerjaan,
           'jamaah_no_hp'  => $data_jamaah->jamaah_no_hp,
@@ -785,7 +806,8 @@ class jamaah extends Controller
               'jamaah_nama'  => $data_jamaah->jamaah_nama,
               'jamaah_no_identitas'  => $data_jamaah->jamaah_no_identitas,
               'jamaah_jenis_identitas'  => $data_jamaah->jamaah_jenis_identitas,
-              'jamaah_ttl'  => $data_jamaah->jamaah_ttl,
+              'jamaah_tempat_lahir'  => $data_jamaah->jamaah_tempat_lahir,
+              'jamaah_tanggal_lahir'  => $data_jamaah->jamaah_tanggal_lahir,
               'jamaah_jk'  => $data_jamaah->jamaah_jk,
               'jamaah_kewarganegaraan'  => $data_jamaah->jamaah_kewarganegaraan,
               'jamaah_desa_kel'  => $data_jamaah->jamaah_desa_kel,
@@ -819,7 +841,8 @@ class jamaah extends Controller
             'jamaah_nama'  => $data_jamaah->jamaah_nama,
             'jamaah_no_identitas'  => $data_jamaah->jamaah_no_identitas,
             'jamaah_jenis_identitas'  => $data_jamaah->jamaah_jenis_identitas,
-            'jamaah_ttl'  => $data_jamaah->jamaah_ttl,
+            'jamaah_tempat_lahir'  => $data_jamaah->jamaah_tempat_lahir,
+            'jamaah_tanggal_lahir'  => $data_jamaah->jamaah_tanggal_lahir,
             'jamaah_jk'  => $data_jamaah->jamaah_jk,
             'jamaah_kewarganegaraan'  => $data_jamaah->jamaah_kewarganegaraan,
             'jamaah_desa_kel'  => $data_jamaah->jamaah_desa_kel,

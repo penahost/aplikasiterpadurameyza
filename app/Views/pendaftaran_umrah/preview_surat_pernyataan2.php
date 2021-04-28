@@ -86,7 +86,26 @@ ul
 </head>
 
 <body lang=EN-US style='word-wrap:break-word'>
-
+<?php
+function tgl_indo($tanggal){
+	$bulan = array (
+		1 =>   'Januari',
+		'Februari',
+		'Maret',
+		'April',
+		'Mei',
+		'Juni',
+		'Juli',
+		'Agustus',
+		'September',
+		'Oktober',
+		'November',
+		'Desember'
+	);
+	$pecahkan = explode('-', $tanggal);
+	return $bulan[ (int)$pecahkan[1] ] . ' ' . $pecahkan[0];
+}
+?>
 <div class=WordSection1>
 
 <p class=MsoNormal align=center style='margin-bottom:0in;text-align:center;
@@ -124,7 +143,7 @@ style='color:black'>tangan di bawah ini:</span></span></p>
   <td width=449 valign=top style='width:336.7pt;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal style='margin-bottom:0in;text-align:justify;line-height:
   150%'><span style='font-size:12.0pt;line-height:150%;color:black'>: </span><span
-  lang=IN style='font-size:12.0pt;line-height:150%;color:black'><?=$row['jamaah_ttl'];?>
+  lang=IN style='font-size:12.0pt;line-height:150%;color:black'><?=$row['jamaah_tempat_lahir'];?>, <?=tgl_indo($row['jamaah_tanggal_lahir']);?>
   </span></p>
   </td>
  </tr>

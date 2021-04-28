@@ -69,9 +69,15 @@
                           </div>
                       </div>
                       <div class="form-group row">
-                          <label class="col-sm-3 col-form-label">TTL</label>
+                          <label class="col-sm-3 col-form-label">Tempat lahir</label>
                           <div class="col-sm-9">
-                              <input class="form-control" value="<?=$row->jamaah_ttl;?>" name="jamaah_ttl" type="text" readonly>
+                              <input class="form-control" value="<?=$row->jamaah_tempat_lahir;?>" name="jamaah_ttl" type="text" readonly>
+                          </div>
+                      </div>
+                      <div class="form-group row">
+                          <label class="col-sm-3 col-form-label">Tanggal lahir</label>
+                          <div class="col-sm-9">
+                              <input class="form-control" value="<?=$row->jamaah_tanggal_lahir;?>" name="jamaah_ttl" type="text" readonly>
                           </div>
                       </div>
                       <div class="form-group row">

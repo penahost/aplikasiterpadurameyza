@@ -5,6 +5,49 @@
 </div>
               <div class="row">
 
+                <div class="col-md-4">
+                        <div class="ibox">
+                            <div class="ibox-head">
+                                <div class="ibox-title">Per Tahun</div>
+                                <div class="ibox-tools">
+                                    <a class="ibox-collapse"><i class="fa fa-minus"></i></a>
+                                </div>
+                            </div>
+                            <div class="ibox-body">
+                                <?php
+                                //echo date("Y-m-d");
+                                ?>
+                                <form class="form-horizontal" action="<?=base_url();?>/keuangan/jurnal/preview_laporan_jurnal" method="get">
+                                <div class="row">
+                                <div class="col-sm-6">
+                                <div class="form-group">
+                                        <label>Periode Tahun</label>
+                                        <select name="tahun" class="form-control">
+                                            <option value="2021">2021</option>
+                                            <option value="2022">2022</option>
+                                            <option value="2023">2023</option>
+                                        </select>
+                                </div>
+                                </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-rounded">Preview</button>
+                              </form>
+                            </div>
+                        </div>
+                  </div>
+                  <div class="col-md-4">
+                          <div class="ibox">
+                              <div class="ibox-head">
+                                  <div class="ibox-title">Navigasi</div>
+                                  <div class="ibox-tools">
+                                      <a class="ibox-collapse"><i class="fa fa-minus"></i></a>
+                                  </div>
+                              </div>
+                              <div class="ibox-body">
+                                  <a href="<?=base_url();?>/jurnal/download_laporan_jurnal/<?=$tahun;?>" class="btn btn-primary btn-rounded">Download laporan excell</a>
+                              </div>
+                          </div>
+                    </div>
                   <div class="col-xl-12">
                       <div class="ibox">
                           <div class="ibox-head">

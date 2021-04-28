@@ -48,13 +48,13 @@
                                   <div class="form-group row">
                                       <label class="col-sm-3 col-form-label">Date Of Issue</label>
                                       <div class="col-sm-9">
-                                          <input class="form-control datepicker" name="jamaah_dateofissue" type="date" data-date-format="yyyy-mm-dd" >
+                                          <input class="form-control datepicker" name="jamaah_dateofissue" type="text" data-date-format="dd-mm-yyyy" placeholder="dd-mm-yyyy" >
                                       </div>
                                   </div>
                                   <div class="form-group row">
                                       <label class="col-sm-3 col-form-label">Date Of Epired</label>
                                       <div class="col-sm-9">
-                                          <input class="form-control datepicker" name="jamaah_dateofexpire" type="date" data-date-format="yyyy-mm-dd" >
+                                          <input class="form-control datepicker" name="jamaah_dateofexpire" type="text" data-date-format="dd-mm-yyyy" placeholder="dd-mm-yyyy">
                                       </div>
                                   </div>
                                   <div class="form-group row">
@@ -72,16 +72,16 @@
                                   <div class="form-group row">
                                       <label class="col-sm-3 col-form-label">TTL</label>
                                       <div class="col-sm-3">
-                                          <input class="form-control" value="" name="jamaah_tempat_lahir" type="text" placeholder="Kediri">
+                                          <input class="form-control" value="" name="jamaah_tempat_lahir" type="text" placeholder="KEDIRI">
                                       </div>
                                       <div class="col-sm-6">
-                                          <input class="form-control" value="" name="jamaah_tanggal_lahir" type="text" placeholder="17 Februari 1995">
+                                          <input class="form-control" onChange="getAge();" id="jamaah_tanggal_lahir" name="jamaah_tanggal_lahir" type="text" placeholder="dd-mm-yyyy">
                                       </div>
                                   </div>
                                   <div class="form-group row">
                                       <label class="col-sm-3 col-form-label">Usia</label>
                                       <div class="col-sm-9">
-                                          <input class="form-control" value="" name="jamaah_usia" type="text">
+                                          <input class="form-control" id="jamaah_usia" value="" name="jamaah_usia" type="text" readonly>
                                       </div>
                                   </div>
 

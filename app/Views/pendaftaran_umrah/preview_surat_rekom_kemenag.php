@@ -258,7 +258,7 @@ function tgl_indo($tanggal){
   padding:0in 5.4pt 0in 5.4pt;height:17.0pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif;
-  color:black'><?=$row['jamaah_ttl'];?></span></p>
+  color:black'><?=$row['jamaah_tempat_lahir'];?>, <?=tgl_indo($row['jamaah_tanggal_lahir']);?></span></p>
   </td>
   <td width=180 valign=top style='width:135.1pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;

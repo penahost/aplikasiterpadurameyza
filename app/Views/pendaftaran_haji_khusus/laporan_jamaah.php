@@ -45,7 +45,7 @@
                                           <td><?=$no;?></td>
                                           <td><?=$row->jamaah_nama;?></td>
                                           <td><?=$row->jamaah_no_passport;?></td>
-                                          <td><?=$row->jamaah_ttl;?></td>
+                                          <td><?=$row->jamaah_tempat_lahir;?>, <?=$row->jamaah_tanggal_lahir;?></td>
                                           <td><?=$row->jamaah_usia;?></td>
                                           <td>
                                             <a style="width:15px;" class="btn btn-danger" href="<?php echo base_url();?>/pendaftaran_haji_khusus/laporan/hapus/<?=$row->jamaah_id;?>" onclick="javascript: return confirm('Yakin Menghapus Data?')"><i class="fa fa-times"></i></a>

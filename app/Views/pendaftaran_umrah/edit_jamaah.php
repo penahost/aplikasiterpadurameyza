@@ -45,13 +45,21 @@
                                   <div class="form-group row">
                                       <label class="col-sm-3 col-form-label">Date Of Issue</label>
                                       <div class="col-sm-9">
-                                          <input class="form-control" value="<?=$row->jamaah_dateofissue;?>" name="jamaah_dateofissue" type="date" data-date-format="yyyy-mm-dd" >
+                                          <?php
+                                          $source = $row->jamaah_dateofissue;
+                                          $date = new DateTime($source);
+                                           ?>
+                                          <input class="form-control" value="<?php echo $date->format('d-m-Y');?>" name="jamaah_dateofissue" type="text" data-date-format="dd-mm-yyyy" required>
                                       </div>
                                   </div>
                                   <div class="form-group row">
-                                      <label class="col-sm-3 col-form-label">Date Of Epired</label>
+                                      <label class="col-sm-3 col-form-label">Date Of Expired</label>
                                       <div class="col-sm-9">
-                                          <input class="form-control" value="<?=$row->jamaah_dateofexpire;?>" name="jamaah_dateofexpire" type="date" data-date-format="yyyy-mm-dd" >
+                                        <?php
+                                        $source = $row->jamaah_dateofexpire;
+                                        $date = new DateTime($source);
+                                         ?>
+                                          <input class="form-control" value="<?php echo $date->format('d-m-Y');?>" name="jamaah_dateofexpire" type="text" data-date-format="dd-mm-yyyy" required>
                                       </div>
                                   </div>
                                   <div class="form-group row">
@@ -63,25 +71,29 @@
                                   <div class="form-group row">
                                       <label class="col-sm-3 col-form-label">No Identitas</label>
                                       <div class="col-sm-9">
-                                          <input class="form-control" value="<?=$row->jamaah_no_identitas;?>" name="jamaah_jenis_identitas" type="text">
+                                          <input class="form-control" value="<?=$row->jamaah_no_identitas;?>" name="jamaah_no_identitas" type="text">
                                       </div>
                                   </div>
                                   <div class="form-group row">
                                       <label class="col-sm-3 col-form-label">TTL</label>
                                       <?php
-                                      $pecahkan = explode(',', $row->jamaah_ttl);
+                                      //$pecahkan = explode(',', $row->jamaah_ttl);
                                        ?>
                                       <div class="col-sm-3">
-                                          <input class="form-control" value="<?=$pecahkan[0];?>" name="jamaah_tempat_lahir" type="text" placeholder="Kediri">
+                                          <input class="form-control" value="<?=$row->jamaah_tempat_lahir;?>" name="jamaah_tempat_lahir" type="text" placeholder="Kediri">
                                       </div>
                                       <div class="col-sm-6">
-                                          <input class="form-control" value="<?=$pecahkan[1];?>" name="jamaah_tanggal_lahir" type="text" placeholder="17 Februari 1995">
+                                        <?php
+                                        $source = $row->jamaah_tanggal_lahir;
+                                        $date = new DateTime($source);
+                                         ?>
+                                          <input class="form-control" onChange="getAge();" id="jamaah_tanggal_lahir" value="<?php echo $date->format('d-m-Y');?>" name="jamaah_tanggal_lahir" type="text" placeholder="17 Februari 1995">
                                       </div>
                                   </div>
                                   <div class="form-group row">
                                       <label class="col-sm-3 col-form-label">Usia</label>
                                       <div class="col-sm-9">
-                                          <input class="form-control" value="<?=$row->jamaah_usia;?>" name="jamaah_usia" type="text">
+                                          <input class="form-control" id="jamaah_usia" value="<?=$row->jamaah_usia;?>" name="jamaah_usia" type="text" readonly>
                                       </div>
                                   </div>
 

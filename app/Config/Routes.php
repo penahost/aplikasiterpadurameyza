@@ -64,6 +64,9 @@ $routes->post('/perlengkapan/perlengkapan/hapus/(:any)', 'perlengkapan\Perlengka
 
 
 $routes->get('/keuangan/jurnal', 'keuangan\Jurnal::index');
+$routes->get('/keuangan/jurnal/preview_laporan_jurnal', 'keuangan\Jurnal::preview_laporan_jurnal');
+$routes->get('/keuangan/jurnal/download_laporan_jurnal/(:any)', 'keuangan\Jurnal::download_laporan_jurnal/$1');
+
 $routes->get('/keuangan/laporan_kas', 'keuangan\Laporan_kas::index');
 $routes->get('/keuangan/laporan_kas/minggu', 'keuangan\Laporan_kas::minggu');
 $routes->get('/keuangan/laporan_kas/bulan', 'keuangan\Laporan_kas::bulan');

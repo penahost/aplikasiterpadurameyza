@@ -103,7 +103,7 @@
                                           <td><?=$no;?></td>
                                           <td><?=$row->jamaah_nama;?></td>
                                           <td><?=$row->jamaah_no_passport;?></td>
-                                          <td><?=$row->jamaah_ttl;?></td>
+                                          <td><?=$row->jamaah_tempat_lahir;?>, <?=$row->jamaah_tanggal_lahir;?></td>
                                           <td><?=$row->jamaah_usia;?></td>
                                           <td>
                                             <a style="width:15px;" class="btn btn-warning" href="<?php echo base_url();?>/pendaftaran_umrah/jamaah/edit/<?=$row->jamaah_id;?>"><i class="fa ti-pencil"></i></a>
@@ -187,9 +187,15 @@
                                                 </div>
                                             </div>
                                             <div class="form-group row">
-                                                <label class="col-sm-3 col-form-label">TTL</label>
+                                                <label class="col-sm-3 col-form-label">Tempat Lahir</label>
                                                 <div class="col-sm-9">
-                                                    <input class="form-control" value="" name="jamaah_ttl" type="text" readonly>
+                                                    <input class="form-control" value="" name="jamaah_tempat_lahir" type="text" readonly>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-sm-3 col-form-label">Tanggal Lahir</label>
+                                                <div class="col-sm-9">
+                                                    <input class="form-control" value="" name="jamaah_tanggal_lahir" type="text" readonly>
                                                 </div>
                                             </div>
                                             <div class="form-group row">

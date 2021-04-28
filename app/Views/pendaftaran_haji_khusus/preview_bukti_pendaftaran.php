@@ -45,7 +45,26 @@ div.WordSection1
 </head>
 
 <body lang=EN-US style='word-wrap:break-word'>
-
+<?php
+function tgl_indo($tanggal){
+  $bulan = array (
+    1 =>   'Januari',
+    'Februari',
+    'Maret',
+    'April',
+    'Mei',
+    'Juni',
+    'Juli',
+    'Agustus',
+    'September',
+    'Oktober',
+    'November',
+    'Desember'
+  );
+  $pecahkan = explode('-', $tanggal);
+  return $pecahkan[2] . ' ' . $bulan[ (int)$pecahkan[1] ] . ' ' . $pecahkan[0];
+}
+ ?>
 <div class=WordSection1>
 
 <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0 align=left
@@ -115,7 +134,7 @@ line-height:normal'>&nbsp;</p>
   <p class=MsoNormal style='line-height:150%'><b><span style='font-size:12.0pt;
   line-height:150%'>: <?=$row['jamaah_jenis_identitas'];?></span></b></p>
   <p class=MsoNormal style='line-height:150%'><b><span style='font-size:12.0pt;
-  line-height:150%'>: <?=$row['jamaah_ttl'];?></span></b></p>
+  line-height:150%'>: <?=$row['jamaah_tempat_lahir'];?>, <?=tgl_indo($row['jamaah_tanggal_lahir']);?></span></b></p>
   <p class=MsoNormal style='line-height:150%'><b><span style='font-size:12.0pt;
   line-height:150%'>: <?=$row['jamaah_alamat'];?></span></b></p>
   <p class=MsoNormal style='line-height:150%'><b><span style='font-size:12.0pt;

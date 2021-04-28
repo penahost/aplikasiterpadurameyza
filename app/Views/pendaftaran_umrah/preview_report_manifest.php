@@ -75,19 +75,19 @@
 	</tr>
 	<?php
 	foreach($jamaah as $row):
-		$ttl=$row->jamaah_ttl;
-		$pecahkan = explode(',', $ttl);
-		$pecahkan[0];
+		// $ttl=$row->jamaah_ttl;
+		// $pecahkan = explode(',', $ttl);
+		// $pecahkan[0];
 	?>
 	<tr>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" sdval="1" sdnum="1033;" valign="middle" height="33" align="center"><font size="3">1</font></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" sdnum="1033;0;@" valign="middle" align="left"><font size="3" color="#000000"><?=$row->jamaah_nama;?> </font></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" valign="middle" align="center"><font size="3" color="#000000"><?=$row->jamaah_no_passport;?></font></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" valign="middle" align="center"><font size="3" color="#000000"><?=$row->jamaah_jk;?></font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" valign="middle" align="center"><font size="3" color="#000000"><?=$pecahkan[0];?></font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" sdval="32006" sdnum="1033;1057;[$-421]DD MMMM YYYY;@" valign="middle" align="center"><font size="3" color="#000000"><?=$row->jamaah_ttl;?></font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" sdval="43747" sdnum="1033;1057;[$-421]DD MMMM YYYY;@" valign="middle" align="center"><font size="3" color="#000000">09 Oktober 2019</font></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" sdval="45574" sdnum="1033;1057;[$-421]DD MMMM YYYY;@" valign="middle" align="center"><font size="3" color="#000000">09 Oktober 2024</font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" valign="middle" align="center"><font size="3" color="#000000"><?=$row->jamaah_tempat_lahir;?></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" sdval="32006" sdnum="1033;1057;[$-421]DD MMMM YYYY;@" valign="middle" align="center"><font size="3" color="#000000"><?=tgl_indo($row->jamaah_tanggal_lahir);?></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" sdval="43747" sdnum="1033;1057;[$-421]DD MMMM YYYY;@" valign="middle" align="center"><font size="3" color="#000000"><?=tgl_indo($row->jamaah_dateofissue);?></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" sdval="45574" sdnum="1033;1057;[$-421]DD MMMM YYYY;@" valign="middle" align="center"><font size="3" color="#000000"><?=tgl_indo($row->jamaah_dateofexpire);?></font></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" valign="middle" align="center"><font size="3" color="#000000">KEDIRI</font></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" valign="middle" align="center"><font size="3" color="#000000"><br></font></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" valign="middle" align="center"><font size="3" color="#000000"><br></font></td>
